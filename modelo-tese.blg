@@ -3,44 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: modelo-tese.aux
 The style file: inf-ufg.bst
 Database file #1: ./bib/modelo-tese.bib
+Repeated entry---line 126 of file ./bib/modelo-tese.bib
+ : @unpublished{ChaJos2001
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--empty booktitle in Souza2008
 You've used 60 entries,
             2158 wiz_defined-function locations,
-            887 strings with 15462 characters,
-and the built_in function-call counts, 17707 in all, are:
-= -- 1620
+            888 strings with 15532 characters,
+and the built_in function-call counts, 17720 in all, are:
+= -- 1619
 > -- 714
 < -- 13
-+ -- 283
++ -- 282
 - -- 217
-* -- 1171
-:= -- 2930
+* -- 1172
+:= -- 2929
 add.period$ -- 186
 call.type$ -- 60
-change.case$ -- 270
+change.case$ -- 271
 chr.to.int$ -- 0
-cite$ -- 60
-duplicate$ -- 862
-empty$ -- 1589
+cite$ -- 61
+duplicate$ -- 864
+empty$ -- 1594
 format.name$ -- 217
-if$ -- 3740
+if$ -- 3743
 int.to.chr$ -- 0
 int.to.str$ -- 60
-missing$ -- 56
+missing$ -- 55
 newline$ -- 300
 num.names$ -- 134
-pop$ -- 286
+pop$ -- 288
 preamble$ -- 1
 purify$ -- 221
 quote$ -- 0
-skip$ -- 477
+skip$ -- 478
 stack$ -- 0
-substring$ -- 860
-swap$ -- 259
+substring$ -- 859
+swap$ -- 260
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 210
-warning$ -- 0
+type$ -- 212
+warning$ -- 1
 while$ -- 178
 width$ -- 62
-write$ -- 658
+write$ -- 656
+(There was 1 error message)

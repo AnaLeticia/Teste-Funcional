@@ -27,11 +27,6 @@ Associa{\c c}\~ao Brasileira de Normas T\'ecnicas, Rio de Janeiro.
 \newblock {\bfseries {\LaTeX} for Engineers and Scientists}.
 \newblock Mc{\-}Graw-Hill, New York, NY, USA, 1990.
 
-\bibitem{Coh1973}
-{\sffamily\scshape Cohen, M.~M.}
-\newblock {\bfseries A course in simple homotopy theory}.
-\newblock Springer, New York, 1973.
-
 \bibitem{Cro1978}
 {\sffamily\scshape Croom, F.~H.}
 \newblock {\bfseries Basic concepts of algebraic topology}.
@@ -392,6 +387,12 @@ Associa{\c c}\~ao Brasileira de Normas T\'ecnicas, Rio de Janeiro.
 \newblock {\bfseries {On the Complexity of Computing}}.
 \newblock In: Smith-Jones, A.~B., editor, {\itshape Advances in Computer
   Science}, p. 555--566. Publishing Press, 1999.
+
+\bibitem{Souza2008}
+{\sffamily\scshape Souza, J. P.~T.}
+\newblock {\bfseries Teste funcional em aplicação de banco de dados
+  relacional baseado nos diagramas da uml}.
+\newblock 2008.
 
 \bibitem{Tar1983}
 {\sffamily\scshape Tarjan, R.~E.}

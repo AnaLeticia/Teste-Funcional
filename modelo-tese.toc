@@ -4,58 +4,58 @@
 \contentsline {chapter}{Lista de Algoritmos}{13}{Doc-Start}
 \contentsline {chapter}{Lista de C\'{o}digos de Programas}{14}{section*.1}
 \contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{15}{chapter.2}
-\contentsline {chapter}{\numberline {2}Descri\c c\~ao da classe \textsf {inf-ufg}}{17}{chapter.3}
-\contentsline {section}{\numberline {2.1}Op\c c\~oes da classe}{17}{section.4}
-\contentsline {section}{\numberline {2.2}Par\^ametros da classe}{17}{section.5}
-\contentsline {section}{\numberline {2.3}Elementos Pr\'e--Textuais}{18}{section.7}
-\contentsline {paragraph}{capa\\}{19}{section*.8}
-\contentsline {paragraph}{publica\c c\~ao\\}{19}{section*.9}
-\contentsline {paragraph}{rosto\\}{19}{section*.10}
-\contentsline {paragraph}{aprova\c c\~ao\\}{19}{section*.11}
-\contentsline {paragraph}{banca\\}{19}{section*.12}
-\contentsline {paragraph}{direitos\\}{19}{section*.13}
-\contentsline {paragraph}{dedicat\'oria\\}{19}{section*.14}
-\contentsline {paragraph}{agradecimentos\\}{19}{section*.15}
-\contentsline {paragraph}{resumo\\}{19}{section*.16}
-\contentsline {paragraph}{abstract\\}{20}{section*.17}
-\contentsline {paragraph}{tabelas\\}{20}{section*.18}
-\contentsline {paragraph}{ep\IeC {\'\i }grafe\\}{20}{section*.19}
-\contentsline {chapter}{\numberline {3}Elementos do texto}{21}{chapter.20}
-\contentsline {section}{\numberline {3.1}Figuras}{21}{section.21}
-\contentsline {subsection}{\numberline {3.1.1}Subfiguras}{23}{subsection.25}
-\contentsline {section}{\numberline {3.2}Tabelas}{24}{section.29}
-\contentsline {section}{\numberline {3.3}Algoritmos}{24}{section.31}
-\contentsline {section}{\numberline {3.4}C\'odigos de Programa}{25}{section.42}
-\contentsline {section}{\numberline {3.5}Teoremas, Corol\'arios e Demonstra\c c\~oes}{26}{section.44}
-\contentsline {section}{\numberline {3.6}Cita\c c\~oes Longas}{27}{section.46}
-\contentsline {section}{\numberline {3.7}Refer\^encias Bibliogr\'aficas}{27}{section.47}
-\contentsline {chapter}{\numberline {4}Introdu\c c\~ao}{30}{chapter.48}
-\contentsline {chapter}{\numberline {5}Descri\c c\~ao da classe \textsf {inf-ufg}}{32}{chapter.49}
-\contentsline {section}{\numberline {5.1}Op\c c\~oes da classe}{32}{section.50}
-\contentsline {section}{\numberline {5.2}Par\^ametros da classe}{32}{section.51}
-\contentsline {section}{\numberline {5.3}Elementos Pr\'e--Textuais}{33}{section.53}
-\contentsline {paragraph}{capa\\}{34}{section*.54}
-\contentsline {paragraph}{publica\c c\~ao\\}{34}{section*.55}
-\contentsline {paragraph}{rosto\\}{34}{section*.56}
-\contentsline {paragraph}{aprova\c c\~ao\\}{34}{section*.57}
-\contentsline {paragraph}{banca\\}{34}{section*.58}
-\contentsline {paragraph}{direitos\\}{34}{section*.59}
-\contentsline {paragraph}{dedicat\'oria\\}{34}{section*.60}
-\contentsline {paragraph}{agradecimentos\\}{34}{section*.61}
-\contentsline {paragraph}{resumo\\}{34}{section*.62}
-\contentsline {paragraph}{abstract\\}{35}{section*.63}
-\contentsline {paragraph}{tabelas\\}{35}{section*.64}
-\contentsline {paragraph}{ep\IeC {\'\i }grafe\\}{35}{section*.65}
-\contentsline {chapter}{\numberline {6}Elementos do texto}{36}{chapter.66}
-\contentsline {section}{\numberline {6.1}Figuras}{36}{section.67}
-\contentsline {subsection}{\numberline {6.1.1}Subfiguras}{38}{subsection.71}
-\contentsline {section}{\numberline {6.2}Tabelas}{39}{section.75}
-\contentsline {section}{\numberline {6.3}Algoritmos}{39}{section.77}
-\contentsline {section}{\numberline {6.4}C\'odigos de Programa}{40}{section.88}
-\contentsline {section}{\numberline {6.5}Teoremas, Corol\'arios e Demonstra\c c\~oes}{41}{section.90}
-\contentsline {section}{\numberline {6.6}Cita\c c\~oes Longas}{42}{section.92}
-\contentsline {section}{\numberline {6.7}Refer\^encias Bibliogr\'aficas}{42}{section.93}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{45}{section.93}
-\contentsline {chapter}{\numberline {A}Exemplo de um Ap\^endice}{50}{appendix.94}
-\contentsline {chapter}{\numberline {B}Exemplo de Outro Ap\^endice}{54}{appendix.95}
+\contentsline {chapter}{\numberline {2}Descri\c c\~ao da classe \textsf {inf-ufg}}{16}{chapter.3}
+\contentsline {section}{\numberline {2.1}Op\c c\~oes da classe}{16}{section.4}
+\contentsline {section}{\numberline {2.2}Par\^ametros da classe}{16}{section.5}
+\contentsline {section}{\numberline {2.3}Elementos Pr\'e--Textuais}{17}{section.7}
+\contentsline {paragraph}{capa\\}{18}{section*.8}
+\contentsline {paragraph}{publica\c c\~ao\\}{18}{section*.9}
+\contentsline {paragraph}{rosto\\}{18}{section*.10}
+\contentsline {paragraph}{aprova\c c\~ao\\}{18}{section*.11}
+\contentsline {paragraph}{banca\\}{18}{section*.12}
+\contentsline {paragraph}{direitos\\}{18}{section*.13}
+\contentsline {paragraph}{dedicat\'oria\\}{18}{section*.14}
+\contentsline {paragraph}{agradecimentos\\}{18}{section*.15}
+\contentsline {paragraph}{resumo\\}{18}{section*.16}
+\contentsline {paragraph}{abstract\\}{19}{section*.17}
+\contentsline {paragraph}{tabelas\\}{19}{section*.18}
+\contentsline {paragraph}{ep\IeC {\'\i }grafe\\}{19}{section*.19}
+\contentsline {chapter}{\numberline {3}Elementos do texto}{20}{chapter.20}
+\contentsline {section}{\numberline {3.1}Figuras}{20}{section.21}
+\contentsline {subsection}{\numberline {3.1.1}Subfiguras}{22}{subsection.25}
+\contentsline {section}{\numberline {3.2}Tabelas}{23}{section.29}
+\contentsline {section}{\numberline {3.3}Algoritmos}{23}{section.31}
+\contentsline {section}{\numberline {3.4}C\'odigos de Programa}{24}{section.42}
+\contentsline {section}{\numberline {3.5}Teoremas, Corol\'arios e Demonstra\c c\~oes}{25}{section.44}
+\contentsline {section}{\numberline {3.6}Cita\c c\~oes Longas}{26}{section.46}
+\contentsline {section}{\numberline {3.7}Refer\^encias Bibliogr\'aficas}{26}{section.47}
+\contentsline {chapter}{\numberline {4}Introdu\c c\~ao}{29}{chapter.48}
+\contentsline {chapter}{\numberline {5}Descri\c c\~ao da classe \textsf {inf-ufg}}{31}{chapter.49}
+\contentsline {section}{\numberline {5.1}Op\c c\~oes da classe}{31}{section.50}
+\contentsline {section}{\numberline {5.2}Par\^ametros da classe}{31}{section.51}
+\contentsline {section}{\numberline {5.3}Elementos Pr\'e--Textuais}{32}{section.53}
+\contentsline {paragraph}{capa\\}{33}{section*.54}
+\contentsline {paragraph}{publica\c c\~ao\\}{33}{section*.55}
+\contentsline {paragraph}{rosto\\}{33}{section*.56}
+\contentsline {paragraph}{aprova\c c\~ao\\}{33}{section*.57}
+\contentsline {paragraph}{banca\\}{33}{section*.58}
+\contentsline {paragraph}{direitos\\}{33}{section*.59}
+\contentsline {paragraph}{dedicat\'oria\\}{33}{section*.60}
+\contentsline {paragraph}{agradecimentos\\}{33}{section*.61}
+\contentsline {paragraph}{resumo\\}{33}{section*.62}
+\contentsline {paragraph}{abstract\\}{34}{section*.63}
+\contentsline {paragraph}{tabelas\\}{34}{section*.64}
+\contentsline {paragraph}{ep\IeC {\'\i }grafe\\}{34}{section*.65}
+\contentsline {chapter}{\numberline {6}Elementos do texto}{35}{chapter.66}
+\contentsline {section}{\numberline {6.1}Figuras}{35}{section.67}
+\contentsline {subsection}{\numberline {6.1.1}Subfiguras}{37}{subsection.71}
+\contentsline {section}{\numberline {6.2}Tabelas}{38}{section.75}
+\contentsline {section}{\numberline {6.3}Algoritmos}{38}{section.77}
+\contentsline {section}{\numberline {6.4}C\'odigos de Programa}{39}{section.88}
+\contentsline {section}{\numberline {6.5}Teoremas, Corol\'arios e Demonstra\c c\~oes}{40}{section.90}
+\contentsline {section}{\numberline {6.6}Cita\c c\~oes Longas}{41}{section.92}
+\contentsline {section}{\numberline {6.7}Refer\^encias Bibliogr\'aficas}{41}{section.93}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{44}{section.93}
+\contentsline {chapter}{\numberline {A}Exemplo de um Ap\^endice}{49}{appendix.94}
+\contentsline {chapter}{\numberline {B}Exemplo de Outro Ap\^endice}{53}{appendix.95}
 \contentsfinish 

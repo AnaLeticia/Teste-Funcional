@@ -1,6 +1,6 @@
-% Exemplo de dissertaÁ„o do INF-UFG com texto em portugues formatado com LaTeX
+% Exemplo de dissertacao do INF-UFG com texto em portugues formatado com LaTeX
 \documentclass[relatorio]{inf-ufg}
-% OpÁıes da classe inf-ufg (ao usar mais de uma, separe por vÌrgulas)
+% OpÁıes da classe inf-ufg (ao usar mais de uma, separe por vi≠rgulas)
 %   [tese]         -> Tese de doutorado.
 %   [dissertacao]  -> DissertaÁ„o de mestrado (padr„o).
 %   [monografia]   -> Monografia de especializaÁ„o.
@@ -10,45 +10,49 @@
 %                     Use esta opÁ„o para gerar o arquivo para impress„o
 %                     da vers„o final do seu texto!!!
 
+\usepackage{placeins}
+%\usepackage[utf8]{inputenc}
+
+
 %----------------------------------------------------- INICIO DO DOCUMENTO %
 \begin{document}
 
 %------------------------------------------ AUTOR, TÕTULO E DATA DE DEFESA %
-\autor{ Ana Let\'icia Herculano da Silva} % (JosÈ da Silva)
-\autorR{ da Silva, Ana Let\'icia Herculano} % (da Silva, JosÈ)
+\autor{Ana Let\'icia Herculano da Silva}
+\autorR{da Silva, Ana Let\'icia Herculano}
 
-\titulo{ T\'ecnicas e Crit\'erios de Testes em uma AplicaÁ„o de Banco de Dados relacioanal}
-\subtitulo{ Uma abordagem pr·tica}
+\titulo{T\'ecnicas e Crit\'erios de Testes em uma Aplica\c{c}\~ao de Banco de Dados Relacioanal}
+\subtitulo{Estudo de Caso}
 
-\cidade{ Goi\^ania} % Nome da cidade em foi desenvolvido o trabalho
-\dia{ 20} %
-\mes{ 07} % Data da apresentaÁ„o/defesa do trabalho
-\ano{ 2017} % Formato numÈrico: \dia{01}, \mes{01} e \ano{2009}
+\cidade{Goi\^ania}
+\dia{20} %
+\mes{07} % Data da apresentaÁ„o/defesa do trabalho
+\ano{2017} % Formato numÈrico: \dia{01}, \mes{01} e \ano{2009}
 
 %-------------------------------------------------------------- ORIENTADOR %
-\orientador{ C·ssio Leonardo Rodrigues }
-\orientadorR{ Rodrigues, C·ssio Leonardo }
+\orientador{C\'assio Leonardo Rodrigues}
+\orientadorR{Rodrigues, C\'assio Leonardo}
 
 
-\coorientador{ Dr. Edmundo SÈrgio Spoto }
-\coorientadorR{ Dr. Spoto, Edmundo SÈrgio }
+\coorientador{Dr. Edmundo S\'ergio Spoto}
+\coorientadorR{Dr. Spoto, Edmundo S\'ergio}
 
 %-------------------------------------------------- INSTITUI«√O E PROGRAMA %
-\universidade{ Universidade Federal de Goi·s }
-\uni{ UFG }
-\unidade{ Instituto de Inform·tica }
+\universidade{Universidade Federal de Goi\'as}
+\uni{UFG}
+\unidade{Instituto de Inform\'atica}
 
 
-\universidadeco{ Universidade Federal de Goi·s}
-\unico{ UFG }
-\unidadeco{ Instituto de Inform·tica  }
+\universidadeco{ Universidade Federal de Goi\'as}
+\unico{UFG}
+\unidadeco{Instituto de Inform\'atica}
 
-\programa{ Sistemas de InformaÁ„o } % ComputaÁ„o
-\concentracao{ Teste de Software }
+\programa{Sistemas de Informa\c{c}\~ao}
+\concentracao{Teste de Software}
 
 %-------------------------------------------------- ELEMENTOS PR…-TEXTUAIS %
 \capa    % Gera o modelo da capa externa do trabalho
-\publica % Gera a autorizaÁ„o para publicaÁ„o em formato eletrÙnico
+\publica % Gera a autorizaÁ„o para publicacao em formato eletronico
 \rosto   % Primeira folha interna do trabalho
 
 \input{./pre/pre_aprovacao}
@@ -76,7 +80,7 @@
 %  figtabalgcod -> Sum·rio e listas de figuras, tabelas, algoritmos e
 %                  cÛdigos de programas
 
-%--------------------------------------------------------------- CAPÕTULOS %
+%--------------------------------------------------------------- CAP√çTULOS %
 \input{./tex/cap_I}
 \input{./tex/cap_II}
 \input{./tex/cap_III}
