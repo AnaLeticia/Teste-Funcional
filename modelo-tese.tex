@@ -1,0 +1,105 @@
+% Exemplo de dissertação do INF-UFG com texto em portugues formatado com LaTeX
+\documentclass[relatorio]{inf-ufg}
+% Opções da classe inf-ufg (ao usar mais de uma, separe por vírgulas)
+%   [tese]         -> Tese de doutorado.
+%   [dissertacao]  -> Dissertação de mestrado (padrão).
+%   [monografia]   -> Monografia de especialização.
+%   [relatorio]    -> Relatório final de graduação.
+%   [abnt]         -> Usa o estilo "abnt-alf" de citação bibliográfica.
+%   [nocolorlinks] -> Os links de navegação no texto ficam na cor preta.
+%                     Use esta opção para gerar o arquivo para impressão
+%                     da versão final do seu texto!!!
+
+%----------------------------------------------------- INICIO DO DOCUMENTO %
+\begin{document}
+
+%------------------------------------------ AUTOR, TÍTULO E DATA DE DEFESA %
+\autor{ Ana Let\'icia Herculano da Silva} % (José da Silva)
+\autorR{ da Silva, Ana Let\'icia Herculano} % (da Silva, José)
+
+\titulo{ T\'ecnicas e Crit\'erios de Testes em uma Aplicação de Banco de Dados relacioanal}
+\subtitulo{ Uma abordagem prática}
+
+\cidade{ Goi\^ania} % Nome da cidade em foi desenvolvido o trabalho
+\dia{ 20} %
+\mes{ 07} % Data da apresentação/defesa do trabalho
+\ano{ 2017} % Formato numérico: \dia{01}, \mes{01} e \ano{2009}
+
+%-------------------------------------------------------------- ORIENTADOR %
+\orientador{ Cássio Leonardo Rodrigues }
+\orientadorR{ Rodrigues, Cássio Leonardo }
+
+
+\coorientador{ Dr. Edmundo Sérgio Spoto }
+\coorientadorR{ Dr. Spoto, Edmundo Sérgio }
+
+%-------------------------------------------------- INSTITUIÇÃO E PROGRAMA %
+\universidade{ Universidade Federal de Goiás }
+\uni{ UFG }
+\unidade{ Instituto de Informática }
+
+
+\universidadeco{ Universidade Federal de Goiás}
+\unico{ UFG }
+\unidadeco{ Instituto de Informática  }
+
+\programa{ Sistemas de Informação } % Computação
+\concentracao{ Teste de Software }
+
+%-------------------------------------------------- ELEMENTOS PRÉ-TEXTUAIS %
+\capa    % Gera o modelo da capa externa do trabalho
+\publica % Gera a autorização para publicação em formato eletrônico
+\rosto   % Primeira folha interna do trabalho
+
+\input{./pre/pre_aprovacao}
+\input{./pre/pre_direitos}
+\input{./pre/pre_dedicatoria}
+\input{./pre/pre_agradecimentos}
+\input{./pre/pre_epigrafe}
+\input{./pre/pre_resumo}
+\input{./pre/pre_abstract}
+
+\tabelas[figtabalgcod]
+%Opções:
+%nada [] -> Gera apenas o sumário
+%fig     -> Gera o sumário e a lista de figuras
+%tab     -> Sumário e lista de tabelas
+%alg     -> Sumário e lista de algoritmos
+%cod     -> Sumário e lista de códigos de programas
+%
+% Pode-se usar qualquer combinação dessas opções.
+% Por exemplo:
+%  figtab       -> Sumário e listas de figuras e tabelas
+%  figtabcod    -> Sumário e listas de figuras, tabelas e
+%                  códigos de programas
+%  figtabalg    -> Sumário e listas de figuras, tabelas e algoritmos
+%  figtabalgcod -> Sumário e listas de figuras, tabelas, algoritmos e
+%                  códigos de programas
+
+%--------------------------------------------------------------- CAPÍTULOS %
+\input{./tex/cap_I}
+\input{./tex/cap_II}
+\input{./tex/cap_III}
+\input{./tex/cap_IV}
+\input{./tex/cap_V}
+\input{./tex/cap_VI}
+
+%------------------------------------------------------------ BIBLIOGRAFIA %
+\cleardoublepage
+\nocite{*} %%% Retire esta linha para gerar a bibliografia com apenas as
+           %%% referências usadas no seu texto!
+\arial
+\bibliography{./bib/modelo-tese} %%% Nomes dos seus arquivos .bib
+\label{ref-bib}
+
+%--------------------------------------------------------------- APÊNDICES %
+\apendices
+
+\input{./pos/apend_I}
+\input{./pos/apend_II}
+
+\end{document}
+
+%------------------------------------------------------------------------- %
+%        F I M   D O  A R Q U I V O :  m o d e l o - t e s e . t e x       %
+%------------------------------------------------------------------------- %
