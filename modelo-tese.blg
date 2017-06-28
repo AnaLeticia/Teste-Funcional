@@ -3,71 +3,65 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: modelo-tese.aux
 The style file: inf-ufg.bst
 Database file #1: ./bib/modelo-tese.bib
+I was expecting a `,' or a `}'---line 33 of file ./bib/modelo-tese.bib
+ :  
+ :  year  = {1987},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "Souza" isn't style-file defined
---line 66 of file ./bib/modelo-tese.bib
-Warning--I didn't find a database entry for "Mar2004"
-Warning--I didn't find a database entry for "abnt-classe-doc"
-Warning--I didn't find a database entry for "NBR10520:2001"
-Warning--I didn't find a database entry for "NBR14724:2001"
-Warning--I didn't find a database entry for "SmiJon1999"
-Warning--I didn't find a database entry for "Knu1989"
-Warning--I didn't find a database entry for "LeeSwi2002"
-Warning--I didn't find a database entry for "Ber1970"
-Warning--I didn't find a database entry for "Bue1990"
-Warning--I didn't find a database entry for "Hah1991"
-Warning--I didn't find a database entry for "KopDal1995"
-Warning--I didn't find a database entry for "Lam1996"
-Warning--I didn't find a database entry for "GooMitSam1994"
-Warning--I didn't find a database entry for "Dra1994"
-Warning--I didn't find a database entry for "Lew2002"
-Too many commas in name 1 of "DELAMARO, M. E; MALDONADO, J. C; JINO, M." for entry DelamaroMaldoradoJino
+--line 135 of file ./bib/modelo-tese.bib
+Too many commas in name 1 of "DELAMARO, M. E; MALDONADO, J. C; JINO, M." for entry DelamaroMaldonadoJino
 while executing---line 1096 of file inf-ufg.bst
 Too many commas in name 1 of "KORTH, Henry F.; SILBERSCHATZ, Abraham; SUDARSHAN, S" for entry Korth
 while executing---line 1096 of file inf-ufg.bst
-Too many commas in name 1 of "DELAMARO, M. E; MALDONADO, J. C; JINO, M." for entry DelamaroMaldoradoJino
+Too many commas in name 1 of "DELAMARO, M. E; MALDONADO, J. C; JINO, M." for entry DelamaroMaldonadoJino
 while executing---line 1137 of file inf-ufg.bst
 Warning--empty publisher in ElmasriNavathe
 Too many commas in name 1 of "KORTH, Henry F.; SILBERSCHATZ, Abraham; SUDARSHAN, S" for entry Korth
 while executing---line 1137 of file inf-ufg.bst
-You've used 8 entries,
+Warning--empty publisher in Pressman2000
+Warning--empty publisher in Pressman2002
+Warning--empty publisher in Pressman2005
+Warning--empty publisher in Pressman2006
+You've used 19 entries,
             2158 wiz_defined-function locations,
-            598 strings with 5237 characters,
-and the built_in function-call counts, 1922 in all, are:
-= -- 172
-> -- 56
+            607 strings with 5360 characters,
+and the built_in function-call counts, 4223 in all, are:
+= -- 343
+> -- 133
 < -- 1
-+ -- 25
-- -- 16
-* -- 109
-:= -- 336
-add.period$ -- 24
-call.type$ -- 8
-change.case$ -- 30
++ -- 59
+- -- 38
+* -- 227
+:= -- 716
+add.period$ -- 51
+call.type$ -- 19
+change.case$ -- 69
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 104
-empty$ -- 187
-format.name$ -- 16
-if$ -- 401
+cite$ -- 24
+duplicate$ -- 223
+empty$ -- 446
+format.name$ -- 38
+if$ -- 880
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 9
-newline$ -- 42
-num.names$ -- 16
-pop$ -- 41
+int.to.str$ -- 19
+missing$ -- 19
+newline$ -- 91
+num.names$ -- 38
+pop$ -- 126
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 57
 quote$ -- 0
-skip$ -- 49
+skip$ -- 117
 stack$ -- 0
-substring$ -- 68
-swap$ -- 25
+substring$ -- 124
+swap$ -- 53
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
-warning$ -- 1
-while$ -- 19
-width$ -- 9
-write$ -- 91
-(There were 4 error messages)
+type$ -- 58
+warning$ -- 5
+while$ -- 41
+width$ -- 21
+write$ -- 185
+(There were 5 error messages)

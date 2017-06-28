@@ -6,37 +6,29 @@
 \contentsline {section}{\numberline {1.2}Motiva\c c\~ao}{13}{section.3}
 \contentsline {chapter}{\numberline {2}Teste de Software}{14}{chapter.4}
 \contentsline {section}{\numberline {2.1}Conceitos de Teste de Software}{14}{section.5}
-\contentsline {section}{\numberline {2.2}T\'ecnicas e Crit\'erios de Teste de Software}{14}{section.6}
-\contentsline {section}{\numberline {2.3}Teste Funcional}{14}{section.7}
-\contentsline {section}{\numberline {2.4}Teste de Muta\c c\~ao}{14}{section.8}
-\contentsline {section}{\numberline {2.5}Banco de Dados}{14}{section.9}
-\contentsline {chapter}{\numberline {3}Banco de Dados}{15}{chapter.10}
-\contentsline {section}{\numberline {3.1}Restri\c c\~oes de Banco de Dados}{15}{section.11}
-\contentsline {subsection}{\numberline {3.1.1}Restri\c c\~oes de Dom\IeC {\'\i }nio}{15}{subsection.12}
-\contentsline {subsection}{\numberline {3.1.2}Restri\c c\~oes de Integridade Sem\^antica}{15}{subsection.13}
-\contentsline {subsection}{\numberline {3.1.3}Restri\c c\~oes de Integridade Referencial e de Chave Prim\'aria}{15}{subsection.14}
-\contentsline {section}{\numberline {3.2}Aplica\c c\~oes Banco de Dados}{15}{section.15}
-\contentsline {section}{\numberline {3.3}Linguagem de Banco de Dados}{15}{section.16}
-\contentsline {section}{\numberline {3.4}Figuras}{15}{section.17}
-\contentsline {subsection}{\numberline {3.4.1}Subfiguras}{17}{subsection.21}
-\contentsline {section}{\numberline {3.5}Tabelas}{19}{section.25}
-\contentsline {section}{\numberline {3.6}Algoritmos}{19}{section.27}
-\contentsline {section}{\numberline {3.7}C\'odigos de Programa}{20}{section.38}
-\contentsline {section}{\numberline {3.8}Teoremas, Corol\'arios e Demonstra\c c\~oes}{20}{section.40}
-\contentsline {section}{\numberline {3.9}Cita\c c\~oes Longas}{21}{section.42}
-\contentsline {section}{\numberline {3.10}Refer\^encias Bibliogr\'aficas}{22}{section.43}
-\contentsline {chapter}{\numberline {4}T\'ecnicas de Testes aplicadas em Banco de Dados Relacional}{23}{chapter.44}
-\contentsline {section}{\numberline {4.1}Crit\'erios de Teste Funcional em Aplica\c c\~oes de Banco de Dados}{23}{section.45}
-\contentsline {subsection}{\numberline {4.1.1}Crit\'erios Para Testes Intra - Tabelas }{23}{subsection.46}
-\contentsline {subsection}{\numberline {4.1.2}Crit\'erios Para Testes Inter-Tabelas }{23}{subsection.47}
-\contentsline {section}{\numberline {4.2}T\'ecnica de Teste Mutante em Banco de Dados}{23}{section.48}
-\contentsline {chapter}{\numberline {5}Estudo de Caso}{24}{chapter.49}
-\contentsline {chapter}{\numberline {6}Plano de Teste}{25}{chapter.50}
-\contentsline {section}{\numberline {6.1}Plano de Testes Baseado no Teste Funcional em BDR}{25}{section.51}
-\contentsline {subsection}{\numberline {6.1.1}Testes Intra - Tabelas}{25}{subsection.52}
-\contentsline {subsection}{\numberline {6.1.2}Testes Inter - Tabelas}{25}{subsection.53}
-\contentsline {chapter}{\numberline {7}Resultados obtidos}{26}{chapter.54}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{27}{chapter.54}
-\contentsline {chapter}{\numberline {A}Exemplo de um Ap\^endice}{28}{appendix.55}
-\contentsline {chapter}{\numberline {B}Exemplo de Outro Ap\^endice}{32}{appendix.56}
+\contentsline {section}{\numberline {2.2}T\'ecnicas e Crit\'erios de Teste de Software}{15}{section.6}
+\contentsline {section}{\numberline {2.3}Teste Funcional}{16}{section.7}
+\contentsline {section}{\numberline {2.4}Teste de Muta\c c\~ao}{18}{section.8}
+\contentsline {chapter}{\numberline {3}Banco de Dados}{20}{chapter.9}
+\contentsline {section}{\numberline {3.1}Restri\c c\~oes de Banco de Dados}{20}{section.10}
+\contentsline {subsection}{\numberline {3.1.1}Restri\c c\~oes de Dom\IeC {\'\i }nio}{20}{subsection.11}
+\contentsline {subsection}{\numberline {3.1.2}Restri\c c\~oes de Integridade Sem\^antica}{20}{subsection.12}
+\contentsline {subsection}{\numberline {3.1.3}Restri\c c\~oes de Integridade Referencial e de Chave Prim\'aria}{20}{subsection.13}
+\contentsline {section}{\numberline {3.2}Aplica\c c\~oes de Banco de Dados}{20}{section.14}
+\contentsline {section}{\numberline {3.3}Linguagem de Banco de Dados}{20}{section.15}
+\contentsline {chapter}{\numberline {4}T\'ecnicas de Testes aplicadas em Banco de Dados Relacional}{21}{chapter.16}
+\contentsline {section}{\numberline {4.1}Crit\'erios de Teste Funcional em Aplica\c c\~oes de Banco de Dados}{21}{section.17}
+\contentsline {subsection}{\numberline {4.1.1}Crit\'erios Para Testes Intra - Tabelas }{21}{subsection.18}
+\contentsline {subsection}{\numberline {4.1.2}Crit\'erios Para Testes Inter-Tabelas }{21}{subsection.19}
+\contentsline {section}{\numberline {4.2}T\'ecnica de Teste Mutante em Banco de Dados}{21}{section.20}
+\contentsline {chapter}{\numberline {5}Estudo de Caso}{22}{chapter.21}
+\contentsline {chapter}{\numberline {6}Plano de Teste}{23}{chapter.22}
+\contentsline {section}{\numberline {6.1}Plano de Testes Baseado no Teste Funcional em BDR}{23}{section.23}
+\contentsline {subsection}{\numberline {6.1.1}Testes Intra - Tabelas}{23}{subsection.24}
+\contentsline {subsection}{\numberline {6.1.2}Testes Inter - Tabelas}{23}{subsection.25}
+\contentsline {chapter}{\numberline {7}Resultados obtidos}{24}{chapter.26}
+\contentsline {chapter}{\numberline {8}Conclus\~ao e trabalhos futuros}{25}{chapter.27}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{26}{chapter.27}
+\contentsline {chapter}{\numberline {A}Exemplo de um Ap\^endice}{28}{appendix.28}
+\contentsline {chapter}{\numberline {B}Exemplo de Outro Ap\^endice}{32}{appendix.29}
 \contentsfinish 

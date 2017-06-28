@@ -1,6 +1,10 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{DelamaroMaldoradoJino}
+\bibitem{Crespo}
+{\sffamily\scshape CRESPO.}
+\newblock {\bfseries Crespo}, 2000.
+
+\bibitem{DelamaroMaldonadoJino}
 {\sffamily\scshape DELAMARO, M. E;~MALDONADO, J. C. J.~M.}
 \newblock {\bfseries Teste de mutação}.
 \newblock In: {\itshape Introducao ao Teste de Software}, p. 77--118, Rio de
@@ -11,10 +15,18 @@
 \newblock {\bfseries Sistemas de banco de dados}.
 \newblock São Paulo, sixth edition, 2005.
 
+\bibitem{Howden}
+{\sffamily\scshape Howden.}
+\newblock {\bfseries Howden}.
+
 \bibitem{Korth}
 {\sffamily\scshape KORTH, Henry F.;~SILBERSCHATZ, A. S.~S.}
 \newblock {\bfseries Sistema de banco de dados}.
 \newblock Makron Books, São Paulo, 1999.
+
+\bibitem{Maldonado1991}
+{\sffamily\scshape MALDONADO, J.~C.}
+\newblock {\bfseries ?}, 1991.
 
 \bibitem{Modesto}
 {\sffamily\scshape MODESTO, L.~R.}
@@ -23,10 +35,39 @@
   Universitário Eurípides de Marília (UNIVEM), Marília, São Paulo, Brasil,
   2006.
 
-\bibitem{Myers}
+\bibitem{Myers1976}
+{\sffamily\scshape MYERS, G.~J.}
+\newblock {\bfseries The art of software testing}.
+\newblock John Wiley \& Sons, Inc, Hoboken, New Jersey, 1976.
+
+\bibitem{Myers2004}
 {\sffamily\scshape MYERS, G.~J.}
 \newblock {\bfseries The art of software testing}.
 \newblock John Wiley \& Sons, Inc, Hoboken, New Jersey, 2004.
+
+\bibitem{Pressman2000}
+{\sffamily\scshape PRESSMAN, R.}
+\newblock {\bfseries Software Engineering}.
+\newblock 2000.
+
+\bibitem{Pressman2002}
+{\sffamily\scshape PRESSMAN, R.}
+\newblock {\bfseries Software Engineering}.
+\newblock 2002.
+
+\bibitem{Pressman2005}
+{\sffamily\scshape PRESSMAN, R.}
+\newblock {\bfseries Software Engineering}.
+\newblock 2005.
+
+\bibitem{Pressman2006}
+{\sffamily\scshape PRESSMAN, R.}
+\newblock {\bfseries Software Engineering}.
+\newblock 2006.
+
+\bibitem{RochaEtAl}
+{\sffamily\scshape ROCHA, T.}
+\newblock {\bfseries Rocha}, 2001.
 
 \bibitem{Sommerville}
 {\sffamily\scshape SOMMERVILLE, I.}
@@ -45,5 +86,14 @@
 \newblock Tese de doutorado em engenharia elétrica, Faculdade de Engenharia
   Elétrica e de Computação da Universidade Estadual de Campinas - FEEC/UNICAMP,
   Campinas, 2000.
+
+\bibitem{SwebokV3}
+{\sffamily\scshape Swebok.}
+\newblock {\bfseries Swebok - software engineering body of knowledge - v3},
+  2014.
+
+\bibitem{Tuya2006}
+{\sffamily\scshape TUYA, J.}
+\newblock {\bfseries Tuya}, 2006.
 
 \end{thebibliography}
