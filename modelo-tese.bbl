@@ -1,8 +1,15 @@
 \begin{thebibliography}{10}
 
+\bibitem{Cabeca}
+{\sffamily\scshape Cabeça, A. G.; Leitão-Jr, P. J.~M.}
+\newblock {\bfseries Análise de mutantes em aplicações sql de banco de dados},
+  2008.
+
 \bibitem{Codd1970}
-{\sffamily\scshape CODD, F.}
-\newblock {\bfseries Codd}, 1970.
+{\sffamily\scshape CODD, E.~F.}
+\newblock {\bfseries
+  \href{http://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf/} {A Relational
+  Model of Data for Large Shared Data Banks}}, 1970.
 
 \bibitem{Crespo}
 {\sffamily\scshape CRESPO.}
@@ -101,7 +108,8 @@
   2014.
 
 \bibitem{Tuya2006}
-{\sffamily\scshape TUYA, J.}
-\newblock {\bfseries Tuya}, 2006.
+{\sffamily\scshape Tuya, J.; Suárez-Cabal, M. R.~C.}
+\newblock {\bfseries Mutating database queries, information and software
+  technology}, 2006.
 
 \end{thebibliography}

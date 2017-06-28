@@ -3,17 +3,23 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: modelo-tese.aux
 The style file: inf-ufg.bst
 Database file #1: ./bib/modelo-tese.bib
-I was expecting a `,' or a `}'---line 40 of file ./bib/modelo-tese.bib
+I was expecting a `,' or a `}'---line 50 of file ./bib/modelo-tese.bib
  :  
  :  year  = {1987},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "Souza" isn't style-file defined
---line 149 of file ./bib/modelo-tese.bib
+--line 159 of file ./bib/modelo-tese.bib
 Too many commas in name 1 of "DELAMARO, M. E; MALDONADO, J. C; JINO, M." for entry DelamaroMaldonadoJino
+while executing---line 1096 of file inf-ufg.bst
+Too many commas in name 1 of "Tuya,J.; Suárez-Cabal, M.J.; Riva, C" for entry Tuya2006
+while executing---line 1096 of file inf-ufg.bst
+Too many commas in name 1 of "Cabeça, A. G.; Leitão-Jr, P.S.; Jino, M" for entry Cabeca
 while executing---line 1096 of file inf-ufg.bst
 Too many commas in name 1 of "KORTH, Henry F.; SILBERSCHATZ, Abraham; SUDARSHAN, S" for entry Korth
 while executing---line 1096 of file inf-ufg.bst
+Too many commas in name 1 of "Cabeça, A. G.; Leitão-Jr, P.S.; Jino, M" for entry Cabeca
+while executing---line 1137 of file inf-ufg.bst
 Too many commas in name 1 of "DELAMARO, M. E; MALDONADO, J. C; JINO, M." for entry DelamaroMaldonadoJino
 while executing---line 1137 of file inf-ufg.bst
 Warning--empty publisher in ElmasriNavathe
@@ -23,45 +29,47 @@ Warning--empty publisher in Pressman2000
 Warning--empty publisher in Pressman2002
 Warning--empty publisher in Pressman2005
 Warning--empty publisher in Pressman2006
-You've used 21 entries,
+Too many commas in name 1 of "Tuya,J.; Suárez-Cabal, M.J.; Riva, C" for entry Tuya2006
+while executing---line 1137 of file inf-ufg.bst
+You've used 22 entries,
             2158 wiz_defined-function locations,
-            615 strings with 5435 characters,
-and the built_in function-call counts, 4629 in all, are:
-= -- 373
-> -- 147
+            620 strings with 5745 characters,
+and the built_in function-call counts, 4832 in all, are:
+= -- 388
+> -- 154
 < -- 1
-+ -- 65
-- -- 42
-* -- 247
-:= -- 780
-add.period$ -- 55
-call.type$ -- 21
-change.case$ -- 77
++ -- 68
+- -- 44
+* -- 257
+:= -- 812
+add.period$ -- 57
+call.type$ -- 22
+change.case$ -- 81
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 241
-empty$ -- 494
-format.name$ -- 42
-if$ -- 966
+cite$ -- 27
+duplicate$ -- 250
+empty$ -- 518
+format.name$ -- 44
+if$ -- 1009
 int.to.chr$ -- 0
-int.to.str$ -- 21
+int.to.str$ -- 22
 missing$ -- 19
-newline$ -- 99
-num.names$ -- 42
-pop$ -- 142
+newline$ -- 103
+num.names$ -- 44
+pop$ -- 150
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 66
 quote$ -- 0
-skip$ -- 131
+skip$ -- 138
 stack$ -- 0
-substring$ -- 134
-swap$ -- 59
+substring$ -- 139
+swap$ -- 62
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 66
+type$ -- 70
 warning$ -- 5
-while$ -- 45
-width$ -- 23
-write$ -- 201
-(There were 5 error messages)
+while$ -- 47
+width$ -- 24
+write$ -- 209
+(There were 9 error messages)
