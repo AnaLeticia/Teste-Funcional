@@ -3,13 +3,13 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: modelo-tese.aux
 The style file: inf-ufg.bst
 Database file #1: ./bib/modelo-tese.bib
-I was expecting a `,' or a `}'---line 33 of file ./bib/modelo-tese.bib
+I was expecting a `,' or a `}'---line 40 of file ./bib/modelo-tese.bib
  :  
  :  year  = {1987},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "Souza" isn't style-file defined
---line 135 of file ./bib/modelo-tese.bib
+--line 149 of file ./bib/modelo-tese.bib
 Too many commas in name 1 of "DELAMARO, M. E; MALDONADO, J. C; JINO, M." for entry DelamaroMaldonadoJino
 while executing---line 1096 of file inf-ufg.bst
 Too many commas in name 1 of "KORTH, Henry F.; SILBERSCHATZ, Abraham; SUDARSHAN, S" for entry Korth
@@ -23,45 +23,45 @@ Warning--empty publisher in Pressman2000
 Warning--empty publisher in Pressman2002
 Warning--empty publisher in Pressman2005
 Warning--empty publisher in Pressman2006
-You've used 19 entries,
+You've used 21 entries,
             2158 wiz_defined-function locations,
-            607 strings with 5360 characters,
-and the built_in function-call counts, 4223 in all, are:
-= -- 343
-> -- 133
+            615 strings with 5435 characters,
+and the built_in function-call counts, 4629 in all, are:
+= -- 373
+> -- 147
 < -- 1
-+ -- 59
-- -- 38
-* -- 227
-:= -- 716
-add.period$ -- 51
-call.type$ -- 19
-change.case$ -- 69
++ -- 65
+- -- 42
+* -- 247
+:= -- 780
+add.period$ -- 55
+call.type$ -- 21
+change.case$ -- 77
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 223
-empty$ -- 446
-format.name$ -- 38
-if$ -- 880
+cite$ -- 26
+duplicate$ -- 241
+empty$ -- 494
+format.name$ -- 42
+if$ -- 966
 int.to.chr$ -- 0
-int.to.str$ -- 19
+int.to.str$ -- 21
 missing$ -- 19
-newline$ -- 91
-num.names$ -- 38
-pop$ -- 126
+newline$ -- 99
+num.names$ -- 42
+pop$ -- 142
 preamble$ -- 1
-purify$ -- 57
+purify$ -- 63
 quote$ -- 0
-skip$ -- 117
+skip$ -- 131
 stack$ -- 0
-substring$ -- 124
-swap$ -- 53
+substring$ -- 134
+swap$ -- 59
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 58
+type$ -- 66
 warning$ -- 5
-while$ -- 41
-width$ -- 21
-write$ -- 185
+while$ -- 45
+width$ -- 23
+write$ -- 201
 (There were 5 error messages)

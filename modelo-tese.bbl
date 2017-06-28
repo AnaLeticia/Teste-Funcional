@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{Codd1970}
+{\sffamily\scshape CODD, F.}
+\newblock {\bfseries Codd}, 1970.
+
 \bibitem{Crespo}
 {\sffamily\scshape CRESPO.}
 \newblock {\bfseries Crespo}, 2000.
@@ -68,6 +72,10 @@
 \bibitem{RochaEtAl}
 {\sffamily\scshape ROCHA, T.}
 \newblock {\bfseries Rocha}, 2001.
+
+\bibitem{Silberschatz}
+{\sffamily\scshape SILBERSCHATZ, J.}
+\newblock {\bfseries Silberschatz}, 2006.
 
 \bibitem{Sommerville}
 {\sffamily\scshape SOMMERVILLE, I.}
