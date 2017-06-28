@@ -12,36 +12,41 @@
 \BOOKMARK [0][-]{sumario.0}{Sum\341rio}{}% 12
 \BOOKMARK [0][-]{Doc-Start}{Lista de Figuras}{}% 13
 \BOOKMARK [0][-]{Doc-Start}{Lista de Tabelas}{}% 14
-\BOOKMARK [0][-]{Doc-Start}{Lista de Algoritmos}{}% 15
-\BOOKMARK [0][-]{section*.1}{Lista de C\363digos de Programas}{}% 16
-\BOOKMARK [0][-]{chapter.2}{1 Introdu\347\343o}{}% 17
-\BOOKMARK [0][-]{chapter.3}{2 Descri\347\343o da classe inf-ufg}{}% 18
-\BOOKMARK [1][-]{section.4}{2.1 Op\347\365es da classe}{chapter.3}% 19
-\BOOKMARK [1][-]{section.5}{2.2 Par\342metros da classe}{chapter.3}% 20
-\BOOKMARK [1][-]{section.7}{2.3 Elementos Pr\351\205Textuais}{chapter.3}% 21
-\BOOKMARK [0][-]{chapter.20}{3 Elementos do texto}{}% 22
-\BOOKMARK [1][-]{section.21}{3.1 Figuras}{chapter.20}% 23
-\BOOKMARK [2][-]{subsection.25}{3.1.1 Subfiguras}{section.21}% 24
-\BOOKMARK [1][-]{section.29}{3.2 Tabelas}{chapter.20}% 25
-\BOOKMARK [1][-]{section.31}{3.3 Algoritmos}{chapter.20}% 26
-\BOOKMARK [1][-]{section.42}{3.4 C\363digos de Programa}{chapter.20}% 27
-\BOOKMARK [1][-]{section.44}{3.5 Teoremas, Corol\341rios e Demonstra\347\365es}{chapter.20}% 28
-\BOOKMARK [1][-]{section.46}{3.6 Cita\347\365es Longas}{chapter.20}% 29
-\BOOKMARK [1][-]{section.47}{3.7 Refer\352ncias Bibliogr\341ficas}{chapter.20}% 30
-\BOOKMARK [0][-]{chapter.48}{4 Introdu\347\343o}{}% 31
-\BOOKMARK [0][-]{chapter.49}{5 Descri\347\343o da classe inf-ufg}{}% 32
-\BOOKMARK [1][-]{section.50}{5.1 Op\347\365es da classe}{chapter.49}% 33
-\BOOKMARK [1][-]{section.51}{5.2 Par\342metros da classe}{chapter.49}% 34
-\BOOKMARK [1][-]{section.53}{5.3 Elementos Pr\351\205Textuais}{chapter.49}% 35
-\BOOKMARK [0][-]{chapter.66}{6 Elementos do texto}{}% 36
-\BOOKMARK [1][-]{section.67}{6.1 Figuras}{chapter.66}% 37
-\BOOKMARK [2][-]{subsection.71}{6.1.1 Subfiguras}{section.67}% 38
-\BOOKMARK [1][-]{section.75}{6.2 Tabelas}{chapter.66}% 39
-\BOOKMARK [1][-]{section.77}{6.3 Algoritmos}{chapter.66}% 40
-\BOOKMARK [1][-]{section.88}{6.4 C\363digos de Programa}{chapter.66}% 41
-\BOOKMARK [1][-]{section.90}{6.5 Teoremas, Corol\341rios e Demonstra\347\365es}{chapter.66}% 42
-\BOOKMARK [1][-]{section.92}{6.6 Cita\347\365es Longas}{chapter.66}% 43
-\BOOKMARK [1][-]{section.93}{6.7 Refer\352ncias Bibliogr\341ficas}{chapter.66}% 44
-\BOOKMARK [0][-]{section.93}{Refer\352ncias Bibliogr\341ficas}{}% 45
-\BOOKMARK [0][-]{appendix.94}{A Exemplo de um Ap\352ndice}{}% 46
-\BOOKMARK [0][-]{appendix.95}{B Exemplo de Outro Ap\352ndice}{}% 47
+\BOOKMARK [0][-]{chapter.1}{1 Introdu\347\343o}{}% 15
+\BOOKMARK [1][-]{section.2}{1.1 Objetivos}{chapter.1}% 16
+\BOOKMARK [1][-]{section.3}{1.2 Motiva\347\343o}{chapter.1}% 17
+\BOOKMARK [0][-]{chapter.4}{2 Teste de Software}{}% 18
+\BOOKMARK [1][-]{section.5}{2.1 Conceitos de Teste de Software}{chapter.4}% 19
+\BOOKMARK [1][-]{section.6}{2.2 T\351cnicas e Crit\351rios de Teste de Software}{chapter.4}% 20
+\BOOKMARK [1][-]{section.7}{2.3 Teste Funcional}{chapter.4}% 21
+\BOOKMARK [1][-]{section.8}{2.4 Teste de Muta\347\343o}{chapter.4}% 22
+\BOOKMARK [1][-]{section.9}{2.5 Banco de Dados}{chapter.4}% 23
+\BOOKMARK [0][-]{chapter.10}{3 Banco de Dados}{}% 24
+\BOOKMARK [1][-]{section.11}{3.1 Restri\347\365es de Banco de Dados}{chapter.10}% 25
+\BOOKMARK [2][-]{subsection.12}{3.1.1 Restri\347\365es de Dom\355nio}{section.11}% 26
+\BOOKMARK [2][-]{subsection.13}{3.1.2 Restri\347\365es de Integridade Sem\342ntica}{section.11}% 27
+\BOOKMARK [2][-]{subsection.14}{3.1.3 Restri\347\365es de Integridade Referencial e de Chave Prim\341ria}{section.11}% 28
+\BOOKMARK [1][-]{section.15}{3.2 Aplica\347\365es Banco de Dados}{chapter.10}% 29
+\BOOKMARK [1][-]{section.16}{3.3 Linguagem de Banco de Dados}{chapter.10}% 30
+\BOOKMARK [1][-]{section.17}{3.4 Figuras}{chapter.10}% 31
+\BOOKMARK [2][-]{subsection.21}{3.4.1 Subfiguras}{section.17}% 32
+\BOOKMARK [1][-]{section.25}{3.5 Tabelas}{chapter.10}% 33
+\BOOKMARK [1][-]{section.27}{3.6 Algoritmos}{chapter.10}% 34
+\BOOKMARK [1][-]{section.38}{3.7 C\363digos de Programa}{chapter.10}% 35
+\BOOKMARK [1][-]{section.40}{3.8 Teoremas, Corol\341rios e Demonstra\347\365es}{chapter.10}% 36
+\BOOKMARK [1][-]{section.42}{3.9 Cita\347\365es Longas}{chapter.10}% 37
+\BOOKMARK [1][-]{section.43}{3.10 Refer\352ncias Bibliogr\341ficas}{chapter.10}% 38
+\BOOKMARK [0][-]{chapter.44}{4 T\351cnicas de Testes aplicadas em Banco de Dados Relacional}{}% 39
+\BOOKMARK [1][-]{section.45}{4.1 Crit\351rios de Teste Funcional em Aplica\347\365es de Banco de Dados}{chapter.44}% 40
+\BOOKMARK [2][-]{subsection.46}{4.1.1 Crit\351rios Para Testes Intra - Tabelas }{section.45}% 41
+\BOOKMARK [2][-]{subsection.47}{4.1.2 Crit\351rios Para Testes Inter-Tabelas }{section.45}% 42
+\BOOKMARK [1][-]{section.48}{4.2 T\351cnica de Teste Mutante em Banco de Dados}{chapter.44}% 43
+\BOOKMARK [0][-]{chapter.49}{5 Estudo de Caso}{}% 44
+\BOOKMARK [0][-]{chapter.50}{6 Plano de Teste}{}% 45
+\BOOKMARK [1][-]{section.51}{6.1 Plano de Testes Baseado no Teste Funcional em BDR}{chapter.50}% 46
+\BOOKMARK [2][-]{subsection.52}{6.1.1 Testes Intra - Tabelas}{section.51}% 47
+\BOOKMARK [2][-]{subsection.53}{6.1.2 Testes Inter - Tabelas}{section.51}% 48
+\BOOKMARK [0][-]{chapter.54}{7 Resultados obtidos}{}% 49
+\BOOKMARK [0][-]{chapter.54}{Refer\352ncias Bibliogr\341ficas}{}% 50
+\BOOKMARK [0][-]{appendix.55}{A Exemplo de um Ap\352ndice}{}% 51
+\BOOKMARK [0][-]{appendix.56}{B Exemplo de Outro Ap\352ndice}{}% 52
