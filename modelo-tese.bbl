@@ -2,8 +2,8 @@
 
 \bibitem{Cabeca}
 {\sffamily\scshape Cabeça, A. G.; Leitão-Jr, P. J.~M.}
-\newblock {\bfseries Análise de mutantes em aplicações sql de banco de dados},
-  2008.
+\newblock {\bfseries {Análise de Mutantes em Aplicações SQL de Banco de
+  Dados}}, 2008.
 
 \bibitem{Codd1970}
 {\sffamily\scshape CODD, E.~F.}
@@ -104,8 +104,8 @@
 
 \bibitem{SwebokV3}
 {\sffamily\scshape Swebok.}
-\newblock {\bfseries Swebok - software engineering body of knowledge - v3},
-  2014.
+\newblock {\bfseries \href{https://www.computer.org/web/swebok/v3} {SWEBOK V3
+  Guide - Software Engineering Body of Knowledge}}, 2014.
 
 \bibitem{Tuya2006}
 {\sffamily\scshape Tuya, J.; Suárez-Cabal, M. R.~C.}
