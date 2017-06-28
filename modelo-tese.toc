@@ -29,6 +29,8 @@
 \contentsline {chapter}{\numberline {7}Resultados obtidos}{24}{chapter.26}
 \contentsline {chapter}{\numberline {8}Conclus\~ao e trabalhos futuros}{25}{chapter.27}
 \contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{26}{chapter.27}
-\contentsline {chapter}{\numberline {A}Exemplo de um Ap\^endice}{28}{appendix.28}
-\contentsline {chapter}{\numberline {B}Exemplo de Outro Ap\^endice}{32}{appendix.29}
+\contentsline {chapter}{\numberline {A}Script de cria\c c\~ao da base de dados}{28}{appendix.28}
+\contentsline {chapter}{\numberline {B}Script de Inser\c c\~ao inicial no Banco}{29}{appendix.29}
+\contentsline {chapter}{\numberline {C}Scripts dos casos de testes}{30}{appendix.30}
+\contentsline {chapter}{\numberline {D}Script dos Testes de Mutantes}{31}{appendix.31}
 \contentsfinish 

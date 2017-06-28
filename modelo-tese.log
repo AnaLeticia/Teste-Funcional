@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.6.20)  28 JUN 2017 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.6.20)  28 JUN 2017 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -915,53 +915,55 @@ Package babel Info: Redefining portuges shorthand "|
 Ap\^endice A.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
+) (./pos/apend_II.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 62.
-[28
+(babel)             in language append on input line 1.
+ [28
 
 
 ]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 107.
- [29]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 167.
- [30]) (./pos/apend_II.tex
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
- [31]
 Ap\^endice B.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
+) (./pos/apend_III.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 64.
-[32
+(babel)             in language append on input line 1.
+ [29
 
 ]
+Ap\^endice C.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 124.
- [33]
+(babel)             in language append on input line 1.
+) (./pos/apend_IV.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 184.
- [34]) 
+(babel)             in language append on input line 1.
+ [30
+
+]
+Ap\^endice D.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 1.
+) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 107.
-[35]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+(babel)             in language append on input line 110.
+[31
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
  (./modelo-tese.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `modelo-tese.out' has not changed.
-(rerunfilecheck)             Checksum: EAB4470E57E212B387890A86B37C2D72;3158.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
+(rerunfilecheck)             Checksum: 46EAF1E0A5FF95F5F2510D8FB74FC1E9;3322.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 10962 strings out of 493105
- 160897 string characters out of 6137072
- 290436 words of memory out of 5000000
- 14062 multiletter control sequences out of 15000+600000
+ 10971 strings out of 493105
+ 161044 string characters out of 6137072
+ 290566 words of memory out of 5000000
+ 14067 multiletter control sequences out of 15000+600000
  96049 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,11n,47p,960b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -973,10 +975,10 @@ lvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo-tese.pdf (37 pages, 132924 bytes).
+Output written on modelo-tese.pdf (33 pages, 128067 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 423 compressed objects within 5 object streams
- 98 named destinations out of 1000 (max. 500000)
- 353 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 467 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 369 words of extra memory for PDF output out of 10000 (max. 10000000)
 
