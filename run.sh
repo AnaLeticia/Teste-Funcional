@@ -1,1 +1,1 @@
-cp /source/modelo-tese.pdf tcc.pdf
+cp source/modelo-tese.pdf tcc.pdf
