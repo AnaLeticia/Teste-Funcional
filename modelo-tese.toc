@@ -56,6 +56,6 @@
 \contentsline {section}{\numberline {6.6}Cita\c c\~oes Longas}{41}{section.92}
 \contentsline {section}{\numberline {6.7}Refer\^encias Bibliogr\'aficas}{41}{section.93}
 \contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{44}{section.93}
-\contentsline {chapter}{\numberline {A}Exemplo de um Ap\^endice}{49}{appendix.94}
-\contentsline {chapter}{\numberline {B}Exemplo de Outro Ap\^endice}{53}{appendix.95}
+\contentsline {chapter}{\numberline {A}Exemplo de um Ap\^endice}{45}{appendix.94}
+\contentsline {chapter}{\numberline {B}Exemplo de Outro Ap\^endice}{49}{appendix.95}
 \contentsfinish 
