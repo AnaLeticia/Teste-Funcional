@@ -162,33 +162,132 @@ Na Tabela \ref{tab:elementoRequiridoIntraTabelaChavePrimariaRestricaoEntidade} s
 \end{table*}
 
 
-Nas Tabelas \ref{tab:elementoRequiridoIntraTabelaRestricaoDominioEmpresa} a 6.22  são apresentados os elementos requeridos pelo Domínio de Atributos das tabelas definidas no estudo de caso da Figura \ref{fig:figura3}
+Nas Figuras \ref{fig:restricaoDominioEmpresa} a \ref{fig:restricaoDominioGrupoPermissao} são apresentados os elementos requeridos pelo Domínio de Atributos das tabelas definidas no estudo de caso da Figura \ref{fig:figura3}
 
  
+ %% figura 1
+ \begin{figure}[H]
+ 	\centering
+ 	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/dominio/empresa}
+ 	\caption{Restrição de Domínio de Atributo da tabela \textit{empresa}}
+ 	\label{fig:restricaoDominioEmpresa}
+ \end{figure}
 
+%% figura 1
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/dominio/filial}
+	\caption{Restrição de Domínio de Atributo da tabela \textit{filial}}
+	\label{fig:restricaoDominioFilial}
+\end{figure}
 
-\begin{table*}[p]
-	\caption{Restrição de Domínio de Atributo da tabela empresa}
-	\label{tab:elementoRequiridoIntraTabelaRestricaoDominioEmpresa} 
-	\begin{tabular}{|c|c|p{2cm}|p{3cm}|p{3cm}|p{2cm}|}
-		\hline \textbf{Tabela} & \multicolumn{5}{|l|}{\textit{empresa}}\\
-		 %\multicolumn{6}{|l|}{\textit{empresa}}\\
-		\hline \textbf{Atributo} & \textbf{Classes válidas} & \textbf{Classes inválidas} & \textbf{Classes Inválidas Limite Superior} & \textbf{Classes Inválidas Limite Inferior} & \textbf{Saída Esperada}\\ 
-		\hline id 
-		& -2147483648 
-		\\geq int \\geq 2147483647
-		não nulo
-		
-		& int < -2
-		& int = 
-		223101320938
-		& int = - 212321
-		& Código da empresa com domínio correto\\ 
-	
-		
-		\hline 
-	\end{tabular} 
-\end{table*}
+%% figura 1
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/dominio/conta}
+	\caption{Restrição de Domínio de Atributo da tabela \textit{conta}}
+	\label{fig:restricaoDominioConta}
+\end{figure}
+
+%% figura 1
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/dominio/plano}
+	\caption{Restrição de Domínio de Atributo da tabela \textit{plano}}
+	\label{fig:restricaoDominioPlano}
+\end{figure}
+
+%% figura 1
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/dominio/conta-plano}
+	\caption{Restrição de Domínio de Atributo da tabela \textit{conta-plano}}
+	\label{fig:restricaoDominioContaPlano}
+\end{figure}
+
+%% figura 1
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/dominio/preco-modulo}
+	\caption{Restrição de Domínio de Atributo da tabela \textit{preco-modulo}}
+	\label{fig:restricaoDominioPrecoModulo}
+\end{figure}
+
+%% figura 1
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/dominio/matriz-empresa-modulo}
+	\caption{Restrição de Domínio de Atributo da tabela \textit{matriz-empresa-modulo}}
+	\label{fig:restricaoDominioMatrizEmpresaModulo}
+\end{figure}
+
+%% figura 1
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/dominio/usuario}
+	\caption{Restrição de Domínio de Atributo da tabela \textit{usuario}}
+	\label{fig:restricaoDominioUsuario}
+\end{figure}
+
+%% figura 1
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/dominio/grupo}
+	\caption{Restrição de Domínio de Atributo da tabela \textit{grupo}}
+	\label{fig:restricaoDominioGrupo}
+\end{figure}
+
+%% figura 1
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/dominio/grupo-permissao}
+	\caption{Restrição de Domínio de Atributo da tabela \textit{grupo-permissao}}
+	\label{fig:restricaoDominioGrupoPermissao}
+\end{figure}
+
+%% figura 1
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/dominio/conta}
+	\caption{Restrição de Domínio de Atributo da tabela \textit{conta}}
+	\label{fig:restricaoDominioConta}
+\end{figure}
 
 \subsection{Testes Inter - Tabelas}
 \label{sec:testesInterTabela}
+
+Nas Figuras \ref{fig:restricaoIntegridadeReferencialEmpresaFilialMatrizEmpresaModulo} a \ref{fig:restricaoIntegridadeReferencialUsuarioGrupoUsuarioGrupoGrupoPermissao} são apresentados os elementos requeridos pelo critério Integridade Referencial de Relacionamentos, como especificado na Figura \ref{fig:figura3};
+
+%% figura 1
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/integridade-referencial/empresa-filial-matrizEmpresaModulo}
+	\caption{Restrição de Integridade Referencial entre as tabelas \textit{empresa}, \textit{filial} e \textit{matriz\_empresa\_modulo}}
+	\label{fig:restricaoIntegridadeReferencialEmpresaFilialMatrizEmpresaModulo}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/integridade-referencial/empresa-contaPlano-conta}
+	\caption{Restrição de Integridade Referencial entre as tabelas \textit{empresa}, \textit{conta\_plano} e \textit{conta}.}
+	\label{fig:restricaoIntegridadeReferencialEmpresaContaPlanoConta}
+\end{figure}
+
+
+%% figura 1
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/integridade-referencial/contaPlano-conta-precoModulo}
+	\caption{Restrição de Integridade Referencial entre as tabelas \textit{conta\_plano}, \textit{plano} e \textit{preco\_modulo}}
+	\label{fig:restricaoIntegridadeReferencialContaPlanoContaPrecoModulo}
+\end{figure}
+
+
+%% figura 1
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/caso-teste/integridade-referencial/usuario-grupo-usuarioGrupo-grupoPermissao}
+	\caption{Restrição de Integridade Referencial entre as tabelas \textit{usuario}, \textit{grupo}, \textit{usuario\_grupo} e \textit{grupo\_permisso}.}
+	\label{fig:restricaoIntegridadeReferencialUsuarioGrupoUsuarioGrupoGrupoPermissao}
+\end{figure}
+

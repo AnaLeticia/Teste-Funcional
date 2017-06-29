@@ -9,12 +9,27 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama Entidade-Relacionamento do software objeto do estudo de caso\relax }}{34}{figure.caption.44}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {empresa}\relax }}{39}{figure.caption.50}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {filial}\relax }}{39}{figure.caption.51}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {conta}\relax }}{40}{figure.caption.52}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {plano}\relax }}{40}{figure.caption.53}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {conta-plano}\relax }}{41}{figure.caption.54}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {preco-modulo}\relax }}{41}{figure.caption.55}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {matriz-empresa-modulo}\relax }}{42}{figure.caption.56}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {usuario}\relax }}{42}{figure.caption.57}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {grupo}\relax }}{43}{figure.caption.58}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {grupo-permissao}\relax }}{43}{figure.caption.59}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {conta}\relax }}{43}{figure.caption.60}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Restri\c c\~ao de Integridade Referencial entre as tabelas \textit {empresa}, \textit {filial} e \textit {matriz\_empresa\_modulo}\relax }}{44}{figure.caption.62}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Restri\c c\~ao de Integridade Referencial entre as tabelas \textit {empresa}, \textit {conta\_plano} e \textit {conta}.\relax }}{44}{figure.caption.63}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Restri\c c\~ao de Integridade Referencial entre as tabelas \textit {conta\_plano}, \textit {plano} e \textit {preco\_modulo}\relax }}{45}{figure.caption.64}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Restri\c c\~ao de Integridade Referencial entre as tabelas \textit {usuario}, \textit {grupo}, \textit {usuario\_grupo} e \textit {grupo\_permisso}.\relax }}{45}{figure.caption.65}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Restri\c c\~ao de Unicidade {\ref {sub@subfig:unicidade}}, Integridade de Dom\IeC {\'\i }nio {\ref {sub@subfig:dominio}}, Integridade Referencial{\ref {sub@subfig:referencial}} e Total {\ref {sub@subfig:total}}.\relax }}{42}{figure.caption.57}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Integridade de dom\IeC {\'\i }nio.}}}{42}{figure.caption.57}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Total.}}}{42}{figure.caption.57}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Defini\c c\~ao de Operadores Utilizados\relax }}{42}{figure.caption.63}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Porcentagem de Mutantes gerados por grupo\relax }}{47}{figure.caption.72}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Restri\c c\~ao de Unicidade {\ref {sub@subfig:unicidade}}, Integridade de Dom\IeC {\'\i }nio {\ref {sub@subfig:dominio}}, Integridade Referencial{\ref {sub@subfig:referencial}} e Total {\ref {sub@subfig:total}}.\relax }}{48}{figure.caption.71}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Integridade de dom\IeC {\'\i }nio.}}}{48}{figure.caption.71}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Total.}}}{48}{figure.caption.71}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Defini\c c\~ao de Operadores Utilizados\relax }}{49}{figure.caption.77}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Porcentagem de Mutantes gerados por grupo\relax }}{54}{figure.caption.86}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
