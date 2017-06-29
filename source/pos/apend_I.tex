@@ -1,3 +1,258 @@
 \chapter{Script de criação da base de dados}
 \label{apend:A}
-Apêndicess são iniciados com o comando \verb|\apendices|.
+
+
+SET statement\_timeout = 0;
+SET lock\_timeout = 0;
+SET client\_encoding = 'UTF8';
+SET standard\_conforming\_strings = on;
+SET check\_function\_bodies = false;
+SET client\_min\_messages = warning;
+CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg\_catalog;
+COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+SET search\_path = public, pg\_catalog;
+SET default\_with\_oids = false;
+CREATE TABLE conta (
+id integer NOT NULL,
+razao\_social character varying(255) NOT NULL,
+cnpj character varying(14) NOT NULL,
+dia\_faturamento integer NOT NULL,
+email\_principal character varying(255),
+ativo boolean DEFAULT true NOT NULL
+);
+CREATE SEQUENCE conta\_id\_seq
+START WITH 1
+INCREMENT BY 1
+NO MINVALUE
+NO MAXVALUE
+CACHE 1;
+ALTER SEQUENCE conta\_id\_seq OWNED BY conta.id;
+CREATE TABLE conta\_plano (
+id integer NOT NULL,
+id\_plano integer NOT NULL,
+id\_conta integer NOT NULL,
+padrao boolean DEFAULT false
+);
+CREATE SEQUENCE conta\_plano\_id\_seq
+START WITH 1
+INCREMENT BY 1
+NO MINVALUE
+NO MAXVALUE
+CACHE 1;
+ALTER SEQUENCE conta\_plano\_id\_seq OWNED BY conta\_plano.id;
+CREATE TABLE email\_log (
+id integer NOT NULL,
+data\_envio timestamp without time zone NOT NULL,
+destinatario character varying(255) NOT NULL,
+assunto character varying(255) NOT NULL,
+status\_envio boolean NOT NULL
+);
+CREATE SEQUENCE email\_log\_id\_seq
+START WITH 1
+INCREMENT BY 1
+NO MINVALUE
+NO MAXVALUE
+CACHE 1;
+ALTER SEQUENCE email\_log\_id\_seq OWNED BY email\_log.id;
+CREATE TABLE empresa (
+id integer NOT NULL,
+ativo boolean NOT NULL,
+cnpj character varying(14) NOT NULL,
+razao\_social character varying(255) NOT NULL,
+id\_conta integer NOT NULL,
+id\_plano integer
+);
+CREATE SEQUENCE empresa\_id\_seq
+START WITH 1
+INCREMENT BY 1
+NO MINVALUE
+NO MAXVALUE
+CACHE 1;
+ALTER SEQUENCE empresa\_id\_seq OWNED BY empresa.id;	
+CREATE TABLE filial (
+id integer NOT NULL,
+razao\_social character varying(255) NOT NULL,
+cnpj character varying(14) NOT NULL,
+data\_insercao date NOT NULL,
+id\_empresa integer NOT NULL
+);	
+CREATE SEQUENCE filial\_id\_seq
+START WITH 1
+INCREMENT BY 1
+NO MINVALUE
+NO MAXVALUE
+CACHE 1;	
+ALTER SEQUENCE filial\_id\_seq OWNED BY filial.id;	
+CREATE TABLE grupo (
+id integer NOT NULL,
+nome character varying(50) NOT NULL
+);	
+CREATE SEQUENCE grupo\_id\_seq
+START WITH 1
+INCREMENT BY 1
+NO MINVALUE
+NO MAXVALUE
+CACHE 1;	
+ALTER SEQUENCE grupo\_id\_seq OWNED BY grupo.id;	
+CREATE TABLE grupo\_permissao (
+id\_grupo integer NOT NULL,
+permissao character varying(50) NOT NULL
+);	
+CREATE TABLE licencas\_parametros (
+parametro character varying(50) NOT NULL,
+valor character varying(255) NOT NULL
+);	
+CREATE TABLE matriz\_empresa\_modulo (
+id integer NOT NULL,
+modulo character varying(255) NOT NULL,
+id\_empresa integer NOT NULL
+);	
+CREATE SEQUENCE matriz\_empresa\_modulo\_id\_seq
+START WITH 1
+INCREMENT BY 1
+NO MINVALUE
+NO MAXVALUE
+CACHE 1;
+ALTER SEQUENCE matriz\_empresa\_modulo\_id\_seq OWNED BY matriz\_empresa\_modulo.id;	
+CREATE TABLE plano (
+id integer NOT NULL,
+nome character varying(40) NOT NULL,
+qtd\_maxima\_filiais integer NOT NULL
+);
+CREATE SEQUENCE plano\_id\_seq
+START WITH 1
+INCREMENT BY 1
+NO MINVALUE
+NO MAXVALUE
+CACHE 1;	
+ALTER SEQUENCE plano\_id\_seq OWNED BY plano.id;	
+CREATE TABLE preco\_modulo (
+id integer NOT NULL,
+modulo character varying(30) NOT NULL,
+valor\_mensal\_fixo numeric(5,2) NOT NULL,
+valor\_por\_cnpj numeric(5,2) NOT NULL,
+id\_plano integer NOT NULL
+);
+CREATE SEQUENCE preco\_modulo\_id\_seq
+START WITH 1
+INCREMENT BY 1
+NO MINVALUE
+NO MAXVALUE
+CACHE 1;
+ALTER SEQUENCE preco\_modulo\_id\_seq OWNED BY preco\_modulo.id;
+CREATE TABLE schema\_version (
+version\_rank integer NOT NULL,
+installed\_rank integer NOT NULL,
+version character varying(50) NOT NULL,
+description character varying(200) NOT NULL,
+type character varying(20) NOT NULL,
+script character varying(1000) NOT NULL,
+checksum integer,
+installed\_by character varying(100) NOT NULL,
+installed\_on timestamp without time zone DEFAULT now() NOT NULL,
+execution\_time integer NOT NULL,
+success boolean NOT NULL
+);	
+CREATE TABLE usuario (
+id integer NOT NULL,
+nome character varying(255) NOT NULL,
+email character varying(255) NOT NULL,
+senha character varying(255) NOT NULL,
+id\_conta integer,
+ativo boolean DEFAULT false NOT NULL
+);	
+CREATE TABLE usuario\_grupo (
+id\_usuario integer NOT NULL,
+id\_grupo integer NOT NULL
+);
+CREATE SEQUENCE usuario\_id\_seq
+START WITH 1
+INCREMENT BY 1
+NO MINVALUE
+NO MAXVALUE
+CACHE 1;
+ALTER SEQUENCE usuario\_id\_seq OWNED BY usuario.id;	
+ALTER TABLE ONLY conta ALTER COLUMN id SET DEFAULT nextval('conta\_id\_seq'::regclass);
+ALTER TABLE ONLY conta\_plano ALTER COLUMN id SET DEFAULT nextval('conta\_plano\_id\_seq'::regclass);
+ALTER TABLE ONLY email\_log ALTER COLUMN id SET DEFAULT nextval('email\_log\_id\_seq'::regclass);	
+ALTER TABLE ONLY empresa ALTER COLUMN id SET DEFAULT nextval('empresa\_id\_seq'::regclass);
+ALTER TABLE ONLY filial ALTER COLUMN id SET DEFAULT nextval('filial\_id\_seq'::regclass);	
+ALTER TABLE ONLY grupo ALTER COLUMN id SET DEFAULT nextval('grupo\_id\_seq'::regclass);	
+ALTER TABLE ONLY matriz\_empresa\_modulo ALTER COLUMN id SET DEFAULT nextval('matriz\_empresa\_modulo\_id\_seq'::regclass);	
+ALTER TABLE ONLY plano ALTER COLUMN id SET DEFAULT nextval('plano\_id\_seq'::regclass);	
+ALTER TABLE ONLY preco\_modulo ALTER COLUMN id SET DEFAULT nextval('preco\_modulo\_id\_seq'::regclass);	
+ALTER TABLE ONLY usuario ALTER COLUMN id SET DEFAULT nextval('usuario\_id\_seq'::regclass);	
+ALTER TABLE ONLY conta
+ADD CONSTRAINT conta\_cnpj\_key UNIQUE (cnpj);	
+ALTER TABLE ONLY conta
+ADD CONSTRAINT conta\_pkey PRIMARY KEY (id)	
+ALTER TABLE ONLY conta\_plano
+ADD CONSTRAINT conta\_plano\_pkey PRIMARY KEY (id)	
+ALTER TABLE ONLY conta
+ADD CONSTRAINT conta\_razao\_social\_key UNIQUE (razao\_social);	
+ALTER TABLE ONLY email\_log
+ADD CONSTRAINT email\_log\_pkey PRIMARY KEY (id);	
+ALTER TABLE ONLY empresa
+ADD CONSTRAINT empresa\_cnpj\_key UNIQUE (cnpj);	
+ALTER TABLE ONLY empresa
+ADD CONSTRAINT empresa\_pkey PRIMARY KEY (id);	
+ALTER TABLE ONLY empresa
+ADD CONSTRAINT empresa\_razao\_social\_key UNIQUE (razao\_social);	
+ALTER TABLE ONLY filial
+ADD CONSTRAINT filial\_cnpj\_key UNIQUE (cnpj);
+ALTER TABLE ONLY filial
+ADD CONSTRAINT filial\_pkey PRIMARY KEY (id);
+ALTER TABLE ONLY grupo
+ADD CONSTRAINT grupo\_nome\_key UNIQUE (nome);
+ALTER TABLE ONLY grupo\_permissao
+ADD CONSTRAINT grupo\_permissao\_pkey PRIMARY KEY (id\_grupo, permissao);
+ALTER TABLE ONLY grupo
+ADD CONSTRAINT grupo\_pkey PRIMARY KEY (id);
+ALTER TABLE ONLY licencas\_parametros
+ADD CONSTRAINT licencas\_parametros\_pkey PRIMARY KEY (parametro);
+ALTER TABLE ONLY matriz\_empresa\_modulo
+ADD CONSTRAINT matriz\_empresa\_modulo\_pkey PRIMARY KEY (id)
+ALTER TABLE ONLY plano
+ADD CONSTRAINT plano\_nome\_key UNIQUE (nome);
+ALTER TABLE ONLY plano
+ADD CONSTRAINT plano\_pkey PRIMARY KEY (id);
+ALTER TABLE ONLY preco\_modulo
+ADD CONSTRAINT preco\_modulo\_pkey PRIMARY KEY (id);
+ALTER TABLE ONLY schema\_version
+ADD CONSTRAINT schema\_version\_pk PRIMARY KEY (version);
+ALTER TABLE ONLY conta\_plano
+ADD CONSTRAINT unique\_id\_conta\_id\_plano UNIQUE (id\_conta, id\_plano);
+ALTER TABLE ONLY matriz\_empresa\_modulo
+ADD CONSTRAINT unique\_modulo\_id\_empresa UNIQUE (modulo, id\_empresa);
+ALTER TABLE ONLY usuario
+ADD CONSTRAINT usuario\_email\_key UNIQUE (email);
+ALTER TABLE ONLY usuario\_grupo
+ADD CONSTRAINT usuario\_grupo\_pk PRIMARY KEY (id\_usuario, id\_grupo);
+ALTER TABLE ONLY usuario
+ADD CONSTRAINT usuario\_pkey PRIMARY KEY (id);
+CREATE INDEX schema\_version\_ir\_idx ON schema\_version USING btree (installed\_rank);
+CREATE INDEX schema\_version\_s\_idx ON schema\_version USING btree (success);
+CREATE INDEX schema\_version\_vr\_idx ON schema\_version USING btree (version\_rank);
+ALTER TABLE ONLY conta\_plano
+ADD CONSTRAINT id\_conta\_conta\_plano\_fk FOREIGN KEY (id\_conta) REFERENCES conta(id);
+ALTER TABLE ONLY empresa
+ADD CONSTRAINT id\_conta\_empresa\_fk FOREIGN KEY (id\_conta) REFERENCES conta(id);
+ALTER TABLE ONLY usuario
+ADD CONSTRAINT id\_conta\_usuario\_fk FOREIGN KEY (id\_conta) REFERENCES conta(id);
+ALTER TABLE ONLY filial
+ADD CONSTRAINT id\_empresa\_filial\_fk FOREIGN KEY (id\_empresa) REFERENCES empresa(id);
+ALTER TABLE ONLY matriz\_empresa\_modulo
+ADD CONSTRAINT id\_empresa\_matriz\_empresa\_modulo\_fk FOREIGN KEY (id\_empresa) REFERENCES empresa(id);
+ALTER TABLE ONLY grupo\_permissao
+ADD CONSTRAINT id\_grupo\_permissao\_fk FOREIGN KEY (id\_grupo) REFERENCES grupo(id)
+ALTER TABLE ONLY usuario\_grupo
+ADD CONSTRAINT id\_grupo\_usuario\_fk FOREIGN KEY (id\_grupo) REFERENCES grupo(id);
+
+ALTER TABLE ONLY conta\_plano
+ADD CONSTRAINT id\_plano\_conta\_plano\_fk FOREIGN KEY (id\_plano) REFERENCES plano(id);
+ALTER TABLE ONLY empresa
+ADD CONSTRAINT id\_plano\_empresa\_fk FOREIGN KEY (id\_plano) REFERENCES conta\_plano(id);
+ALTER TABLE ONLY preco\_modulo
+ADD CONSTRAINT id\_plano\_preco\_modulo\_fk FOREIGN KEY (id\_plano) REFERENCES plano(id);
+ALTER TABLE ONLY usuario\_grupo
+ADD CONSTRAINT id\_usuario\_grupo\_fk FOREIGN KEY (id\_usuario) REFERENCES usuario(id);

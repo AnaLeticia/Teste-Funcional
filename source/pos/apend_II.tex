@@ -1,5 +1,87 @@
 \chapter{Script de Inserção inicial no Banco}
 \label{apend:B}
-Texto do Apêndice~\ref{apend:B}.
 
-Apêndices são iniciados com o comando \verb|\apendices|.
+insert into usuario (id, nome, email, senha, ativo) values (1,  'João das Neves', 'john@email.com', 'Q7M8TXRCMRF6eqisOj1ylQMaX2MbeKhvXJ4CiXeulgjy1n2yxZApYThBdx3Ybhho', true);
+insert into usuario (id, nome, email, senha, ativo) values (2,  'Eduardo Estarque', 'dudu@email.com', 'Rte87uZVZfsgCsU4JZzDHEY2ePzoiRxSUo6J4MhNQanYKw6IsjgJVbljRgMw2GWT', true);
+insert into usuario (id, nome, email, senha, ativo) values (3,  'Roberto Estarque', 'roberto85@email.com', '5WBH7yqBuOWSlHsVPrcAvgL1Dn6aa74gf4mWY3awdffpG8MkLocb4h9saYe8SrGO', true);
+insert into usuario (id, nome, email, senha, ativo) values (4,  'Sonsa Estarque', 'sonsa@email.com', '5WBH7yqBuOWSlHsVPrcAvgL1Dn6aa74gf4mWY3awdffpG8MkLocb4h9saYe8SrGO', true);	
+insert into usuario (id, nome, email, senha, ativo) values (5,  'Breno Estarque', 'breno@email.com', '5WBH7yqBuOWSlHsVPrcAvgL1Dn6aa74gf4mWY3awdffpG8MkLocb4h9saYe8SrGO', true);	
+insert into usuario (id, nome, email, senha, ativo) values (6,  'Ariá Estarque', 'needle@email.com', '5WBH7yqBuOWSlHsVPrcAvgL1Dn6aa74gf4mWY3awdffpG8MkLocb4h9saYe8SrGO', true);	
+insert into usuario (id, nome, email, senha, ativo) values (7,  'Jofelino Barateão', 'jojo@email.com', '0s8oyOzCQ7M8TXRCMRF6eqisOj1ylQMaX2MbeKhvXJ4CiXeulgjy1n2yxZApYThB', true);
+insert into usuario (id, nome, email, senha, ativo) values (8,  'Cersei Lenister', 'cersei@email.com', 'q272gsr6f0mfosatme83d2cnopjr4frl7odd8uaelmj06jkioibrbe6pug8olp0i', true);
+insert into usuario (id, nome, email, senha, ativo) values (9,  'Djeime Lenister', 'djeimes\_bond@email.com', '53m3om710hqwr256b7ocbkswqrb372b3wnxa1t2r2iejb9fc7uf96zwngxgeph7b', true);
+insert into usuario (id, nome, email, senha, ativo) values (10, 'Tirão Lenister', 'tira1@email.com', 'wtcne467dageamh77n64drhjfnouwmxi7zxcss9xsf2ss9qqnnkq6r1b6gxrsj1q', true);
+insert into usuario (id, nome, email, senha, ativo) values (11, 'Deneris Targario', 'loirinha88@email.com', '8nsr6repy79g6pxk371zpr1lyn4hyuyx8ge5zjkngjtdzhnsfeiux97ln1sblhyk', true);
+insert into usuario (id, nome, email, senha, ativo) values (12, 'Visergio Targario', 'loirinho\_@email.com', 'n3fdcpqj0bmoi18o6gasg75tzowbwkladqdg7uqxw4c5ubkqhkaoi698ku965k79', true);
+insert into usuario (id, nome, email, senha, ativo) values (13, 'Sandro Clegueine', 'sandrao@email.com', 'dx3YbhhoRte87uZVZfsgCsU4JZzDHEY2ePzoiRxSUo6J4MhNQanYKw6IsjgJVblj', true);
+
+
+insert into grupo (id, nome) values (1, 'Casa Estarque');
+insert into grupo (id, nome) values (2, 'Casa Lenister');
+insert into grupo (id, nome) values (3, 'Casa Targario');
+
+-- grupo Estarque
+insert into usuario\_grupo (id\_usuario, id\_grupo) values (1, 1);
+insert into usuario\_grupo (id\_usuario, id\_grupo) values (2, 1);
+insert into usuario\_grupo (id\_usuario, id\_grupo) values (3, 1);
+insert into usuario\_grupo (id\_usuario, id\_grupo) values (4, 1);
+insert into usuario\_grupo (id\_usuario, id\_grupo) values (5, 1);
+insert into usuario\_grupo (id\_usuario, id\_grupo) values (6, 1);
+
+-- grupo Lenister
+insert into usuario\_grupo (id\_usuario, id\_grupo) values (7, 2);
+insert into usuario\_grupo (id\_usuario, id\_grupo) values (8, 2);
+insert into usuario\_grupo (id\_usuario, id\_grupo) values (9, 2);
+insert into usuario\_grupo (id\_usuario, id\_grupo) values (10, 2);
+
+-- grupo Targario
+insert into usuario\_grupo (id\_usuario, id\_grupo) values (11, 3);
+insert into usuario\_grupo (id\_usuario, id\_grupo) values (12, 3);
+
+
+insert into conta (id, razao\_social, cnpj, dia\_faturamento, email\_principal, ativo) values (1, 'Ferreiro'        , '27477435', 10, 'ferreiro@email.com', true);
+insert into conta (id, razao\_social, cnpj, dia\_faturamento, email\_principal, ativo) values (2, 'Acougueiro'      , '27927656', 10, 'acougueiro@email.com', true);
+insert into conta (id, razao\_social, cnpj, dia\_faturamento, email\_principal, ativo) values (3, 'Curtume'  , '94390062', 10, 'curtume@email.com', true);
+insert into conta (id, razao\_social, cnpj, dia\_faturamento, email\_principal, ativo) values (4, 'Casa das Pedras', '91601690', 10, 'cabare@email.com', true);
+
+insert into plano (id, nome, qtd\_maxima\_filiais) values (1, 'Plano Diamond', 1000);
+insert into plano (id, nome, qtd\_maxima\_filiais) values (2, 'Plano Platinum', 500);
+insert into plano (id, nome, qtd\_maxima\_filiais) values (3, 'Plano Gold', 100);
+insert into plano (id, nome, qtd\_maxima\_filiais) values (4, 'Plano Silver', 10);
+insert into plano (id, nome, qtd\_maxima\_filiais) values (5, 'Plano Bronze', 1);
+
+insert into conta\_plano (id, id\_plano, id\_conta, padrao) values (1, 4, 1, false);
+insert into conta\_plano (id, id\_plano, id\_conta, padrao) values (2, 4, 2, false);
+insert into conta\_plano (id, id\_plano, id\_conta, padrao) values (3, 4, 3, false);
+insert into conta\_plano (id, id\_plano, id\_conta, padrao) values (4, 5, 4, false);
+
+insert into preco\_modulo (id, modulo, valor\_mensal\_fixo, valor\_por\_cnpj, id\_plano) values (1, 'Emissão', 999.0, 50.00, 1);
+insert into preco\_modulo (id, modulo, valor\_mensal\_fixo, valor\_por\_cnpj, id\_plano) values (2, 'Recebimento', 999.0, 50.00, 1);
+insert into preco\_modulo (id, modulo, valor\_mensal\_fixo, valor\_por\_cnpj, id\_plano) values (3, 'Emissão', 999.0, 25.00, 2);
+insert into preco\_modulo (id, modulo, valor\_mensal\_fixo, valor\_por\_cnpj, id\_plano) values (4, 'Recebimento', 999.0, 25.00, 2);
+insert into preco\_modulo (id, modulo, valor\_mensal\_fixo, valor\_por\_cnpj, id\_plano) values (5, 'Emissão', 999.0, 10.00, 3);
+insert into preco\_modulo (id, modulo, valor\_mensal\_fixo, valor\_por\_cnpj, id\_plano) values (6, 'Recebimento', 999.0, 10.00, 3);
+insert into preco\_modulo (id, modulo, valor\_mensal\_fixo, valor\_por\_cnpj, id\_plano) values (7, 'Emissão', 999.0, 5.00, 4);
+insert into preco\_modulo (id, modulo, valor\_mensal\_fixo, valor\_por\_cnpj, id\_plano) values (8, 'Recebimento', 999.0, 5.00, 4);
+insert into preco\_modulo (id, modulo, valor\_mensal\_fixo, valor\_por\_cnpj, id\_plano) values (9, 'Emissão', 999.0, 1.00, 5);
+insert into preco\_modulo (id, modulo, valor\_mensal\_fixo, valor\_por\_cnpj, id\_plano) values (10, 'Recebimento', 999.0, 1.00, 5);
+
+
+insert into empresa (id, ativo, cnpj, razao\_social, id\_conta, id\_plano) values (1, true, '27477435', 'Ferreiro', 1, 1);
+insert into empresa (id, ativo, cnpj, razao\_social, id\_conta, id\_plano) values (2, true, '27927656', 'Acougueiro', 2, 2);
+insert into empresa (id, ativo, cnpj, razao\_social, id\_conta, id\_plano) values (3, true, '94390062', 'Curtume', 3, 3);
+insert into empresa (id, ativo, cnpj, razao\_social, id\_conta, id\_plano) values (4, true, '91601690', 'Casa das Pedras', 4, 4);
+
+
+insert into filial (id, razao\_social, cnpj, data\_insercao, id\_empresa) values (1, 'Ferreiro de Quins-Lêndim', '27477435000188', current\_date, 1);
+insert into filial (id, razao\_social, cnpj, data\_insercao, id\_empresa) values (2, 'Ferreiro de Casterli-róqui', '27477435000200', current\_date, 1);
+
+insert into filial (id, razao\_social, cnpj, data\_insercao, id\_empresa) values (3, 'Acougueiro de Uinterféu', '27927656000100', current\_date, 2);
+insert into filial (id, razao\_social, cnpj, data\_insercao, id\_empresa) values (4, 'Acougueiro de Ninho da Aguia', '27927656000230', current\_date, 2);
+
+insert into filial (id, razao\_social, cnpj, data\_insercao, id\_empresa) values (5, 'Curtume de Riverrum', '94390062000109', current\_date, 3);
+insert into filial (id, razao\_social, cnpj, data\_insercao, id\_empresa) values (6, 'Curtume da Muralha', '94390062000290', current\_date, 3);
+
+insert into filial (id, razao\_social, cnpj, data\_insercao, id\_empresa) values (7, 'Casa das Pedras de Quins-Lêndim', '91601690000190', current\_date, 4);
+
+
