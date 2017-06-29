@@ -67,7 +67,6 @@ Na Tabela \ref{tab:elementoRequiridoIntraTabelaChavePrimariaRestricaoUnicidade} 
 		 & Duas tuplas possuem o mesmo valor para o atributo \textit{razao\_social}
 		 & O atributo razao\_social da tabela conta é único, então o BD respeitou a restrição de unicidade\\
 		 
-		 
 		 \hline plano 
 		 & id 
 		 & Duas tuplas não podem ter o mesmo valor de chave primária do atributo \textit{id}
@@ -99,7 +98,7 @@ Na Tabela \ref{tab:elementoRequiridoIntraTabelaChavePrimariaRestricaoUnicidade} 
 Na Tabela \ref{tab:elementoRequiridoIntraTabelaChavePrimariaRestricaoEntidade} são apresentados os elementos requeridos pelo critério Restrição de Entidade. Nesta tabela são mostradas as chaves primárias de cada Entidade usada no exemplo da Figura \ref{fig:figura3}.
 
 \begin{table*}[hp]
-	\caption{Restrição de Chave Primária : Restrição de Unicidade}
+	\caption{Restrição de Chave Primária : Restrição de Entidade}
 	\label{tab:elementoRequiridoIntraTabelaChavePrimariaRestricaoEntidade} 
 	\begin{tabular}{|c|c|p{3cm}|p{3cm}|p{3cm}|}
 		\hline \textbf{Tabela} & \textbf{Atributo} & \textbf{Classes válidas} & \textbf{Classes inválidas} & \textbf{Saída esperada}\\ 
@@ -171,14 +170,18 @@ Nas Tabelas \ref{tab:elementoRequiridoIntraTabelaRestricaoDominioEmpresa} a 6.22
 \begin{table*}[p]
 	\caption{Restrição de Domínio de Atributo da tabela empresa}
 	\label{tab:elementoRequiridoIntraTabelaRestricaoDominioEmpresa} 
-	\begin{tabular}{|c|c|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
-		\hline Tabela\\
-		\multicolumn{6}{|l|}{\textit{empresa}}\\
+	\begin{tabular}{|c|c|p{2cm}|p{3cm}|p{3cm}|p{2cm}|}
+		\hline \textbf{Tabela} & \multicolumn{5}{|l|}{\textit{empresa}}\\
+		 %\multicolumn{6}{|l|}{\textit{empresa}}\\
 		\hline \textbf{Atributo} & \textbf{Classes válidas} & \textbf{Classes inválidas} & \textbf{Classes Inválidas Limite Superior} & \textbf{Classes Inválidas Limite Inferior} & \textbf{Saída Esperada}\\ 
 		\hline id 
-		& -20 
+		& -2147483648 
+		\\geq int \\geq 2147483647
+		não nulo
+		
 		& int < -2
-		& int = 223101320938
+		& int = 
+		223101320938
 		& int = - 212321
 		& Código da empresa com domínio correto\\ 
 	
