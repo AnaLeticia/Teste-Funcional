@@ -1,11 +1,17 @@
 \chapter{Introdução}
 \label{cap:intro}
 
-A onipresença de software ao redor do globo é indiscutível. Consumimos (e produzimos) em uma escala imensurável pelos mais otimistas de tempos passados. Temos contato
+A onipresença de software ao redor do planeta é indiscutível. Produzimos e, principalmente,  consumimos em uma escala inimaginável até mesmo pelos mais otimistas de tempos passados. Vivemos em constante contato, mesmo que às vezes seja um contato discreto e inconsciente. Lidamos com software ao acordarmos, ao usarmos um elevador, ao entrarmos em nossos veículos, durante o trabalho, ao comprar uma passagem aérea, ao agendar um quarto de hotel. Ele está no celular, na TV, no carro, em relógios e até em roupas. Em nossas residências, no banco, no hospital, na loteria e no \textit{happy hour} da sexta-feira à noite. É até complexo imaginar uma atividade cotidiana em que não envolva nenhum tipo de interação com algum tipo de sistema.
 
-A qualidade de software aos poucos vem ocupando seu espaço no processo de desenvolvimento de um software. O testes de software em si, é a principal etapa para que a qualidade seja garantida. Foram realizados alguns trabalhos e pesquisa com base nas diversas técnicas de testes, importantes para a realização deste trabalho em si.
+Um software basicamente, a grosso modo, faz duas coisas: cálculos e manipulação de dados. Os cálculos são realizados em uma unidade processadora (\nameref{sigla:CPU}, \nameref{sigla:GPU} etc) em conjunto com memórias de rápido acesso, e geralmente o estado do processamento precisa ser armazenado em um meio persistente para posterior recuperação. Desde a década de 70, com a introdução do conceito de base de dados relacional proposto por Codd\cite{Codd1970} e com os trabalhos posteriores a ele, esta tem sido a opção mais comumente adotada em projetos de software: persistir informações em um banco de dados relacional.
 
-Souza \cite{Souza} realizou uma pesquisa a qual foi a base para alguns critérios de testes aplicados neste trabalho. Ela propôs alguns critérios de testes em Banco de Dados Relacional baseados na especificação de requisitos através da UML. Para apoiar a aplicação dos conjuntos de critérios propostos, foi desenvolvido uma abordagem denominada mapeamento Conceitual de Informação.
+A qualidade do software aos poucos vem ocupando espaço no seu processo de desenvolvimento. O teste de software em si é a principal etapa para que a qualidade seja garantida. Testes unitários e funcionais (geralmente manuais), são frequentemente os mais exercitados nos projetos. Porém, o teste de banco de dados raramente é realizado, quando muito, conhecido.
+
+Foram realizados alguns trabalhos e pesquisa com base nas diversas técnicas de testes, importantes para a realização deste trabalho em si. 
+
+Souza, 2008\cite{Souza} realizou uma pesquisa a qual foi a base para alguns critérios de testes aplicados neste trabalho. Ela propôs alguns critérios de testes em Banco de Dados Relacionais baseados na especificação de requisitos através da \nameref{sigla:UML}. Para apoiar a aplicação dos conjuntos de critérios propostos, foi desenvolvido uma abordagem denominada mapeamento Conceitual de Informação. Esse mapeamento foi o resultado de estudo e pesquisa para chegar a conclusão da importância dos critérios para se testar um \nameref{sigla:ABDR}.
+
+Cabeça, et. al, 2008\cite{Cabeca} definiram que o teste de mutação em \nameref{sigla:SQL} é uma das formas de contribuição para a detecção de defeitos não detectados no banco de dados e que podem resultar em corrupção irrecuperável dos dados e SQL é a interface mais ampla usada em aplicações de banco de dados. Eles realizaram experimento em SQL com teste de mutantes que pode constatar uma boa contribuição na detecção de defeitos.
 
 
 %% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -115,3 +121,7 @@ Sistema Gerenciador de Banco de Dados
 \paragraph{SQL}
 \label{sigla:SQL}
 Structured Query Language
+
+\paragraph{UML}
+\label{sigla:UML}
+Unified Modeling Language
