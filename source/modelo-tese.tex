@@ -1,4 +1,3 @@
-% Exemplo de dissertacao do INF-UFG com texto em portugues formatado com LaTeX
 \documentclass[relatorio]{inf-ufg}
 % OpÁıes da classe inf-ufg (ao usar mais de uma, separe por vi≠rgulas)
 %   [tese]         -> Tese de doutorado.
@@ -11,13 +10,10 @@
 %                     da vers„o final do seu texto!!!
 
 \usepackage{placeins}
-%\usepackage[utf8]{inputenc}
+\usepackage{longtable}
 
-
-%----------------------------------------------------- INICIO DO DOCUMENTO %
 \begin{document}
 
-%------------------------------------------ AUTOR, TÕTULO E DATA DE DEFESA %
 \autor{Ana LetÌcia Herculano da Silva}
 \autorR{Silva, Ana LetÌcia Herculano da}
 
@@ -29,19 +25,15 @@
 \mes{07} % Data da apresentaÁ„o/defesa do trabalho
 \ano{2017} % Formato numÈrico: \dia{01}, \mes{01} e \ano{2009}
 
-%-------------------------------------------------------------- ORIENTADOR %
 \orientador{C·ssio Leonardo Rodrigues}
 \orientadorR{Rodrigues, C·ssio Leonardo}
-
 
 \coorientador{Dr. Edmundo SÈrgio Spoto}
 \coorientadorR{Dr. Spoto, Edmundo SÈrgio}
 
-%-------------------------------------------------- INSTITUI«√O E PROGRAMA %
 \universidade{Universidade Federal de Goi·s}
 \uni{UFG}
 \unidade{Instituto de Inform·tica}
-
 
 \universidadeco{ Universidade Federal de Goi·s}
 \unico{UFG}
@@ -64,23 +56,9 @@
 \input{./pre/pre_abstract}
 
 \tabelas[figtab]
-%OpÁıes:
-%nada [] -> Gera apenas o sum·rio
-%fig     -> Gera o sum·rio e a lista de figuras
-%tab     -> Sum·rio e lista de tabelas
-%alg     -> Sum·rio e lista de algoritmos
-%cod     -> Sum·rio e lista de cÛdigos de programas
-%
-% Pode-se usar qualquer combinaÁ„o dessas opÁıes.
-% Por exemplo:
-%  figtab       -> Sum·rio e listas de figuras e tabelas
-%  figtabcod    -> Sum·rio e listas de figuras, tabelas e
-%                  cÛdigos de programas
-%  figtabalg    -> Sum·rio e listas de figuras, tabelas e algoritmos
-%  figtabalgcod -> Sum·rio e listas de figuras, tabelas, algoritmos e
-%                  cÛdigos de programas
 
-%--------------------------------------------------------------- CAP√çTULOS %
+
+%--------------------------------------------------------------- CAPITULOS %
 \input{./tex/cap_I}
 \input{./tex/cap_II}
 \input{./tex/cap_III}
@@ -108,7 +86,3 @@
 
 
 \end{document}
-
-%------------------------------------------------------------------------- %
-%        F I M   D O  A R Q U I V O :  m o d e l o - t e s e . t e x       %
-%------------------------------------------------------------------------- %

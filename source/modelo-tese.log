@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.6.20)  29 JUN 2017 02:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.6.20)  29 JUN 2017 03:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -485,42 +485,60 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip110
+\LTright=\skip111
+\LTpre=\skip112
+\LTpost=\skip113
+\LTchunksize=\count116
+\LTcapwidth=\dimen127
+\LT@head=\box38
+\LT@firsthead=\box39
+\LT@foot=\box40
+\LT@lastfoot=\box41
+\LT@cols=\count117
+\LT@rows=\count118
+\c@LT@tables=\count119
+\c@LT@chunks=\count120
+\LT@p@ftn=\toks22
+)
 (./modelo-tese.aux)
 \openout1 = `modelo-tese.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 18.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 18
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 15
 .
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-\AtBeginShipoutBox=\box38
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+\AtBeginShipoutBox=\box42
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count116
-\scratchdimen=\dimen127
-\scratchbox=\box39
-\nofMPsegments=\count117
-\nofMParguments=\count118
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count119
-\MPscratchDim=\dimen128
-\MPnumerator=\count120
-\makeMPintoPDFobject=\count121
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count121
+\scratchdimen=\dimen128
+\scratchbox=\box43
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen129
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
+\everyMPtoPDFconversion=\toks24
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
@@ -528,19 +546,19 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 18.
-Package hyperref Info: Link coloring ON on input line 18.
+(lastpage)             ! on input line 15.
+Package hyperref Info: Link coloring ON on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count122
+\c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
 
 (./modelo-tese.out) (./modelo-tese.out)
 \@outlinefile=\write4
@@ -563,102 +581,106 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 54.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 54.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 54.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 54.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 54.
+(babel)             in language  on input line 46.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 46.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 54.
-
-[1
+(babel)             in language  on input line 46.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 55.
+(babel)             in language  on input line 47.
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 55.
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 47.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 55.
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 55
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 47.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 47
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 55
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 47
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 55
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 47
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+LaTeX Font Info:    Try loading font information for U+msa on input line 47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 [] $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 [] $[]$
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 55.
+(babel)             in language  on input line 47.
 [1]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 56.
+(babel)             in language  on input line 48.
 
-Underfull \hbox (badness 1052) in paragraph at lines 56--56
+Underfull \hbox (badness 1052) in paragraph at lines 48--48
 []\T1/ptm/m/n/12 Trabalho de Con-clu-são apre-sen-tado à Co-or-de-na-ção do
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 56.
+(babel)             in language  on input line 48.
 [1] (./pre/pre_aprovacao.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 5.
+(babel)             in language  on input line 5.
  [2
 
 ]) (./pre/pre_direitos.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
@@ -666,61 +688,61 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 10.79993pt on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
  [3
 
 ])
 (./pre/pre_dedicatoria.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 3.
+(babel)             in language  on input line 3.
  [4
 
 ]) (./pre/pre_agradecimentos.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 12.
+(babel)             in language  on input line 12.
  [5
 
 ])
 (./pre/pre_epigrafe.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 3.
+(babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 3.
+(babel)             in language  on input line 3.
  [6
 
 ]) (./pre/pre_resumo.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 3.
+(babel)             in language  on input line 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
 []$[]$
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 5.
+(babel)             in language  on input line 5.
 [7
 
 ]) (./pre/pre_abstract.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 3.
+(babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 5.
+(babel)             in language  on input line 7.
  [8
 
 ])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 66.
+(babel)             in language  on input line 58.
  (./modelo-tese.toc
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 5.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 32.
+(Font)              scaled to size 8.99994pt on input line 33.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 50.
+(babel)             in language  on input line 51.
  [9
 
 
@@ -730,36 +752,36 @@ Package babel Info: Redefining portuges shorthand "|
 \openout5 = `modelo-tese.toc'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 66.
+(babel)             in language  on input line 58.
  [10]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 66.
+(babel)             in language  on input line 58.
 
 (./modelo-tese.lof)
 \tf@lof=\write6
 \openout6 = `modelo-tese.lof'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 66.
+(babel)             in language  on input line 58.
  [11
 
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 66.
+(babel)             in language  on input line 58.
  (./modelo-tese.lot)
 \tf@lot=\write7
 \openout7 = `modelo-tese.lot'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 66.
+(babel)             in language  on input line 58.
  [12
 
 
 ] (./tex/cap_I.tex
 Cap\'{\i }tulo 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
@@ -769,64 +791,67 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 12.
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 19.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 27.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 31.
+(babel)             in language  on input line 15.
 [13
 
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 33.
+(babel)             in language  on input line 18.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 25.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 52.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 77.
- [14]) (./tex/cap_II.tex
+(babel)             in language  on input line 39.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
- [15]
+(babel)             in language  on input line 50.
+ [14]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 58.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 123.
+ [15]) (./tex/cap_II.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+ [16]
 Cap\'{\i }tulo 2.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 5.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 21.
-[16
+(babel)             in language  on input line 21.
+[17
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 29.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 42.
- [17]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 60.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 66.
+(babel)             in language  on input line 42.
  [18]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 90.
+(babel)             in language  on input line 60.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 66.
  [19]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 105.
+(babel)             in language  on input line 90.
+ [20]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 115.
- [20]) (./tex/cap_III.tex
+(babel)             in language  on input line 105.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
- [21]
+(babel)             in language  on input line 115.
+ [21]) (./tex/cap_III.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+ [22]
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 12.
-[22
+(babel)             in language  on input line 12.
+[23
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
@@ -852,7 +877,7 @@ Underfull \hbox (badness 1946) in paragraph at lines 15--16
 cr/m/n/12 r(R) \T1/ptm/m/n/12 é um con-junto de vá-rias tu-plas
  []
 
-<./fig/figura1.png, id=497, 1210.5225pt x 333.245pt>
+<./fig/figura1.png, id=512, 1210.5225pt x 333.245pt>
 File: ./fig/figura1.png Graphic file (type png)
  <use ./fig/figura1.png>
 Package pdftex.def Info: ./fig/figura1.png used on input line 21.
@@ -860,57 +885,57 @@ Package pdftex.def Info: ./fig/figura1.png used on input line 21.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 22.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 30.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 39.
+(babel)             in language  on input line 39.
 
-[23 <./fig/figura1.png>]
+[24 <./fig/figura1.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 45.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 45.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 57.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 64.
- [24]
+(babel)             in language  on input line 64.
+ [25]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 64.
+(babel)             in language  on input line 64.
 
-<./fig/figura2.png, id=523, 749.80125pt x 645.41125pt>
+<./fig/figura2.png, id=537, 749.80125pt x 645.41125pt>
 File: ./fig/figura2.png Graphic file (type png)
  <use ./fig/figura2.png>
 Package pdftex.def Info: ./fig/figura2.png used on input line 80.
 (pdftex.def)             Requested size: 384.10959pt x 330.63261pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 84.
+(babel)             in language  on input line 84.
 
-[25]
+[26]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 86.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 96.
+(babel)             in language  on input line 96.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 101.
- [26 <./fig/figura2.png>]) (./tex/cap_IV.tex
+(babel)             in language  on input line 101.
+ [27 <./fig/figura2.png>]) (./tex/cap_IV.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
- [27]
+(babel)             in language  on input line 1.
+ [28]
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 4.
+(babel)             in language  on input line 4.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 26.
-[28
+(babel)             in language  on input line 26.
+[29
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 28.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 34.
- <./fig/figura4.png, id=560, 1197.47375pt x 411.5375pt>
+(babel)             in language  on input line 34.
+ <./fig/figura4.png, id=575, 1197.47375pt x 411.5375pt>
 File: ./fig/figura4.png Graphic file (type png)
 
 <use ./fig/figura4.png>
@@ -922,43 +947,43 @@ Underfull \hbox (badness 3942) in paragraph at lines 50--50
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 53.
-[29]
+(babel)             in language  on input line 53.
+[30]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 55.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 74.
- [30 <./fig/figura4.png>]) (./tex/cap_V.tex
+(babel)             in language  on input line 74.
+ [31 <./fig/figura4.png>]) (./tex/cap_V.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
- [31]
+(babel)             in language  on input line 1.
+ [32]
 Cap\'{\i }tulo 5.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
-<./fig/figura3.jpg, id=584, 961.5925pt x 789.95125pt>
+(babel)             in language  on input line 1.
+<./fig/figura3.jpg, id=598, 961.5925pt x 789.95125pt>
 File: ./fig/figura3.jpg Graphic file (type jpg)
  <use ./fig/figura3.jpg>
 Package pdftex.def Info: ./fig/figura3.jpg used on input line 31.
 (pdftex.def)             Requested size: 384.10959pt x 315.55301pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 35.
+(babel)             in language  on input line 35.
 
-[32
+[33
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 48.
- [33 <./fig/figura3.jpg>]) (./tex/cap_VI.tex
+(babel)             in language  on input line 48.
+ [34 <./fig/figura3.jpg>]) (./tex/cap_VI.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
- [34]
+(babel)             in language  on input line 1.
+ [35]
 Cap\'{\i }tulo 6.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 5.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 12.
+(babel)             in language  on input line 12.
 
 Underfull \hbox (badness 1412) in paragraph at lines 24--25
 []\T1/ptm/m/n/12 Duas tu-plas não
@@ -1393,305 +1418,353 @@ Overfull \hbox (37.26627pt too wide) in paragraph at lines 20--97
 LaTeX Warning: Float too large for page by 365.143pt on input line 97.
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 110--111
+Underfull \hbox (badness 2142) in paragraph at lines 109--110
 \T1/ptm/m/it/12 id \T1/ptm/m/n/12 con-tém va-lor
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 116--117
+Underfull \hbox (badness 2142) in paragraph at lines 115--116
 \T1/ptm/m/it/12 id \T1/ptm/m/n/12 con-tém va-lor
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 117--118
+Underfull \hbox (badness 2961) in paragraph at lines 116--117
 []\T1/ptm/m/n/12 A chave pri-má-
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 123--124
+Underfull \hbox (badness 2142) in paragraph at lines 122--123
 \T1/ptm/m/it/12 id \T1/ptm/m/n/12 con-tém va-lor
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 124--125
+Underfull \hbox (badness 4391) in paragraph at lines 123--124
 \T1/ptm/m/n/12 da ta-bela \T1/ptm/m/it/12 conta
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 129--130
+Underfull \hbox (badness 2142) in paragraph at lines 128--129
 \T1/ptm/m/it/12 id \T1/ptm/m/n/12 con-tém va-lor
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 130--131
+Underfull \hbox (badness 3735) in paragraph at lines 129--130
 \T1/ptm/m/n/12 da ta-bela \T1/ptm/m/it/12 plano
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 135--136
+Underfull \hbox (badness 2142) in paragraph at lines 134--135
 \T1/ptm/m/it/12 id \T1/ptm/m/n/12 con-tém va-lor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 []\T1/ptm/m/n/12 A chave pri-
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 136--137
+Underfull \hbox (badness 3746) in paragraph at lines 135--136
 \T1/ptm/m/n/12 má-ria da ta-bela
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 136--137
+Underfull \hbox (badness 2181) in paragraph at lines 135--136
 \T1/ptm/m/it/12 conta_plano \T1/ptm/m/n/12 não
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 141--142
+Underfull \hbox (badness 2142) in paragraph at lines 140--141
 \T1/ptm/m/it/12 id \T1/ptm/m/n/12 con-tém va-lor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 []\T1/ptm/m/n/12 A chave pri-
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 142--143
+Underfull \hbox (badness 3746) in paragraph at lines 141--142
 \T1/ptm/m/n/12 má-ria da ta-bela
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 \T1/ptm/m/it/12 preco_modulo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 \T1/ptm/m/n/12 nulo, en-tão o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 \T1/ptm/m/n/12 BD res-pei-tou
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 \T1/ptm/m/n/12 a res-tri-ção de
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 147--148
+Underfull \hbox (badness 2142) in paragraph at lines 146--147
 \T1/ptm/m/it/12 id \T1/ptm/m/n/12 con-tém va-lor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 \T1/ptm/m/n/12 da ta-bela \T1/ptm/m/it/12 ma-
  []
 
 
-Overfull \hbox (18.86064pt too wide) in paragraph at lines 148--149
+Overfull \hbox (18.86064pt too wide) in paragraph at lines 147--148
 \T1/ptm/m/it/12 triz_empresa_modulo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 \T1/ptm/m/n/12 nulo, en-tão o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 \T1/ptm/m/n/12 BD res-pei-tou
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 \T1/ptm/m/n/12 a res-tri-ção de
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 153--154
+Underfull \hbox (badness 2142) in paragraph at lines 152--153
 \T1/ptm/m/it/12 id \T1/ptm/m/n/12 con-tém va-lor
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 159--160
+Underfull \hbox (badness 2142) in paragraph at lines 158--159
 \T1/ptm/m/it/12 id \T1/ptm/m/n/12 con-tém va-lor
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 160--161
+Underfull \hbox (badness 2626) in paragraph at lines 159--160
 \T1/ptm/m/n/12 da ta-bela \T1/ptm/m/it/12 grupo
  []
 
 
-Overfull \hbox (53.0217pt too wide) in paragraph at lines 105--164
+Overfull \hbox (53.0217pt too wide) in paragraph at lines 104--163
 [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 204.44307pt on input line 164.
+LaTeX Warning: Float too large for page by 204.44307pt on input line 163.
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 177--177
+\T1/ptm/b/n/12 mite In-fe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+[]\T1/ptm/b/n/12 Saída
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+[]\T1/ptm/m/n/12 int =
+ []
+
+
+Overfull \hbox (15.0945pt too wide) in paragraph at lines 181--182
+\T1/ptm/m/n/12 223101320938| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+[]\T1/ptm/m/n/12 int = -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+[]\T1/ptm/m/n/12 Código
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\T1/ptm/m/n/12 da em-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\T1/ptm/m/n/12 presa com
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\T1/ptm/m/n/12 do-mí-nio
+ []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 170.
+(babel)             in language  on input line 190.
 ) (./tex/cap_VII.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
- [35
+(babel)             in language  on input line 1.
+ [36
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
- [36]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
  [37]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+ [38]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+ [39]
 Cap\'{\i }tulo 7.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 5.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 9.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 16.
+(babel)             in language  on input line 28.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 34.
+[40
 
-Overfull \hbox (36.72882pt too wide) in paragraph at lines 30--38
+]
+Overfull \hbox (36.72882pt too wide) in paragraph at lines 42--50
  [][] 
  []
 
-<./fig/unicidade.png, id=628, 286.06876pt x 250.9375pt>
+<./fig/unicidade.png, id=653, 286.06876pt x 250.9375pt>
 File: ./fig/unicidade.png Graphic file (type png)
 
 <use ./fig/unicidade.png>
-Package pdftex.def Info: ./fig/unicidade.png used on input line 52.
+Package pdftex.def Info: ./fig/unicidade.png used on input line 64.
 (pdftex.def)             Requested size: 192.0548pt x 168.47185pt.
- <./fig/dominio.png, id=629, 289.08pt x 255.95625pt>
+ <./fig/dominio.png, id=654, 289.08pt x 255.95625pt>
 File: ./fig/dominio.png Graphic file (type png)
 
 <use ./fig/dominio.png>
-Package pdftex.def Info: ./fig/dominio.png used on input line 57.
+Package pdftex.def Info: ./fig/dominio.png used on input line 69.
 (pdftex.def)             Requested size: 192.0548pt x 170.04863pt.
 
-<./fig/referencial.png, id=630, 295.1025pt x 254.9525pt>
+<./fig/referencial.png, id=655, 295.1025pt x 254.9525pt>
 File: ./fig/referencial.png Graphic file (type png)
 
 <use ./fig/referencial.png>
-Package pdftex.def Info: ./fig/referencial.png used on input line 62.
+Package pdftex.def Info: ./fig/referencial.png used on input line 74.
 (pdftex.def)             Requested size: 192.0548pt x 165.92722pt.
 
-<./fig/total.png, id=631, 299.1175pt x 259.97125pt>
+<./fig/total.png, id=656, 299.1175pt x 259.97125pt>
 File: ./fig/total.png Graphic file (type png)
  <use ./fig/total.png>
-Package pdftex.def Info: ./fig/total.png used on input line 67.
+Package pdftex.def Info: ./fig/total.png used on input line 79.
 (pdftex.def)             Requested size: 192.0548pt x 166.92052pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 73.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 77.
-[38
-
-] <./fig/operadores.png, id=647, 572.1375pt x 320.19624pt>
+(babel)             in language  on input line 85.
+<./fig/operadores.png, id=668, 572.1375pt x 320.19624pt>
 File: ./fig/operadores.png Graphic file (type png)
 
 <use ./fig/operadores.png>
-Package pdftex.def Info: ./fig/operadores.png used on input line 81.
+Package pdftex.def Info: ./fig/operadores.png used on input line 93.
 (pdftex.def)             Requested size: 384.10959pt x 214.97008pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 85.
- [39 <./fig/unicidade.png> <./fig/dominio.png> <./fig/referencial.png> <./fig/t
-otal.png>]
+(babel)             in language  on input line 97.
+ [41]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 87.
-
-Overfull \hbox (130.12683pt too wide) in paragraph at lines 101--101
+(babel)             in language  on input line 99.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 104.
+ [42 <./fig/unicidade.png> <./fig/dominio.png> <./fig/referencial.png> <./fig/t
+otal.png> <./fig/operadores.png>]
+Overfull \hbox (130.12683pt too wide) in paragraph at lines 113--113
 []\T1/pcr/m/n/12 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.
 id, CP.id_plano, U.nome, C.id[] 
  []
 
 
-Overfull \hbox (130.12683pt too wide) in paragraph at lines 114--114
+Overfull \hbox (130.12683pt too wide) in paragraph at lines 126--126
 []\T1/pcr/m/n/12 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.
 id, CP.id_plano, U.nome, C.id[] 
  []
 
 
-Overfull \hbox (130.12683pt too wide) in paragraph at lines 125--125
-[]\T1/pcr/m/n/12 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.
-id, CP.id_plano, U.nome, C.id[] 
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 125.
-[40 <./fig/operadores.png>]
-Overfull \hbox (130.12683pt too wide) in paragraph at lines 136--136
+Overfull \hbox (130.12683pt too wide) in paragraph at lines 137--137
 []\T1/pcr/m/n/12 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.
 id, CP.id_plano, U.nome, C.id[] 
  []
 
 
-Overfull \hbox (130.12683pt too wide) in paragraph at lines 147--147
+Overfull \hbox (130.12683pt too wide) in paragraph at lines 148--148
+[]\T1/pcr/m/n/12 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.
+id, CP.id_plano, U.nome, C.id[] 
+ []
+
+
+Overfull \hbox (130.12683pt too wide) in paragraph at lines 159--159
 []\T1/pcr/m/n/12 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.
 id, CP.id_plano, U.nome, C.id[] 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 179.
+(babel)             in language  on input line 159.
+[43]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 193.
-[41]
+(babel)             in language  on input line 191.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 259.
+(babel)             in language  on input line 205.
+ [44]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 263.
- [42]
+(babel)             in language  on input line 271.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 263.
- [43]
-Overfull \hbox (160.72673pt too wide) in paragraph at lines 268--268
+(babel)             in language  on input line 275.
+ [45]
+Overfull \hbox (160.72673pt too wide) in paragraph at lines 280--280
 []\T1/pcr/m/n/12 WHERE nome Like 'A%';  // onde a letra A pode ser uma entrada 
 de dado de uma ou mais caracteres.[] 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 322.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 326.
-[44] <./fig/mutantes.png, id=687, 325.215pt x 245.91875pt>
+(babel)             in language  on input line 338.
+[46] <./fig/mutantes.png, id=708, 325.215pt x 245.91875pt>
 File: ./fig/mutantes.png Graphic file (type png)
 
 <use ./fig/mutantes.png>
-Package pdftex.def Info: ./fig/mutantes.png used on input line 350.
+Package pdftex.def Info: ./fig/mutantes.png used on input line 362.
 (pdftex.def)             Requested size: 256.0774pt x 193.65453pt.
 ) (./tex/cap_VIII.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
- [45 <./fig/mutantes.png>]
+(babel)             in language  on input line 1.
+ [47 <./fig/mutantes.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 
-[46]
+[48]
 Cap\'{\i }tulo 8.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 92.
- [47
+(babel)             in language  on input line 70.
+ [49
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 94.
- [48] (./modelo-tese.bbl
+(babel)             in language  on input line 72.
+ [50] (./modelo-tese.bbl
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
 (Font)              scaled to size 10.79993pt on input line 4.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
@@ -1699,36 +1772,269 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 10.79993pt on input line 33.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 91.
- [49
+(babel)             in language  on input line 91.
+ [51
 
 
 ])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 102.
- [50] (./pos/apend_I.tex
+(babel)             in language  on input line 80.
+ [52] (./pos/apend_I.tex
 Ap\^endice A.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
-) (./pos/apend_II.tex
+(babel)             in language  on input line 1.
+
+Underfull \hbox (badness 1057) in paragraph at lines 5--250
+\T1/ptm/m/n/12 NULL, nome cha-rac-ter varying(40) NOT NULL, qtd_maxima_filiais 
+in-te-ger NOT
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--250
+\T1/ptm/m/n/12 AL-TER CO-LUMN id SET DE-FAULT next-val('conta_plano_id_seq'::re
+gclass);
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 5--250
+\T1/ptm/m/n/12 AL-TER TA-BLE ONLY email_log AL-TER CO-LUMN id SET DE-FAULT next
+-
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 5--250
+\T1/ptm/m/n/12 AL-TER TA-BLE ONLY ma-triz_empresa_modulo AL-TER CO-LUMN id SET 
+DE-
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 5--250
+\T1/ptm/m/n/12 FAULT next-val('matriz_empresa_modulo_id_seq'::regclass); AL-TER
+ TA-BLE ONLY
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 5--250
+\T1/ptm/m/n/12 TER TA-BLE ONLY preco_modulo AL-TER CO-LUMN id SET DE-FAULT next
+-
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 5--250
+\T1/ptm/m/n/12 TA-BLE ONLY conta ADD CONS-TRAINT conta_razao_social_key UNI-QUE
+ (ra-
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 5--250
+\T1/ptm/m/n/12 grupo ADD CONS-TRAINT grupo_nome_key UNI-QUE (nome); AL-TER TA-B
+LE
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 5--250
+\T1/ptm/m/n/12 li-cen-cas_parametros_pkey PRI-MARY KEY (pa-ra-me-tro); AL-TER T
+A-BLE ONLY
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 5--250
+\T1/ptm/m/n/12 ma-triz_empresa_modulo ADD CONS-TRAINT ma-triz_empresa_modulo_pk
+ey PRI-
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 5--250
+\T1/ptm/m/n/12 conta_plano ADD CONS-TRAINT uni-que_id_conta_id_plano UNI-QUE (i
+d_conta,
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 5--250
+\T1/ptm/m/n/12 KEY (id_conta) RE-FE-REN-CES conta(id); AL-TER TA-BLE ONLY usu-a
+-rio ADD
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 5--250
+\T1/ptm/m/n/12 CONS-TRAINT id_conta_usuario_fk FO-REIGN KEY (id_conta) RE-FE-RE
+N-CES
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 5--250
+\T1/ptm/m/n/12 conta(id); AL-TER TA-BLE ONLY fi-lial ADD CONS-TRAINT id_empresa
+_filial_fk
+ []
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 5--250
+\T1/ptm/m/n/12 grupo_permissao ADD CONS-TRAINT id_grupo_permissao_fk FO-REIGN K
+EY
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 5--250
+\T1/ptm/m/n/12 (id_grupo) RE-FE-REN-CES grupo(id) AL-TER TA-BLE ONLY usu-a-rio_
+grupo ADD
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 5--250
+\T1/ptm/m/n/12 CONS-TRAINT id_grupo_usuario_fk FO-REIGN KEY (id_grupo) RE-FE-RE
+N-CES
+ []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
- [51
+(babel)             in language  on input line 250.
+[53
 
 
 ]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 250.
+ [54]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 250.
+ [55]) (./pos/apend_II.tex
+Overfull \hbox (20.09007pt too wide) in paragraph at lines 251--1
+[]\T1/ptm/m/n/12 ALTER TA-BLE ONLY conta_plano ADD CONS-TRAINT id_plano_conta_p
+lano_fk
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+[56]
 Ap\^endice B.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
-) (./pos/apend_III.tex
+(babel)             in language  on input line 1.
+
+Overfull \hbox (105.51277pt too wide) in paragraph at lines 4--17
+\T1/ptm/m/n/12 'john@email.com', 'Q7M8TXRCMRF6eqisOj1ylQMaX2MbeKhvXJ4CiXeulgjy1
+n2yxZApYThBdx3Ybhho',
+ []
+
+
+Overfull \hbox (105.54839pt too wide) in paragraph at lines 4--17
+\T1/ptm/m/n/12 'dudu@email.com', 'Rte87uZVZfsgCsU4JZzDHEY2ePzoiRxSUo6J4MhNQanYK
+w6IsjgJVbljRgMw2GWT',
+ []
+
+
+Overfull \hbox (117.1171pt too wide) in paragraph at lines 4--17
+\T1/ptm/m/n/12 berto85@email.com', '5WBH7yqBuOWSlHsVPrcAvgL1Dn6aa74gf4mWY3awdff
+pG8MkLocb4h9saYe8SrGO',
+ []
+
+
+Overfull \hbox (110.45706pt too wide) in paragraph at lines 4--17
+\T1/ptm/m/n/12 'sonsa@email.com', '5WBH7yqBuOWSlHsVPrcAvgL1Dn6aa74gf4mWY3awdffp
+G8MkLocb4h9saYe8SrGO',
+ []
+
+
+Overfull \hbox (111.77718pt too wide) in paragraph at lines 4--17
+\T1/ptm/m/n/12 'breno@email.com', '5WBH7yqBuOWSlHsVPrcAvgL1Dn6aa74gf4mWY3awdffp
+G8MkLocb4h9saYe8SrGO',
+ []
+
+
+Overfull \hbox (95.12114pt too wide) in paragraph at lines 4--17
+\T1/ptm/m/n/12 dle@email.com', '5WBH7yqBuOWSlHsVPrcAvgL1Dn6aa74gf4mWY3awdffpG8M
+kLocb4h9saYe8SrGO',
+ []
+
+
+Overfull \hbox (102.72838pt too wide) in paragraph at lines 4--17
+\T1/ptm/m/n/12 'jojo@email.com', '0s8oyOzCQ7M8TXRCMRF6eqisOj1ylQMaX2MbeKhvXJ4Ci
+Xeulgjy1n2yxZApYThB',
+ []
+
+
+Overfull \hbox (14.82887pt too wide) in paragraph at lines 4--17
+\T1/ptm/m/n/12 sei@email.com', 'q272gsr6f0mfosatme83d2cnopjr4frl7odd8uaelmj06jk
+ioibrbe6pug8olp0i',
+ []
+
+
+Overfull \hbox (82.1379pt too wide) in paragraph at lines 4--17
+\T1/ptm/m/n/12 mes_bond@email.com', '53m3om710hqwr256b7ocbkswqrb372b3wnxa1t2r2i
+ejb9fc7uf96zwngxgeph7b',
+ []
+
+
+Overfull \hbox (43.25716pt too wide) in paragraph at lines 4--17
+\T1/ptm/m/n/12 'tira1@email.com', 'wtcne467dageamh77n64drhjfnouwmxi7zxcss9xsf2s
+s9qqnnkq6r1b6gxrsj1q',
+ []
+
+
+Overfull \hbox (57.12961pt too wide) in paragraph at lines 4--17
+\T1/ptm/m/n/12 'loi-ri-nha88@email.com', '8nsr6repy79g6pxk371zpr1lyn4hyuyx8ge5z
+jkngjtdzhnsfeiux97ln1sblhyk',
+ []
+
+
+Overfull \hbox (77.01395pt too wide) in paragraph at lines 4--17
+\T1/ptm/m/n/12 'loi-ri-nho_@email.com', 'n3fdcpqj0bmoi18o6gasg75tzowbwkladqdg7u
+qxw4c5ubkqhkaoi698ku965k79',
+ []
+
+
+Overfull \hbox (102.21251pt too wide) in paragraph at lines 4--17
+\T1/ptm/m/n/12 'san-drao@email.com', 'dx3YbhhoRte87uZVZfsgCsU4JZzDHEY2ePzoiRxSU
+o6J4MhNQanYKw6IsjgJVblj',
+ []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
- [52
+(babel)             in language  on input line 30.
+[57
 
 ]
+Underfull \hbox (badness 1210) in paragraph at lines 42--46
+[]\T1/ptm/m/n/12 insert into conta (id, ra-zao_social, cnpj, dia_faturamento, e
+mail_principal,
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 42--46
+\T1/ptm/m/n/12 ativo) va-lues (1, 'Fer-reiro' , '27477435', 10, 'fer-reiro@emai
+l.com', true); in-sert
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 42--46
+\T1/ptm/m/n/12 ra-zao_social, cnpj, dia_faturamento, email_principal, ativo) va
+-lues (3, 'Cur-tume' ,
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 58--68
+[]\T1/ptm/m/n/12 insert into preco_modulo (id, mo-dulo, va-lor_mensal_fixo, va-
+lor_por_cnpj,
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 68.
+[58]
+Underfull \hbox (badness 1009) in paragraph at lines 82--84
+[]\T1/ptm/m/n/12 insert into fi-lial (id, ra-zao_social, cnpj, data_insercao, i
+d_empresa) va-lues
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 82--84
+\T1/ptm/m/n/12 (5, 'Cur-tume de Ri-ver-rum', '94390062000109', cur-rent_date, 3
+); in-sert into fi-lial
+ []
+
+) (./pos/apend_III.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+ [59]
 Ap\^endice C.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 
 Overfull \hbox (368.80605pt too wide) in paragraph at lines 27--27
 []\T1/pcr/m/n/12 CT - 01 : insert into empresa (id, ativo, cnpj, razao_social, 
@@ -1887,8 +2193,8 @@ values (null,  'João das Neves', 'john@email.com', '', true);[]
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 41.
-[53
+(babel)             in language  on input line 41.
+[60
 
 ]
 Overfull \hbox (1.60725pt too wide) in paragraph at lines 41--41
@@ -2097,8 +2403,8 @@ o, id_empresa) values ('CT-59', '12345679801242', '2016-07-12', 1);[]
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 177.
-[54]
+(babel)             in language  on input line 177.
+[61]
 Overfull \hbox (393.28596pt too wide) in paragraph at lines 177--177
 []\T1/pcr/m/n/12 CT - 60 : insert into conta (id, razao_social, cnpj, dia_fatur
 amento, ativo) values (2147483648, 'CT-60', '12345679801243', 26, true);[] 
@@ -2291,8 +2597,8 @@ ues (16, 1, 1);[]
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 177.
-[55]
+(babel)             in language  on input line 177.
+[62]
 Overfull \hbox (436.12582pt too wide) in paragraph at lines 177--177
 []\T1/pcr/m/n/12 CT -  91 : insert into preco_modulo (id, modulo, valor_mensal_
 fixo, valor_por_cnpj, id_plano) values (2147483648, 'CT- 91', 999.9, 999.9, 1);
@@ -2501,8 +2807,8 @@ ativo) values ('CT-122', 'email@email.com', 'senha', 1, true);[]
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 177.
-[56]
+(babel)             in language  on input line 177.
+[63]
 Overfull \hbox (313.72623pt too wide) in paragraph at lines 177--177
 []\T1/pcr/m/n/12 CT - 123 : insert into usuario (nome, email, senha, id_conta, 
 ativo) values ('CT-123', 'email@email.com', null, 1, true);[] 
@@ -2648,14 +2954,14 @@ drao) values (11, 20, 1, false);[]
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 200.
-[57]) (./pos/apend_IV.tex
+(babel)             in language  on input line 200.
+[64]) (./pos/apend_IV.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
- [58]
+(babel)             in language  on input line 1.
+ [65]
 Ap\^endice D.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
+(babel)             in language  on input line 1.
 
 Overfull \hbox (130.12683pt too wide) in paragraph at lines 16--16
 []\T1/pcr/m/n/12 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.
@@ -2681,8 +2987,8 @@ id, CP.id_plano, U.nome, C.id[]
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 57.
-[59
+(babel)             in language  on input line 57.
+[66
 
 ]
 Overfull \hbox (130.12683pt too wide) in paragraph at lines 69--69
@@ -2709,8 +3015,8 @@ id, CP.id_plano, U.nome, C.id[]
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 107.
-[60]
+(babel)             in language  on input line 107.
+[67]
 Overfull \hbox (130.12683pt too wide) in paragraph at lines 118--118
 []\T1/pcr/m/n/12 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.
 id, CP.id_plano, U.nome, C.id[] 
@@ -2735,8 +3041,8 @@ id, CP.id_plano, U.nome, C.id[]
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 154.
-[61]
+(babel)             in language  on input line 154.
+[68]
 Overfull \hbox (130.12683pt too wide) in paragraph at lines 166--166
 []\T1/pcr/m/n/12 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.
 id, CP.id_plano, U.nome, C.id[] 
@@ -2755,32 +3061,32 @@ id, CP.id_plano, U.nome, C.id[]
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 204.
-[62]
+(babel)             in language  on input line 204.
+[69]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 256.
- [63]
+(babel)             in language  on input line 256.
+ [70]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 308.
- [64]) 
+(babel)             in language  on input line 308.
+ [71]) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 110.
-[65]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+(babel)             in language  on input line 88.
+[72]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
  (./modelo-tese.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 Package rerunfilecheck Info: File `modelo-tese.out' has not changed.
-(rerunfilecheck)             Checksum: 70536CD243A540FE494E9B290D2663FF;4176.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
+(rerunfilecheck)             Checksum: 0D6DF270FF88B9512772E709D9698F15;4176.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 11194 strings out of 493105
- 164442 string characters out of 6137072
- 311484 words of memory out of 5000000
- 14190 multiletter control sequences out of 15000+600000
+ 11324 strings out of 493105
+ 166213 string characters out of 6137072
+ 315403 words of memory out of 5000000
+ 14305 multiletter control sequences out of 15000+600000
  103417 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,12n,46p,1129b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2792,10 +3098,10 @@ lvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo-tese.pdf (67 pages, 726416 bytes).
+Output written on modelo-tese.pdf (74 pages, 741904 bytes).
 PDF statistics:
- 854 PDF objects out of 1000 (max. 8388607)
- 744 compressed objects within 8 object streams
- 179 named destinations out of 1000 (max. 500000)
+ 899 PDF objects out of 1000 (max. 8388607)
+ 782 compressed objects within 8 object streams
+ 188 named destinations out of 1000 (max. 500000)
  499 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -98,8 +98,7 @@ Na Tabela \ref{tab:elementoRequiridoIntraTabelaChavePrimariaRestricaoUnicidade} 
 
 Na Tabela \ref{tab:elementoRequiridoIntraTabelaChavePrimariaRestricaoEntidade} são apresentados os elementos requeridos pelo critério Restrição de Entidade. Nesta tabela são mostradas as chaves primárias de cada Entidade usada no exemplo da Figura \ref{fig:figura3}.
 
-
-\begin{table*}[p]
+\begin{table*}[hp]
 	\caption{Restrição de Chave Primária : Restrição de Unicidade}
 	\label{tab:elementoRequiridoIntraTabelaChavePrimariaRestricaoEntidade} 
 	\begin{tabular}{|c|c|p{3cm}|p{3cm}|p{3cm}|}
@@ -164,8 +163,29 @@ Na Tabela \ref{tab:elementoRequiridoIntraTabelaChavePrimariaRestricaoEntidade} s
 \end{table*}
 
 
-Na Tabela 5 a 14  são apresentados os elementos requeridos pelo Domínio de Atributos das tabelas definidas no estudo de caso da Figura \ref{fig:figura3}
+Nas Tabelas \ref{tab:elementoRequiridoIntraTabelaRestricaoDominioEmpresa} a 6.22  são apresentados os elementos requeridos pelo Domínio de Atributos das tabelas definidas no estudo de caso da Figura \ref{fig:figura3}
 
+ 
+
+
+\begin{table*}[p]
+	\caption{Restrição de Domínio de Atributo da tabela empresa}
+	\label{tab:elementoRequiridoIntraTabelaRestricaoDominioEmpresa} 
+	\begin{tabular}{|c|c|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+		\hline Tabela\\
+		\multicolumn{6}{|l|}{\textit{empresa}}\\
+		\hline \textbf{Atributo} & \textbf{Classes válidas} & \textbf{Classes inválidas} & \textbf{Classes Inválidas Limite Superior} & \textbf{Classes Inválidas Limite Inferior} & \textbf{Saída Esperada}\\ 
+		\hline id 
+		& -20 
+		& int < -2
+		& int = 223101320938
+		& int = - 212321
+		& Código da empresa com domínio correto\\ 
+	
+		
+		\hline 
+	\end{tabular} 
+\end{table*}
 
 \subsection{Testes Inter - Tabelas}
 \label{sec:testesInterTabela}
