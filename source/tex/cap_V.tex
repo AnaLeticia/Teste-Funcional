@@ -23,17 +23,17 @@ O sistema foi construído com a finalidade de controlar as licenças dos clientes 
 \item \verb|licencas_parametros|
 \end{itemize}
 
-O ~\nameref{sigla:DER} do software de Licenças é apresentado na Figura \ref{fig:figura2}: 
+O ~\nameref{sigla:DER} do software de Licenças é apresentado na Figura \ref{fig:figura3}: 
 
 %% figura 2
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{./fig/figura2}
+	\includegraphics[width=0.9\textwidth]{./fig/figura3}
 	\caption{Diagrama Entidade-Relacionamento do software objeto do estudo de caso}
-	\label{fig:figura2}
+	\label{fig:figura3}
 \end{figure}
 
-De acordo com o \nameref{sigla:DER} apresentado na Figura \ref{fig:figura2}, a tabela \verb|empresa| está relacionada às empresas que irão receber a licença de uso. Geralmente são clientes ou outras empresas parceiras (software-houses), a tabela \verb|filial| indica as filiais que uma empresa pode ter. Cada registro de filial está relacionada com um e apenas um registro de empresa.
+De acordo com o \nameref{sigla:DER} apresentado na Figura \ref{fig:figura3}, a tabela \verb|empresa| está relacionada às empresas que irão receber a licença de uso. Geralmente são clientes ou outras empresas parceiras (software-houses), a tabela \verb|filial| indica as filiais que uma empresa pode ter. Cada registro de filial está relacionada com um e apenas um registro de empresa.
 
 Da mesma forma a tabela \verb|conta| indica a conta na qual a empresa está inserida. Uma conta pode conter várias empresas, como por exemplo, quando um cliente possui um grupo de empresas distintas (CNPJ?s bases distintos), mas todas elas pertencem a mesma conta. Em contrapartida, uma empresa só pode pertencer a uma única conta.
 

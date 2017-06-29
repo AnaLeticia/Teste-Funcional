@@ -4,15 +4,15 @@
 Atualmente todas as empresas que utilizam algum software para administração de seus negócios precisam manter seus dados armazenados e protegidos de alguma maneira. O acesso a esses dados muitas vezes necessitam de agilidade e confiabilidade, para quem o utiliza. 
 
 Elmasri e Navathe (2005)\cite{ElmasriNavathe}, explicam que Banco de Dados é uma coleção de dados com relacionados, ele é projetado, construído e são inseridos dados nele. Os dados são fatos que podem ser gravados e possui um significado implícito. O Banco de Dados pode ser de qualquer tamanho e sua complexidade pode ser variável.  
-Um sistema gerenciador de banco de dados (SGBD) é uma coleção de programas que permite ao usuário criar, acessar e modificar esses programas. Ele facilita a definição, construção, manipulação e compartilhamento do BD entre aplicações e usuários diversos. Algumas funções importantes de um SGBD é a proteção do sistema com relação à falhas, funcionamento e tipos de acessos não autorizados e também a manutenção do BD (Elmasri; Navathe, 2005)\cite{ElmasriNavathe}).
+Um \nameref{sigla:SGBD} é uma coleção de programas que permite ao usuário criar, acessar e modificar esses programas. Ele facilita a definição, construção, manipulação e compartilhamento do BD entre aplicações e usuários diversos. Algumas funções importantes de um SGBD é a proteção do sistema com relação à falhas, funcionamento e tipos de acessos não autorizados e também a manutenção do BD (Elmasri; Navathe, 2005)\cite{ElmasriNavathe}).
 
 Em 1970 Edgar Frank Codd\cite{Codd1970}, da IBM, publicou um artigo sobre o modelo relacional baseado em álgebra relacional e cálculos matemáticos, mas somente na década de 80 esse modelo foi disponibilizado, era o Oracle e o SQL/DS (Structured Query Language/Data System) da IBM (International Business Machines). Hoje em dia existem outros tipos de modelo relacional da Oracle, IBM e Microsoft. O SQL/DS atualmente é o DB2 da IBM, o Oracle, o Access da Microsoft, entre outros (Elmasri; Navathe, 2005)\cite{ElmasriNavathe}. 
 
 Segundo Spoto(2000)\cite{Spoto} O modelo relacional representa uma base de dados como uma coleção de relações. Informalmente, cada relação pode ser considerada como uma tabela. Existem importantes diferenças entre relações e arquivos; a principal delas é a formação estruturada de seus componentes. Quando uma relação é tratada como uma tabela de valores, cada linha na tabela representa uma coleção de valores de dados relacionados. Esses valores podem ser  interpretados como fatos que representam uma entidade do mundo real ou um relacionamento. O nome da tabela e os nomes das colunas são usados para ajudar a interpretar os valores em cada linha da tabela. Por exemplo, uma tabela com nome \verb|EMPLOYEE| armazena valores relacionados aos empregados de uma empresa, onde cada linha contém os dados sobre um determinado empregado. Os nomes das colunas \verb|emp_id|, \verb|emp_fname|, e \verb|emp_lname| interpretam os valores de dados específicos para cada linha,baseados nos valores de cada coluna. Todos os valores de uma coluna devem ser do mesmo tipo de dados.
 
-No modelo relacional existem quatro termos que são utilizados, domínio, tupla, atributo e relação.  Alguns autores definem um domínio D, como um conjunto de valores atômicos, sendo a menor unidade de dado e individual no Modelo Relacional (Elmasri; Navathe, 2005)\cite{ElmasriNavathe}. Portanto, um domínio é um conjunto de tais valores, todos do mesmo tipo, pois para cada atributo existe um conjunto de valores permitidos, que é o domínio desse atributo (Souza, 2008)
+No modelo relacional existem quatro termos que são utilizados: domínio, tupla, atributo e relação. Alguns autores definem um domínio \verb|D|, como um conjunto de valores atômicos, sendo a menor unidade de dado e individual no Modelo Relacional (Elmasri; Navathe, 2005)\cite{ElmasriNavathe}. Portanto, um domínio é um conjunto de tais valores, todos do mesmo tipo, pois para cada atributo existe um conjunto de valores permitidos, que é o domínio desse atributo (Souza, 2008)\cite{Souza}.
 
-Outra definição a se destacar é de uma relação. Uma Relação  \verb|R (A1, A2, A3, .., An)|, o elemento A1 refere-se aos atributos de uma relação, que  é o nome do papel desempenhado por um domínio D. Uma relação R (A1, A2, A3, .., An), indicada por r(R) é um conjunto de várias tuplas r{t1,t2,...tn}. Cada n-tuplas é uma lista ordenada de n valores, cada valor é um elemento do domínio  (A) ou um valor \verb|null| (Elmasri; Navathe, 2005)\cite{ElmasriNavathe}.    
+Outra definição a se destacar é de uma relação. Uma relação \verb|R (A1, A2, A3, ..., An)|, o elemento A1 refere-se aos atributos de uma relação, que  é o nome do papel desempenhado por um domínio \verb|D|. Uma relação \verb|R (A1, A2, A3, ..., An)|, indicada por \verb|r(R)| é um conjunto de várias tuplas \verb|r{t1, t2, ..., tn}|. Cada \verb|n|-tuplas é uma lista ordenada de \verb|n| valores, cada valor é um elemento do domínio (A) ou um valor \verb|null| (Elmasri; Navathe, 2005)\cite{ElmasriNavathe}.    
 
 
 %% figura 1
@@ -38,6 +38,16 @@ As chaves em um modelo de BD relacionais são importantes, pois são elas que dist
 
 \subsection{Restrições de Integridade Referencial e de Chave Primária}
 \label{restricoesIntegridadeReferencial}
+
+Veja a Figura\ref{fig:figura2}:
+
+%% figura 2
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/figura2}
+	\caption{Tabela de critérios de Testes Funcionais para Banco de Dados propostos por Souza, 2008\cite{Souza}}
+	\label{fig:figura2}
+\end{figure}
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \section{Aplicações de Banco de Dados}

@@ -27,22 +27,30 @@
 \BOOKMARK [2][-]{subsection.29}{3.1.1 Restri\347\365es de Dom\355nio}{section.28}% 27
 \BOOKMARK [2][-]{subsection.30}{3.1.2 Restri\347\365es de Integridade Sem\342ntica}{section.28}% 28
 \BOOKMARK [2][-]{subsection.31}{3.1.3 Restri\347\365es de Integridade Referencial e de Chave Prim\341ria}{section.28}% 29
-\BOOKMARK [1][-]{section.32}{3.2 Aplica\347\365es de Banco de Dados}{chapter.26}% 30
-\BOOKMARK [1][-]{section.33}{3.3 Linguagem de Banco de Dados}{chapter.26}% 31
-\BOOKMARK [0][-]{chapter.34}{4 T\351cnicas de Testes aplicadas em Banco de Dados Relacional}{}% 32
-\BOOKMARK [1][-]{section.35}{4.1 Crit\351rios de Teste Funcional em Aplica\347\365es de Banco de Dados}{chapter.34}% 33
-\BOOKMARK [2][-]{subsection.36}{4.1.1 Crit\351rios Para Testes Intra - Tabelas }{section.35}% 34
-\BOOKMARK [2][-]{subsection.37}{4.1.2 Crit\351rios Para Testes Inter-Tabelas }{section.35}% 35
-\BOOKMARK [1][-]{section.38}{4.2 T\351cnica de Teste Mutante em Banco de Dados}{chapter.34}% 36
-\BOOKMARK [0][-]{chapter.39}{5 Estudo de Caso}{}% 37
-\BOOKMARK [0][-]{chapter.41}{6 Plano de Teste}{}% 38
-\BOOKMARK [1][-]{section.42}{6.1 Plano de Testes Baseado no Teste Funcional em BDR}{chapter.41}% 39
-\BOOKMARK [2][-]{subsection.43}{6.1.1 Testes Intra - Tabelas}{section.42}% 40
-\BOOKMARK [2][-]{subsection.44}{6.1.2 Testes Inter - Tabelas}{section.42}% 41
-\BOOKMARK [0][-]{chapter.45}{7 Resultados obtidos}{}% 42
-\BOOKMARK [0][-]{chapter.46}{8 Conclus\343o e trabalhos futuros}{}% 43
-\BOOKMARK [0][-]{chapter.46}{Refer\352ncias Bibliogr\341ficas}{}% 44
-\BOOKMARK [0][-]{appendix.47}{A Script de cria\347\343o da base de dados}{}% 45
-\BOOKMARK [0][-]{appendix.48}{B Script de Inser\347\343o inicial no Banco}{}% 46
-\BOOKMARK [0][-]{appendix.49}{C Scripts dos casos de testes}{}% 47
-\BOOKMARK [0][-]{appendix.50}{D Scripts dos Testes de Mutantes}{}% 48
+\BOOKMARK [1][-]{section.33}{3.2 Aplica\347\365es de Banco de Dados}{chapter.26}% 30
+\BOOKMARK [1][-]{section.34}{3.3 Linguagem de Banco de Dados}{chapter.26}% 31
+\BOOKMARK [0][-]{chapter.35}{4 T\351cnicas de Testes aplicadas em Banco de Dados Relacional}{}% 32
+\BOOKMARK [1][-]{section.36}{4.1 Crit\351rios de Teste Funcional em Aplica\347\365es de Banco de Dados}{chapter.35}% 33
+\BOOKMARK [2][-]{subsection.37}{4.1.1 Crit\351rios Para Testes Intra - Tabelas }{section.36}% 34
+\BOOKMARK [2][-]{subsection.38}{4.1.2 Crit\351rios Para Testes Inter-Tabelas }{section.36}% 35
+\BOOKMARK [1][-]{section.40}{4.2 T\351cnica de Teste Mutante em Banco de Dados}{chapter.35}% 36
+\BOOKMARK [0][-]{chapter.41}{5 Estudo de Caso}{}% 37
+\BOOKMARK [0][-]{chapter.43}{6 Plano de Teste}{}% 38
+\BOOKMARK [1][-]{section.44}{6.1 Plano de Testes Baseado no Teste Funcional em BDR}{chapter.43}% 39
+\BOOKMARK [2][-]{subsection.45}{6.1.1 Testes Intra - Tabelas}{section.44}% 40
+\BOOKMARK [2][-]{subsection.46}{6.1.2 Testes Inter - Tabelas}{section.44}% 41
+\BOOKMARK [0][-]{chapter.47}{7 Resultados obtidos}{}% 42
+\BOOKMARK [1][-]{section.48}{7.1 Casos de Testes Intra-Tabelas}{chapter.47}% 43
+\BOOKMARK [1][-]{section.49}{7.2 Casos de Testes Inter-Tabelas}{chapter.47}% 44
+\BOOKMARK [1][-]{section.50}{7.3 An\341lise dos Resultados Obtidos na T\351cnica Funcional}{chapter.47}% 45
+\BOOKMARK [1][-]{section.57}{7.4 Aplica\347\343o de Teste de Mutantes em Scripts de Banco de Dados \(SQL\)}{chapter.47}% 46
+\BOOKMARK [2][-]{subsection.59}{7.4.1 Caso 1}{section.57}% 47
+\BOOKMARK [2][-]{subsection.61}{7.4.2 Caso 2}{section.57}% 48
+\BOOKMARK [2][-]{subsection.63}{7.4.3 Caso 3}{section.57}% 49
+\BOOKMARK [1][-]{section.65}{7.5 An\341lise dos Resultados obtidos em Testes de Mutante}{chapter.47}% 50
+\BOOKMARK [0][-]{chapter.67}{8 Conclus\343o e trabalhos futuros}{}% 51
+\BOOKMARK [0][-]{chapter.67}{Refer\352ncias Bibliogr\341ficas}{}% 52
+\BOOKMARK [0][-]{appendix.68}{A Script de cria\347\343o da base de dados}{}% 53
+\BOOKMARK [0][-]{appendix.69}{B Script de Inser\347\343o inicial no Banco}{}% 54
+\BOOKMARK [0][-]{appendix.70}{C Scripts dos casos de testes}{}% 55
+\BOOKMARK [0][-]{appendix.71}{D Scripts dos Testes de Mutantes}{}% 56

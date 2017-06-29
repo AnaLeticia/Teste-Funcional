@@ -3,11 +3,17 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Principais elementos de uma rela\c c\~ao\relax }}{23}{figure.caption.27}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tabela de crit\'erios de Testes Funcionais para Banco de Dados propostos por Souza, 2008\cite {Souza}\relax }}{24}{figure.caption.32}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Tabela das perspectivas dos crit\'erios de Souza (2008)\cite {Souza} em compara\c c\~ao sobre os crit\'erios propostos\relax }}{25}{figure.caption.39}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama Entidade-Relacionamento do software objeto do estudo de caso\relax }}{27}{figure.caption.42}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama Entidade-Relacionamento do software objeto do estudo de caso\relax }}{27}{figure.caption.40}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Restri\c c\~ao de Unicidade {\ref {sub@subfig:unicidade}}, Integridade de Dom\IeC {\'\i }nio {\ref {sub@subfig:dominio}}, Integridade Referencial{\ref {sub@subfig:referencial}} e Total {\ref {sub@subfig:total}}.\relax }}{31}{figure.caption.52}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Integridade de dom\IeC {\'\i }nio.}}}{31}{figure.caption.52}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Total.}}}{31}{figure.caption.52}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Defini\c c\~ao de Operadores Utilizados\relax }}{32}{figure.caption.58}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -1,2 +1,342 @@
-\chapter{Resultados obtidos}
-\label{resultados}
+''\chapter{Resultados obtidos}
+\label{cap:resultados}
+
+
+\section{Casos de Testes Intra-Tabelas}
+\label{sec:casosTestesIntraTabelas}
+
+
+\section{Casos de Testes Inter-Tabelas}
+\label{sec:casosTestesInterTabelas}
+
+
+
+
+
+\section{Análise dos Resultados Obtidos na Técnica Funcional}
+\label{sec:analiseResultadoTecnicaFuncional}
+
+De acordo com os testes realizados podemos observar que na técnica de Restrição de unicidade, o banco se manteve íntegro, todos os casos de testes foram executados com sucesso.  A integridade referencial foi mantida para todos os casos de testes executados e , definidos no Plano de testes.
+
+Já na Integridade de domínio tivemos algumas falhas, onde o banco não teve o comportamento esperado, como não existir um check em cada variável que tenha limites inferior e superior válidos dentro do escopo de cada tipo de dados por exemplos datas inválidas que não deveriam ser aceitas ou valores negativos quando a variável deve ser somente positiva tipo idade, essas regras foram definidas no Plano de testes . Essas falhas são comuns, e pelo percentual de erros, pode-se afirmar que o banco de dados, está 90\% de qualidade atingida, apenas 10\% foram defeitos ocorridos por esses motivos. 
+
+Na Tabela \ref{tab:comparacao3Criterios} podemos observar o resultados dos testes:
+
+
+\begin{table*}[hp]
+	\centering
+	\caption{Comparação entre os 3 critérios utilizados}
+	\label{tab:comparacao3Criterios} 
+	\begin{tabular}{|c|c|c|c|}
+		\hline \textbf{Critério de Teste} & \textbf{Casos de Testes} & \textbf{Erros Encontrados} & \textbf{Porcentagem Eficaz} \\ 
+		\hline \textbf{1 - Restrição de Unicidade} & 28 & 0 & 100\%\\ 
+		\hline \textbf{2 - Integridade de Domínio} & 112 & 9 & 91,96\%\\
+		\hline \textbf{3 - Integridade Referencial} & 15 & 0 & 100\%\\
+		\hline \textbf{Total} & \textbf{155} & \textbf{9} & \textbf{94,19\%}\\
+		\hline 
+	\end{tabular} 
+\end{table*}
+
+
+Nas Figuras \ref{subfig:unicidade}, \ref{subfig:dominio}, \ref{subfig:referencial} e \ref{subfig:total},  pode-se visualizar de uma melhor forma a porcentagem de casos de testes executados X os erros encontrados:
+%% imagens
+
+
+\begin{figure}[h]
+	\centering
+	%   \subfigure[][Primeira subfigura.]
+	\subfigure[][Restrição de Unicidade.]
+	{
+		\includegraphics[width=0.45\textwidth]{./fig/unicidade}
+		\label{subfig:unicidade}
+	} \qquad
+	\subfigure[Integridade de domínio.]
+	{
+		\includegraphics[width=0.45\textwidth]{./fig/dominio}
+		\label{subfig:dominio}
+	}
+	\subfigure[][Integridade Referencial.]
+	{
+		\includegraphics[width=0.45\textwidth]{./fig/referencial}
+		\label{subfig:referencial}
+	} \qquad
+	\subfigure[Total.]
+	{
+		\includegraphics[width=0.45\textwidth]{./fig/total}
+		\label{subfig:total}
+	}
+	\caption{Restrição de Unicidade {\subref{subfig:unicidade}}, Integridade de Domínio {\subref{subfig:dominio}}, Integridade Referencial{\subref{subfig:referencial}} e Total {\subref{subfig:total}}.}
+	\label{fig:subfiguras1}
+\end{figure}
+
+
+\section{Aplicação de Teste de Mutantes em Scripts de Banco de Dados (SQL)}
+\label{sec:aplicacaoTesteMutantesEmScriptSql}
+
+Nesta seção será apresentado alguns scripts que serão aplicados os operadores de mutação descritos na seção Técnicas de Teste Mutante em Banco de Dados \ref{sec:testeMutanteBd}. Serão realizados 3 exemplos de scripts em SQL para criarmos os mutantes conforme os operadores de mutação dado em Tuya et al. (2006)\cite{Tuya2006}.  Na Figura \ref{fig:operadores} mostra como os grupos de operadores de mutação são selecionados e quais tipos são aplicados neste trabalho.
+
+%% figura operadores
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/operadores}
+	\caption{Definição de Operadores Utilizados}
+	\label{fig:operadores}
+\end{figure}
+
+
+\subsection{Caso 1}
+\label{subsec:caso1}
+
+No Caso 1, serão aplicados os subtipos \textbf{ROR} e \textbf{LCR} do grupo \textbf{OR}, pré definidos na seção Técnicas de Teste de Mutante em Banco de Dados \ref{sec:testeMutanteBd}.
+
+Query SQL:  Exibe o 
+
+\begin{verbatim}
+SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
+FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
+WHERE F.id_empresa = E.id and
+E.id_plano = CP.id  and
+P.id = CP.id_plano and
+U.id_conta = C.id;
+\end{verbatim}
+
+Exemplos dos Mutantes  gerados no Caso 1:
+ 
+M1.1 :
+\begin{verbatim} 
+SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
+FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
+WHERE 
+F.id_empresa > E.id and
+E.id_plano = CP.id  and
+P.id = CP.id_plano and
+U.id_conta = C.id;
+\end{verbatim}
+
+M.1.5:
+\begin{verbatim}
+SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
+FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
+WHERE 
+F.id_empresa = E.id and
+E.id_plano < CP.id  and
+P.id = CP.id_plano and
+U.id_conta = C.id;
+\end{verbatim}
+
+M1.9
+\begin{verbatim}
+SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
+FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
+WHERE 
+F.id_empresa = E.id and
+E.id_plano = CP.id  and
+P.id <> CP.id_plano and
+U.id_conta = C.id;
+\end{verbatim}
+
+M1.13
+\begin{verbatim}
+SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
+FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
+WHERE 
+F.id_empresa = E.id or
+E.id_plano = CP.id  and
+P.id = CP.id_plano and
+U.id_conta = C.id;
+\end{verbatim}
+
+Na Tabela \ref{tab:execucaoMutantesCaso1} mostra os resultados da execução de cada mutante gerado no Caso 1 mostrando que não houve nenhum mutante vivo. Ou seja todos mutantes deram resultados diferenciados em relação ao Script Original. Desta forma os erros plantados na geração de cada mutante mostrado nos exemplos acima e colocados no Apêndice, mostraram que no script original não existem esses respectivos defeitos, o que é muito importante e dá segurança para a aplicação.
+
+
+% Tabela Execução dos Mutantes Caso1
+\begin{table*}[hp]
+	\centering
+	\caption{ Execução dos Mutantes Caso1}
+	\label{tab:execucaoMutantesCaso1} 
+	\begin{tabular}{|c|c|}
+		\hline \textbf{Script Referenciado} & \textbf{Resultado}\\ 
+		\hline Original & 56 Linhas \\ 
+		\hline M1.1 & 63 Linhas \\ 
+		\hline M1.2 & 217 Linhas \\ 
+		\hline M1.3 & 280 Linhas \\ 
+		\hline M1.4 & 63 Linhas \\ 
+		\hline M1.5 & 217 Linhas \\ 
+		\hline M1.6 & 280 Linhas \\ 
+		\hline M1.7 & 49 Linhas \\ 
+		\hline M1.8 & 175 Linhas \\ 
+		\hline M1.9 & 224 Linhas \\ 
+		\hline M1.10 & 32 Linhas \\ 
+		\hline M1.11 & 136 Linhas \\  
+		\hline M1.12 & 168 Linhas \\ 
+		\hline M1.13 & 19840 Linhas \\ 
+		\hline M1.14 & 5160 Linhas \\ 
+		\hline M1.15 & 10664 Linhas \\ 
+		\hline 
+	\end{tabular} 
+\end{table*}
+
+\subsection{Caso 2}
+\label{subsec:caso2}
+
+No segundo exemplo,serão aplicados os subtipos \textbf{SUB} e \textbf{ROR}, do grupo \textbf{SC} e do grupo \textbf{OR}, respectivamente.
+
+Query SQL Exibe o Valor pago por cada usuário ativo em cada plano;
+
+\begin{verbatim}
+SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
+FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
+WHERE U.id = UP.id_usuario and
+G.id = UP.id_grupo and
+PM.id_plano = P.id and
+U.id in(SELECT distinct id from usuario WHERE ativo = true);
+\end{verbatim}
+
+Exemplos dos Mutantes  gerados no Caso 2: 
+
+M2.1
+\begin{verbatim}
+SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
+FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
+WHERE U.id > UP.id_usuario and
+G.id = UP.id_grupo and
+PM.id_plano = P.id and
+U.id in(SELECT distinct id from usuario WHERE ativo = true);
+\end{verbatim}
+
+M2.9
+\begin{verbatim}
+SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
+FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
+WHERE U.id = UP.id_usuario and
+G.id = UP.id_grupo and
+PM.id_plano <> P.id and
+U.id  in(SELECT distinct id from usuario WHERE ativo = true);
+\end{verbatim}
+
+M2.10
+\begin{verbatim}
+SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
+FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
+WHERE U.id = UP.id_usuario and
+G.id = UP.id_grupo and
+PM.id_plano = P.id and
+U.id  not in(SELECT distinct id from usuario WHERE ativo = true);
+\end{verbatim}
+
+Na Tabela \ref{tab:execucaoMutantesCaso2} mostra o resultado dos mutantes gerados nos mutantes gerados no Caso 2 mostrados anteriormente. Nesse caso também ilustra que os defeitos colocados em cada mutante não está presente no Script original. No Caso 2 foram gerados 13 mutantes baseados nos operadores já comentados anteriormente. Os Mutantes são apresentados no Apêndice \ref{apend:D}. 
+
+
+% Tabela Execução dos Mutantes Caso2
+\begin{table*}[hp]
+	\centering
+	\caption{ Execução dos Mutantes Caso2}
+	\label{tab:execucaoMutantesCaso2} 
+	\begin{tabular}{|c|c|}
+		\hline \textbf{Script Referenciado} & \textbf{Resultado}\\ 
+		\hline Original & 288 Linhas \\ 
+		\hline M2.1 & 3078 Linhas \\ 
+		\hline M2.2 & 1254 Linhas \\ 
+		\hline M2.3 & 4332 Linhas \\ 
+		\hline M2.4 & 0 Linha \\ 
+		\hline M2.5 & 152 Linhas \\ 
+		\hline M2.6 & 1140 Linhas \\ 
+		\hline M2.7 & 240 Linhas \\ 
+		\hline M2.8 & 672 Linhas \\ 
+		\hline M2.9 & 912 Linhas \\ 
+		\hline M2.10 & 0 Linha \\ 
+		\hline M2.11 & 0 Linha \\  
+		\hline M2.12 & 0 Linha \\ 
+		\hline M2.13 & 0 Linha \\ 
+		\hline 
+	\end{tabular} 
+\end{table*}
+
+
+
+%% ---------------------------------------
+
+\subsection{Caso 3}
+\label{subsec:caso3}
+
+No Terceiro exemplo é utilizado o subtipo \textbf{LKE} também pertencente ao grupo \textbf{OR}; A quantidade desses mutantes é reduzida devido combinação efetuada com 2 operadores, e a quantidade de dados no Banco.
+
+Query SQL:
+\begin{verbatim}
+SELECT * from Usuario
+WHERE nome Like 'A%';  // onde a letra A pode ser uma entrada de dado de uma ou mais caracteres.
+\end{verbatim}
+
+Exemplos dos Mutantes  gerados no Caso 3: 
+
+M3.1 : 	 	 	 	
+\begin{verbatim}
+SELECT * from Usuario
+WHERE nome Like 'A_';
+\end{verbatim}
+
+M3.2
+\begin{verbatim}
+SELECT * from Usuario
+WHERE nome Like 'a%';
+\end{verbatim}
+
+M3.3
+\begin{verbatim}
+SELECT * from Usuario
+WHERE nome Like 'a_';
+\end{verbatim}
+
+M3.4:
+\begin{verbatim}
+SELECT * from Usuario
+WHERE nome Like 'C%';
+\end{verbatim}
+
+M3.5: 
+\begin{verbatim}
+SELECT * from Usuario
+WHERE nome Like 'C_';
+\end{verbatim}
+
+Na Tabela \ref{tab:execucaoMutantesCaso3} mostra o resultado dos mutantes gerados nos mutantes gerados no Caso 3 mostrados anteriormente. Nesse caso também ilustra que os defeitos colocados em cada mutante não está presente no Script original. No Caso 3 foram gerados 5 mutantes baseados nos operadores já comentados anteriormente. Os Mutantes são apresentados no Apêndice \ref{apend:D}. 
+
+% Tabela Execução dos Mutantes Caso3
+\begin{table*}[hp]
+	\centering
+	\caption{ Execução dos Mutantes Caso3}
+	\label{tab:execucaoMutantesCaso3} 
+	\begin{tabular}{|c|c|}
+		\hline \textbf{Script Referenciado} & \textbf{Resultado}\\ 
+		\hline Original & 1 Linha \\ 
+		\hline M3.1 & 0 Linha \\ 
+		\hline M3.2 & 2 Linhas \\ 
+		\hline M3.3 & 0 Linha \\ 
+		\hline M3.4 & 6 Linhas \\ 
+		\hline M3.5 & 0 Linha \\ 
+		
+		\hline 
+	\end{tabular} 
+\end{table*}
+
+\section{Análise dos Resultados obtidos em Testes de Mutante}
+\label{sec:analiseResultadoTesteMutante}
+
+Pode-se observar que o  teste de mutantes não tem efeito direto como a técnica de testes funcional possui no Banco de Dados (no projeto do Banco), já o teste de mutante contribui  em verificar que os scripts de SQL usados nas aplicações, estão corretos, não possuindo nenhum defeito gerado pelos operadores de mutação. Nos Mutantes gerados em nosso exemplo não ocorreram  defeitos nos scripts, ou seja, não houve nenhum mutante equivalente (quando o mutante gera a mesma saída do que o script original). 
+
+Na Tabela \ref{tab:relacaoMutantesGeradosNosExemplos} é apresentada a relação de quantidade de mutantes gerados por cada grupo de cada caso (scripts) utilizado como exemplo para ilustrar essa prática.
+
+% Relação de Mutantes gerados nos exemplos
+\begin{table*}[hp]
+	\centering
+	\caption{ Relação de Mutantes gerados nos exemplos}
+	\label{tab:relacaoMutantesGeradosNosExemplos} 
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline \textbf{Operador} & \textbf{Caso 1} & \textbf{Caso 2} & \textbf{Caso 3} & \textbf{Total}\\ 
+		\hline \textbf{OR} & 15 & 9 & 5 & 29\\ 
+		\hline \textbf{SC} & 0 & 1 & 0 & 1\\
+		\hline  &  &  &  & 30\\
+		
+		\hline 
+	\end{tabular} 
+\end{table*}
