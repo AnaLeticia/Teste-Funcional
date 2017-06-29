@@ -1,3 +1,200 @@
 \chapter{Scripts dos casos de testes}
 \label{apend:C}
-Texto do ApÃªndice~\ref{apend:C}.
+
+
+Casos de testes Restrição de Chave Primária : Restrição de Unicidade
+
+\begin{verbatim}
+CT - 01 : insert into empresa (id, ativo, cnpj, razao_social, id_conta, id_plano) values (1, true, '27477433', 'duplicado', 1, 1);
+CT - 02 : insert into empresa (id, ativo, cnpj, razao_social, id_conta, id_plano) values (9, true, '27477435', 'existente', 1, 1);
+CT - 03 : insert into empresa (id, ativo, cnpj, razao_social, id_conta, id_plano) values (10, true, '27477438', 'existente', 1, 1);
+CT - 04 : insert into filial (id, razao_social, cnpj, data_insercao, id_empresa) values (1, 'Ferreiro', '27477435000188', current_date, 1);
+CT - 05 : insert into filial (id, razao_social, cnpj, data_insercao, id_empresa) values (20, 'existente', '27477435000188', current_date, 1)
+CT - 06 : insert into conta (id, razao_social, cnpj, dia_faturamento, email_principal, ativo) values (1, 'Ferreiro','', 10, 'ferreiro@email.com', true);
+CT - 07 : insert into conta (id, razao_social, cnpj, dia_faturamento, email_principal, ativo) values (1, 'Ferreiro','27477435', 10, 'ferreiro@email.com', true); 
+CT - 08 : insert into conta (id, razao_social, cnpj, dia_faturamento, email_principal, ativo) values (20, 'Ferreiro','', 10, 'ferreiro@email.com', true); 
+CT - 09 : insert into plano (id, nome, qtd_maxima_filiais) values (1, 'nome', 1000); 
+CT - 10 : insert into plano (id, nome, qtd_maxima_filiais) values (1, 'Plano Diamond', 1000); 
+CT - 11 : insert into conta_plano (id, id_plano, id_conta, padrao) values (1, 4, 1, false);
+CT - 12 : insert into conta_plano (id, id_plano, id_conta, padrao) values (15, 4, 1, false);
+CT - 13 : insert into preco_modulo (id, modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values (1, 'Emissão', 999.0, 50.00, 1);
+CT - 14 : insert into matriz_empresa_modulo (id, modulo, id_empresa ) values (1, 'emissao', 1);
+CT - 15 : insert into matriz_empresa_modulo (id, modulo, id_empresa ) values (2, 'emissao', 1);
+CT - 16 : insert into usuario (id, nome, email, senha, ativo) values (1,  'João', '', '', true);
+CT - 17 : insert into usuario (id, nome, email, senha, ativo) values (1,  'João', 'john@email.com', '', true);
+CT - 18 : insert into grupo (id, nome) values (1, 'Casa Estarque');
+CT - 19 : insert into grupo (id, nome) values (6, 'Casa Estarque');
+\end{verbatim}
+
+Restrição de Chave Primária : Restrição de Entidade
+
+\begin{verbatim}
+CT - 20 : insert into empresa (id, ativo, cnpj, razao_social, id_conta) values (null, true, '12345678901234', 'CT-20', 1);
+CT - 21 : insert into filial (id, razao_social, cnpj, data_insercao, id_empresa) values (Null, 'CT-20', '27477435000188', current_date, 1);
+CT - 22 : insert into conta (id, razao_social, cnpj, dia_faturamento, email_principal, ativo) values (NULL, 'CT-20' , '27477435', 10, 'ferreiro@email.com', true);
+CT - 23 : insert into plano (id, nome, qtd_maxima_filiais) values (null, 'Plano Diamond', 1000);
+CT - 24 : insert into conta_plano (id, id_plano, id_conta, padrao) values (null, 4, 1, false);
+CT - 25 : insert into preco_modulo (id, modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values (null, 'Emissão', 999.0, 50.00, 1);
+CT - 26 : insert into matriz_empresa_modulo (id, modulo, id_empresa ) values (null, 'emissao', 1);
+CT - 27 : insert into usuario (id, nome, email, senha, ativo) values (null,  'João das Neves', 'john@email.com', '', true);
+CT - 28 :  insert into grupo (id, nome) values (null,'Casa Estarque');
+\end{verbatim}
+
+Restrição de Domínio de Atributo
+\begin{verbatim}
+empresa
+CT - 29 : insert into empresa (id, ativo, cnpj, razao_social, id_conta, id_plano) values (2147483648, true, '12345678901234', 'CT-29', 1, 1);
+CT - 30 : insert into empresa (id, ativo, cnpj, razao_social, id_conta, id_plano) values (-2147483649, true, '12345678901235', 'CT-30', 1, 1);
+CT - 31 : insert into empresa (id, ativo, cnpj, razao_social, id_conta, id_plano) values (10, true, '12345678901235', 'CT-31', 1, 1);
+CT - 32 : insert into empresa (ativo, cnpj, razao_social, id_conta, id_plano) values (true, '12345678901236', 'CT-32', 1, 1);
+CT - 33 : insert into empresa (ativo, cnpj, razao_social, id_conta, id_plano) values (null, '12345678901237', 'CT-33', 1, 1);
+CT - 34 : insert into empresa (ativo, cnpj, razao_social, id_conta, id_plano) values (true, '1234567890', 'CT-34', 1, 1);
+CT - 35 : insert into empresa (ativo, cnpj, razao_social, id_conta, id_plano) values (true, '04070205000102', 'CT-35', 1, 1);
+CT - 36 : insert into empresa (ativo, cnpj, razao_social, id_conta, id_plano) values (true, '1234567890123456', 'CT-36', 1, 1);
+CT - 37 : insert into empresa (ativo, cnpj, razao_social, id_conta, id_plano) values (true, 'abcdefghijklmn', 'CT-37', 1, 1);
+CT - 38 : insert into empresa (ativo, cnpj, razao_social, id_conta, id_plano) values (true, '12345678901238', '', 1, 1);
+CT - 39 : insert into empresa (ativo, cnpj, razao_social, id_conta, id_plano) values (true, '12345678901239', 'Empresa Teste', 1, 1);
+CT - 40 : insert into empresa (ativo, cnpj, razao_social, id_conta, id_plano) values (true, '12345678901240', 'CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 CT-40 ', 1, 1);
+CT - 41 : insert into empresa (ativo, cnpj, razao_social, id_conta, id_plano) values (true, '12345678901241', 'CT-41', 1, 1);
+CT - 42 : insert into empresa (ativo, cnpj, razao_social, id_conta, id_plano) values (true, '12345678901242', 'CT-42', 2147483648, 1);
+CT - 43 : insert into empresa (ativo, cnpj, razao_social, id_conta, id_plano) values (true, '12345678901242', 'CT-43', -2147483649, 1);
+CT - 44 : insert into empresa (ativo, cnpj, razao_social, id_conta, id_plano) values (true, '12345678901243', 'CT-44', 1, 1);
+
+filial
+CT - 45 : insert into filial (id, razao_social, cnpj, data_insercao, id_empresa) values (2147483648, 'CT-45', '12345679801234', current_date, 1);
+CT - 46 : insert into filial (id, razao_social, cnpj, data_insercao, id_empresa) values (-2147483649, 'CT-46', '12345679801234', current_date, 1);
+CT - 47 : insert into filial (id, razao_social, cnpj, data_insercao, id_empresa) values (10, 'CT-47', '12345679801234', current_date, 1);
+CT - 48 : insert into filial (razao_social, cnpj, data_insercao, id_empresa) values ('', '12345679801235', current_date, 1);
+CT - 49 : insert into filial (razao_social, cnpj, data_insercao, id_empresa) values ('Empresa teste', '12345679801236', current_date, 1);
+CT - 50 : insert into filial (razao_social, cnpj, data_insercao, id_empresa) values ('CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 CT-50 ', '12345679801237', current_date, 1);
+CT - 51 : insert into filial (razao_social, cnpj, data_insercao, id_empresa) values ('CT-51', '1234567890', current_date, 1);
+CT - 52 : insert into filial (razao_social, cnpj, data_insercao, id_empresa) values ('CT-52', '04070205000102', current_date, 1);
+CT - 53 : insert into filial (razao_social, cnpj, data_insercao, id_empresa) values ('CT-53', '1234567890123456', current_date, 1);
+CT - 54 : insert into filial (razao_social, cnpj, data_insercao, id_empresa) values ('CT-54', 'abcdefghijklmn', current_date, 1);
+CT - 55 : insert into filial (razao_social, cnpj, data_insercao, id_empresa) values ('CT-55', '12345679801239', null, 1);
+CT - 56 : insert into filial (razao_social, cnpj, data_insercao, id_empresa) values ('CT-56', '12345679801240', '2016-07-12', 1);
+CT - 57 : insert into filial (razao_social, cnpj, data_insercao, id_empresa) values ('CT-57', '12345679801240', '2016-07-12', 2147483648);
+CT - 58 : insert into filial (razao_social, cnpj, data_insercao, id_empresa) values ('CT-58', '12345679801241', '2016-07-12', -2147483649);
+CT - 59 : insert into filial (razao_social, cnpj, data_insercao, id_empresa) values ('CT-59', '12345679801242', '2016-07-12', 1);
+
+conta
+CT - 60 : insert into conta (id, razao_social, cnpj, dia_faturamento, ativo) values (2147483648, 'CT-60', '12345679801243', 26, true);
+CT - 61 : insert into conta (id, razao_social, cnpj, dia_faturamento, ativo) values (-2147483649, 'CT-61', '12345679801243', 26, true);
+CT - 62 : insert into conta (id, razao_social, cnpj, dia_faturamento, ativo) values (10, 'CT-62', '12345679801243', 26, true);
+CT - 63 : insert into conta (razao_social, cnpj, dia_faturamento, ativo) values ('', '12345679801243', 26, true);
+CT - 64 : insert into conta (razao_social, cnpj, dia_faturamento, ativo) values ('Empresa Teste', '12345679801243', 26, true);
+CT - 65 : insert into conta (razao_social, cnpj, dia_faturamento, ativo) values ('CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65 CT-65', '12345679801243', 26, true);
+CT - 66 : insert into conta (razao_social, cnpj, dia_faturamento, ativo) values ('CT-66', '12345679801', 26, true);
+CT - 67 : insert into conta (razao_social, cnpj, dia_faturamento, ativo) values ('CT-67', '04070205000102', 26, true);
+CT - 68 : insert into conta (razao_social, cnpj, dia_faturamento, ativo) values ('CT-68', '1234567890123456', 26, true);
+CT - 69 : insert into conta (razao_social, cnpj, dia_faturamento, ativo) values ('CT-69', 'abcdefghijklmn', 26, true);
+CT - 70 : insert into conta (razao_social, cnpj, dia_faturamento, ativo) values ('CT-70', '12345679801243', null, true);
+CT - 71 : insert into conta (razao_social, cnpj, dia_faturamento, ativo) values ('CT-71', '12345679801243', 25, true);
+CT - 72 : insert into conta (razao_social, cnpj, dia_faturamento, ativo) values ('CT-72', '12345679801243', 26, true);
+CT - 73 : insert into conta (razao_social, cnpj, dia_faturamento, ativo) values ('CT-73', '12345679801243', 26, null);
+
+
+plano
+CT - 74 : insert into plano (id, nome, qtd_maxima_filiais) values (2147483648, 'CT-74', 1);
+CT - 75 : insert into plano (id, nome, qtd_maxima_filiais) values (-2147483649, 'CT-75', 1);
+CT - 76 : insert into plano (id, nome, qtd_maxima_filiais) values (10, 'CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76 CT-76', 1);
+CT - 77 : insert into plano (nome, qtd_maxima_filiais) values ('Plano Gold', 1);
+CT - 78 : insert into plano (nome, qtd_maxima_filiais) values ('CT-78', 2147483648);
+CT - 79 : insert into plano (nome, qtd_maxima_filiais) values ('CT-79', -2147483649);
+CT - 80 : insert into plano (nome, qtd_maxima_filiais) values ('CT-80', 1);
+CT - 81 : insert into plano (nome, qtd_maxima_filiais) values ('CT-81', 42);
+
+conta_plano
+CT - 82 : insert into conta_plano (id, id_plano, id_conta) values (2147483648 , 1, 1);
+CT - 83 : insert into conta_plano (id, id_plano, id_conta) values (-2147483649, 1, 1);
+CT - 84 : insert into conta_plano (id, id_plano, id_conta) values (10, 1, 1);
+CT - 85 : insert into conta_plano (id, id_plano, id_conta) values (11, 2147483648, 1);
+CT - 86 : insert into conta_plano (id, id_plano, id_conta) values (12, -2147483649, 1);
+CT - 87 : insert into conta_plano (id, id_plano, id_conta) values (13, 1 , 1);
+CT - 88 : insert into conta_plano (id, id_plano, id_conta) values (14, 1, 2147483648);
+CT - 89 : insert into conta_plano (id, id_plano, id_conta) values (15, 1, -2147483649);
+CT - 90 : insert into conta_plano (id, id_plano, id_conta) values (16, 1, 1);
+
+preco_modulo
+CT -  91 : insert into preco_modulo (id, modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values (2147483648, 'CT- 91', 999.9, 999.9, 1);
+CT -  92 : insert into preco_modulo (id, modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values (-2147483649, 'CT- 92', 999.9, 999.9, 1);
+CT -  93 : insert into preco_modulo (id, modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values (20, 'CT- 93', 999.9, 999.9, 1);
+CT -  94 : insert into preco_modulo (modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values ('CT- 94, CT- 94, CT- 94, CT- 94, CT- 94', 999.9, 999.9, 1);
+CT -  95 : insert into preco_modulo (modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values ('Modulo Teste', 999.9, 999.9, 1);
+CT -  96 : insert into preco_modulo (modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values (null, 999.9, 999.9, 1);
+CT -  97 : insert into preco_modulo (modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values ('CT- 97', 999.9, 999.9, 1);
+CT -  98 : insert into preco_modulo (modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values ('CT- 98', null, 999.9, 1);
+CT -  99 : insert into preco_modulo (modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values ('CT- 99', 999.9, 999.9, 1);
+CT - 100 : insert into preco_modulo (modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values ('CT-100', 999.9, null, 1);
+CT - 101 : insert into preco_modulo (modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values ('CT-101', 999.9, 999.9, -2147483649);
+CT - 102 : insert into preco_modulo (modulo, valor_mensal_fixo, valor_por_cnpj, id_plano) values ('CT-102', 999.9, 999.9,1);
+
+matriz_empresa_modulo
+CT - 103 : insert into matriz_empresa_modulo (id, modulo, id_empresa) values (2147483648, 'CT-103', 1);
+CT - 104 : insert into matriz_empresa_modulo (id, modulo, id_empresa) values (-2147483649, 'CT-104', 1);
+CT - 105 : insert into matriz_empresa_modulo (id, modulo, id_empresa) values (10, 'CT-105', 1);
+CT - 106 : insert into matriz_empresa_modulo (modulo, id_empresa) values ('CT-106, CT-106, CT-106, CT-106, CT-106', 1);
+CT - 107 : insert into matriz_empresa_modulo (modulo, id_empresa) values ('Modulo Teste', 1);
+CT - 108 : insert into matriz_empresa_modulo (modulo, id_empresa) values (null, 1);
+CT - 109 : insert into matriz_empresa_modulo (modulo, id_empresa) values ('CT-109', 2147483648);
+CT - 110 : insert into matriz_empresa_modulo (modulo, id_empresa) values ('CT-110', -2147483649);
+CT - 111 : insert into matriz_empresa_modulo (modulo, id_empresa) values ('CT-111', 1);
+
+usuario
+CT - 112 : insert into usuario (id, nome, email, senha, id_conta, ativo) values (2147483648, 'CT-112', 'email@email.com', 'senha', 1, true);
+CT - 113 : insert into usuario (id, nome, email, senha, id_conta, ativo) values (-2147483649, 'CT-113', 'email@email.com', 'senha', 1, true);
+CT - 114 : insert into usuario (id, nome, email, senha, id_conta, ativo) values (100, 'CT-114', 'email@email.com', 'senha', 1, true);
+CT - 115 : insert into usuario (nome, email, senha, id_conta, ativo) values ('CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115, CT-115', 'email@email.com', 'senha', 1, true);
+CT - 116 : insert into usuario (nome, email, senha, id_conta, ativo) values ('ana.leticia', 'email@email.com', 'senha', 1, true);
+CT - 117 : insert into usuario (nome, email, senha, id_conta, ativo) values (null, 'email@email.com', 'senha', 1, true);
+CT - 118 : insert into usuario (nome, email, senha, id_conta, ativo) values ('CT-118', 'email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email_email@email.com', 'senha', 1, true);
+CT - 119 : insert into usuario (nome, email, senha, id_conta, ativo) values ('CT-119', 'ana@email.com.br', 'senha', 1, true);
+CT - 120 : insert into usuario (nome, email, senha, id_conta, ativo) values ('CT-120', null, 'senha', 1, true);
+CT - 121 : insert into usuario (nome, email, senha, id_conta, ativo) values ('CT-121', 'email@email.com', 'senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha_senha', 1, true);
+CT - 122 : insert into usuario (nome, email, senha, id_conta, ativo) values ('CT-122', 'email@email.com', 'senha', 1, true);
+CT - 123 : insert into usuario (nome, email, senha, id_conta, ativo) values ('CT-123', 'email@email.com', null, 1, true);
+CT - 124 : insert into usuario (nome, email, senha, id_conta, ativo) values ('CT-124', 'email@email.com', 'senha', 2147483648, true);
+CT - 125 : insert into usuario (nome, email, senha, id_conta, ativo) values ('CT-125', 'email@email.com', 'senha', -2147483649, true);
+CT - 126 : insert into usuario (nome, email, senha, id_conta, ativo) values ('CT-126', 'email@email.com', 'senha', 1, true);
+CT - 127 : insert into usuario (nome, email, senha, id_conta, ativo) values ('CT-127', 'email@email.com', 'senha', 1, null);
+CT - 128 : insert into usuario (nome, email, senha, id_conta, ativo) values ('CT-128', 'emal@email.com', 'senha', 1, true);
+
+grupo
+CT - 129 : insert into grupo (id, nome) values (2147483648, 'CT-129');
+CT - 130 : insert into grupo (id, nome) values (-2147483649, 'CT-130');
+CT - 131 : insert into grupo (id, nome) values (10, 'CT-131');
+CT - 132 : insert into grupo (nome) values ('CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132, CT-132');
+CT - 133 : insert into grupo (nome) values ('testes');
+CT - 134 : insert into grupo (nome) values (null);
+
+grupo_permissao
+CT - 135 : insert into grupo_permissao (id_grupo, permissao) values (2147483648, 'CT-135');
+CT - 136 : insert into grupo_permissao (id_grupo, permissao) values (-2147483649, 'CT-136');
+CT - 137 : insert into grupo_permissao (id_grupo, permissao) values (10, 'CT-137');
+CT - 138 : insert into grupo_permissao (id_grupo, permissao) values (1, 'CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138, CT-138');
+CT - 139 : insert into grupo_permissao (id_grupo, permissao) values (2,'ct-139');
+CT - 140 : insert into grupo_permissao (id_grupo, permissao) values (null);
+\end{verbatim}
+
+
+
+Casos de Testes Inter - Tabelas 
+Restrição de Integridade Referencial
+
+\begin{verbatim}
+CT - 141 : delete from empresa where id='1';
+CT - 142 : delete from conta_plano where id='1';
+CT - 143 : delete from plano where id='1';
+CT - 144 : delete from usuario where id='1';
+CT - 145 : delete from grupo where id='1';
+CT - 146 : insert into empresa (id, ativo, cnpj, razao_social, id_conta, id_plano) values (9, true, '27477433', 'CT-146', 1, 1);
+CT - 147 : insert into empresa (id, ativo, cnpj, razao_social, id_conta, id_plano) values (10, true, '27477439', 'CT146', 15, 1);
+CT - 148 : update empresa set id_conta = '15';
+CT - 149 : insert into empresa (id, ativo, cnpj, razao_social, id_conta, id_plano) values (10, true, '27477439', 'CT146', 1, 1);
+CT - 150 : insert into empresa (id, ativo, cnpj, razao_social, id_conta, id_plano) values (10, true, '27477439', 'CT146', 1, 15);
+CT - 151 : update empresa set id_plano = '15';
+CT - 152 : insert into filial (id, razao_social, cnpj, data_insercao, id_empresa) values (9, 'ct151', '27477435000100', current_date, 1);
+CT - 153 : insert into filial (id, razao_social, cnpj, data_insercao, id_empresa) values (15, 'ct151', '2747743500000', current_date, 20);
+CT - 154 : insert into conta_plano (id, id_plano, id_conta, padrao) values (10, 1, 1, false);
+CT - 155 : insert into conta_plano (id, id_plano, id_conta, padrao) values (11, 20, 1, false);
+\end{verbatim}

@@ -1,14 +1,171 @@
 \chapter{Plano de Teste}
 \label{planoTeste}
 
-
-
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \section{Plano de Testes Baseado no Teste Funcional em BDR}
-\label{planoTestesBDR}
+\label{sec:planoTestesBDR}
+
+Segundo (Souza, 2008 apud Vilela, 2007\cite{Souza}), os Elementos Requeridos (ERs), são requisitos que satisfazem o teste, e eles são identificados através dos critérios de testes. 
+
+Os elementos requeridos mostrados nas seções a seguir são baseados nos critérios propostos na seção \ref{sec:testeFuncionalBd}, sobre restrições e capítulo 4, utilizando as técnicas de teste funcional, por partição, por classes de equivalência e análise do valor limite.
 
 \subsection{Testes Intra - Tabelas}
-\label{testesIntraTabela}
+\label{sec:testesIntraTabela}
+
+Na Tabela \ref{tab:elementoRequiridoIntraTabelaChavePrimariaRestricaoUnicidade} são apresentados os elementos requeridos pelo critério Restrição de Unicidade.  
+
+\begin{table*}[p]
+	\caption{Restrição de Chave Primária : Restrição de Unicidade}
+	\label{tab:elementoRequiridoIntraTabelaChavePrimariaRestricaoUnicidade} 
+	\begin{tabular}{|c|c|p{3cm}|p{3cm}|p{3cm}|}
+		\hline \textbf{Tabela} & \textbf{Atributo} & \textbf{Classes válidas} & \textbf{Classes inválidas} & \textbf{Saída esperada}\\ 
+		\hline empresa 
+		 & id 
+		 & Duas tuplas não podem ter o mesmo valor de chave primária do atributo \textit{id}
+		 & Duas tuplas possuem o mesmo valor de chave primária 
+		 & A chave primária da tabela empresa é única, então o BD respeitou a restrição de unicidade\\ 
+		 
+		 \hline empresa 
+		 & cnpj
+		 & Duas tuplas não podem ter o mesmo valor para o atributo \textit{cnpj} 
+		 & Duas tuplas possuem o mesmo valor para o atributo \textit{cnpj}
+		 & O atributo cnpj da tabela empresa é único, então o BD respeitou a restrição de unicidade\\
+		
+		 \hline empresa 
+		 & razao\_social
+		 & Duas tuplas não podem ter o mesmo valor para o atributo \textit{razao\_social} 
+		 & Duas tuplas possuem o mesmo valor para o atributo \textit{razao\_social}
+		 & O atributo razao\_social da tabela empresa é único, então o BD respeitou a restrição de unicidade\\
+		 
+		 \hline filial 
+		 & id 
+		 & Duas tuplas não podem ter o mesmo valor de chave primária do atributo \textit{id}
+		 & Duas tuplas possuem o mesmo valor de chave primária 
+		 & A chave primária da tabela filial é única, então o BD respeitou a restrição de unicidade\\ 
+		 
+		 \hline filial 
+		 & cnpj
+		 & Duas tuplas não podem ter o mesmo valor para o atributo \textit{cnpj} 
+		 & Duas tuplas possuem o mesmo valor para o atributo \textit{cnpj}
+		 & O atributo cnpj da tabela filial é único, então o BD respeitou a restrição de unicidade\\
+		 
+		 \hline conta 
+		 & id 
+		 & Duas tuplas não podem ter o mesmo valor de chave primária do atributo \textit{id}
+		 & Duas tuplas possuem o mesmo valor de chave primária 
+		 & A chave primária da tabela conta é única, então o BD respeitou a restrição de unicidade\\ 
+		 
+		 \hline conta 
+		 & cnpj
+		 & Duas tuplas não podem ter o mesmo valor para o atributo \textit{cnpj} 
+		 & Duas tuplas possuem o mesmo valor para o atributo \textit{cnpj}
+		 & O atributo cnpj da tabela conta é único, então o BD respeitou a restrição de unicidade\\
+		 
+		 \hline conta 
+		 & razao\_social
+		 & Duas tuplas não podem ter o mesmo valor para o atributo \textit{razao\_social} 
+		 & Duas tuplas possuem o mesmo valor para o atributo \textit{razao\_social}
+		 & O atributo razao\_social da tabela conta é único, então o BD respeitou a restrição de unicidade\\
+		 
+		 
+		 \hline plano 
+		 & id 
+		 & Duas tuplas não podem ter o mesmo valor de chave primária do atributo \textit{id}
+		 & Duas tuplas possuem o mesmo valor de chave primária 
+		 & A chave primária da tabela plano é única, então o BD respeitou a restrição de unicidade\\ 
+		 
+		 \hline plano 
+		 & nome
+		 & Duas tuplas não podem ter o mesmo valor para o atributo \textit{nome} 
+		 & Duas tuplas possuem o mesmo valor para o atributo \textit{nome}
+		 & O atributo nome da tabela plano é único, então o BD respeitou a restrição de unicidade\\
+		 
+		 \hline conta\_plano 
+		 & id 
+		 & Duas tuplas não podem ter o mesmo valor de chave primária do atributo \textit{id}
+		 & Duas tuplas possuem o mesmo valor de chave primária 
+		 & A chave primária da tabela conta\_plano é única, então o BD respeitou a restrição de unicidade\\ 
+		 
+		 \hline conta\_plano 
+		 & id\_conta, id\_plano
+		 & Duas tuplas não podem ter o mesmo valor para os atributos \textit{id\_conta, id\_plano} 
+		 & Duas tuplas possuem o mesmo valor para os atributos \textit{id\_conta, id\_plano}
+		 & Os atributos id\_conta, id\_plano da tabela conta\_plano são únicos, então o BD respeitou a restrição de unicidade\\
+		 
+		\hline 
+	\end{tabular} 
+\end{table*}
+
+Na Tabela \ref{tab:elementoRequiridoIntraTabelaChavePrimariaRestricaoEntidade} são apresentados os elementos requeridos pelo critério Restrição de Entidade. Nesta tabela são mostradas as chaves primárias de cada Entidade usada no exemplo da Figura \ref{fig:figura3}.
+
+
+\begin{table*}[p]
+	\caption{Restrição de Chave Primária : Restrição de Unicidade}
+	\label{tab:elementoRequiridoIntraTabelaChavePrimariaRestricaoEntidade} 
+	\begin{tabular}{|c|c|p{3cm}|p{3cm}|p{3cm}|}
+		\hline \textbf{Tabela} & \textbf{Atributo} & \textbf{Classes válidas} & \textbf{Classes inválidas} & \textbf{Saída esperada}\\ 
+		\hline empresa 
+		& id 
+		& Não pode conter valores nulos na chave primária do atributo \textit{id}
+		& A chave primária \textit{id} contém valor nulo.
+		& A chave primária da tabela \textit{empresa} não possui valor nulo, então o BD respeitou a restrição de unicidade\\ 
+		
+		\hline filial 
+		& id 
+		& Não pode conter valores nulos na chave primária do atributo \textit{id}
+		& A chave primária \textit{id} contém valor nulo.
+		& A chave primária da tabela \textit{filial} não possui valor nulo, então o BD respeitou a restrição de unicidade\\ 
+		
+		
+		\hline conta 
+		& id 
+		& Não pode conter valores nulos na chave primária do atributo \textit{id}
+		& A chave primária \textit{id} contém valor nulo.
+		& A chave primária da tabela \textit{conta} não possui valor nulo, então o BD respeitou a restrição de unicidade\\  
+		
+		\hline plano 
+		& id
+		& Não pode conter valores nulos na chave primária do atributo \textit{id}
+		& A chave primária \textit{id} contém valor nulo.
+		& A chave primária da tabela \textit{plano} não possui valor nulo, então o BD respeitou a restrição de unicidade\\ 
+		
+		\hline conta\_plano
+		& id
+		& Não pode conter valores nulos na chave primária do atributo \textit{id}
+		& A chave primária \textit{id} contém valor nulo.
+		& A chave primária da tabela \textit{conta\_plano} não possui valor nulo, então o BD respeitou a restrição de unicidade\\ 
+		
+		\hline preco\_modulo
+		& id
+		& Não pode conter valores nulos na chave primária do atributo \textit{id}
+		& A chave primária \textit{id} contém valor nulo.
+		& A chave primária da tabela \textit{preco\_modulo} não possui valor nulo, então o BD respeitou a restrição de unicidade\\ 
+		
+		\hline matriz\_empresa\_modulo
+		& id
+		& Não pode conter valores nulos na chave primária do atributo \textit{id}
+		& A chave primária \textit{id} contém valor nulo.
+		& A chave primária da tabela \textit{matriz\_empresa\_modulo} não possui valor nulo, então o BD respeitou a restrição de unicidade\\ 
+		
+		\hline usuario
+		& id
+		& Não pode conter valores nulos na chave primária do atributo \textit{id}
+		& A chave primária \textit{id} contém valor nulo.
+		& A chave primária da tabela \textit{usuario} não possui valor nulo, então o BD respeitou a restrição de unicidade\\ 
+		
+		\hline grupo
+		& id
+		& Não pode conter valores nulos na chave primária do atributo \textit{id}
+		& A chave primária \textit{id} contém valor nulo.
+		& A chave primária da tabela \textit{grupo} não possui valor nulo, então o BD respeitou a restrição de unicidade\\ 
+	
+		\hline 
+	\end{tabular} 
+\end{table*}
+
+
+Na Tabela 5 a 14  são apresentados os elementos requeridos pelo Domínio de Atributos das tabelas definidas no estudo de caso da Figura \ref{fig:figura3}
+
 
 \subsection{Testes Inter - Tabelas}
-\label{testesInterTabela}
+\label{sec:testesInterTabela}

@@ -30,16 +30,49 @@ As chaves em um modelo de BD relacionais são importantes, pois são elas que dist
 \section{Restrições de Banco de Dados}
 \label{sec:restricoesBd} 
 
+Segundo Souza (2008) as restrições de BD são importantes para garantir a integridade e consistência dos dados em um BD Relacional. Elas são classificadas em três tipos de categorias:
+
+\begin{itemize}
+	\item \textbf{Restrições inerentes baseadas em modelo}: São restrições inerentes ao modelo de dados; 
+
+	\item \textbf{Restrições baseadas em esquemas}: São restrições que podem ser expressas diretamente nos esquemas do modelo de dados, como por exemplo, nas especificações em \nameref{sigla:DDL}. A DDL é uma linguagem especial que serve para especificar um esquema de BD, definições e propriedades adicionais de dados (SILBERSCHATZ et al., 2006)\cite{Silberschatz};
+
+	\item \textbf{Restrições Baseadas em Aplicação}: São restrições que não podem ser expressas em  esquemas de modelo de dados, portanto, utilizam os programas de aplicação .
+\end{itemize}
+
+Serão utilizados neste trabalho restrições referente à \textbf{Restrições Baseadas em Esquemas}, e seus objetivos são assegurar algumas condições contidas em algumas características de um esquema de BD. Ex. 
+
 \subsection{Restrições de Domínio}
-\label{restricoesDominio}
+\label{subsec:restricoesDominio}
+
+Segundo Korth e Silberschatz (1995)\cite{Korth}, restrições de domínio são regras que devem ser testadas pelo sistema, para verificar se os tipos de domínios são compatíveis (ou válidos), como também, possibilitam testar consultas para assegurar que as comparações façam sentidos. 
+Elmasri e Navathe (2005)\cite{ElmasriNavathe} exemplificam restrições de domínio, no qual, dentro de cada tupla, o valor de cada atributo A deve ser um valor atômico do domínio \verb|Dom (A)|.
+
+Por exemplo, se o tipo de dado de um atributo for inteiro, então o domínio daquela coluna tem que ser inteiro.
+
+A \nameref{sigla:SQL} contém um conjunto restrito de tipos de domínios, que são: cadeia com comprimento de caracteres fixos e especificados pelo  usuário; número decimal, especificado pelo usuário o tamanho e o número de casas depois da vírgula; número ou conjunto finito de inteiro dependente da máquina; subconjunto de inteiro  pequeno, dependente da máquina; número de ponto flutuante, dependente da máquina; ponto flutuante e número de ponto flutuante com dupla precisão, também, dependente da máquina; formato de datas, representação e processamento de datas (KORTH e SILBERSCHATZ, 1995)\cite{Korth}. 
+
+
 
 \subsection{Restrições de Integridade Semântica}
-\label{restricoesIntegridadeSemantica}
+\label{subsec:restricoesIntegridadeSemantica}
+
+Segundo Mello (2003), as restrições de integridade semântica, têm como objetivo abranger não apenas as restrições de tipos de dados de um atributo, mas também, seus valores permitidos e transições de valores válidos, de modo a garantir sua integridade especificada e imposta em um BD relacional.
+De acordo com Elmasri e Navathe (2005)\cite{ElmasriNavathe} alguns exemplos básicos de consultas são mostrados para a compreensão  desta restrição: o ano de nascimento do funcionário não pode ser menor que 1942; o salário  do empregado não pode ser maior que o salário do gerente; o número máximo que o empregado pode trabalhar por semana é de 48 horas/semanais. Essas restrições devem ser impostas pelos programas de aplicação.
+
 
 \subsection{Restrições de Integridade Referencial e de Chave Primária}
-\label{restricoesIntegridadeReferencial}
+\label{subsec:restricoesIntegridadeReferencial}
+Os domínios da chave estrangeira de uma relação devem corresponder-se com uma chave primária, independente que seja da mesma relação ou não. A chave estrangeira faz referência à chave primária da tabela relacionada. Para se manter consistência nessa relação é preciso que uma tupla de uma tabela faça referência a uma tupla de outra tabela (ELMASRI e NAVATHE, 2005)\cite{ElmasriNavathe}.
+As restrições de integridade referencial baseiam-se nas condições das Chaves Estrangeiras. Essas declaram dois esquemas de relação (tabela) R1 e R2 , sendo que, um conjunto de atributos \nameref{sigla:FK} da tabela R1 é uma chave estrangeira de R1 , que faz referência à tabela R2 .  Assim sendo, estas definições são satisfeitas se garantirem duas regras:
 
-Veja a Figura\ref{fig:figura2}:
+i) Os atributos FK de R1 têm o mesmo domínio que os atributos da chave primária PK (Primary Key) de R2 ;
+
+ii) O valor de FK em uma tupla t1 do estado corrente r1 (R1 ) pode ser um valor de PK de alguma tupla t2 no estado r2 (R2 ) ou pode ser um valor null (ELMASRI e NAVATHE, 2005).
+
+Segundo Souza (2015), neste contexto, R1 é chamada relação referência, e R2 é a relação referida. Portanto, se essas condições citadas anteriormente forem satisfeitas, uma restrição de integridade referencial de R1 para R2 é garantida.
+
+Souza (2015)\cite{Souza} em seu trabalho, descreveu um quadro comparando  as principais restrições de BD baseadas em esquemas, conforme mostrado na tabela presente na Figura \ref{fig:figura2} :
 
 %% figura 2
 \begin{figure}[H]
@@ -53,9 +86,31 @@ Veja a Figura\ref{fig:figura2}:
 \section{Aplicações de Banco de Dados}
 \label{sec:aplicacoesBd} 
 
+Gonçalves (2003), diz que uma ABDR é formada por módulos de programas desenvolvidos em uma determinada linguagem de programação, essa linguagem é associada a um \nameref{sigla:SGBD} que utiliza o modelo relacional e esse SGBD usa o SQL para manipulação de seus dados.
+
+Spoto (2000)\cite{Spoto} descreve que as \nameref{sigla:ABDR} são formadas por um ou vários programas que
+utilizam diferentes linguagens de programação procedimentais, dependendo do SGBD
+adotado, e permite a utilização de comandos da linguagem \nameref{sigla:SQL} em seu código. 	
+
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \section{Linguagem de Banco de Dados}
 \label{sec:linguagemBd} 
+
+Na Linguagem \nameref{sigla:SQL} a estrutura do BDR é definida através da linguagem de definição de dados (\nameref{sigla:DDL}), alguns dos comandos utilizados é a criação, exclusão e alteração na tabela, sendo permitido então que os dados sejam manipulados e para manipular esses dados existe uma linguagem de manipulação de dados (\nameref{sigla:DML}) (ABREU E MACHADO, 2000). 
+
+Segundo Abreu e Machado (2000), o conceito de DML "permite ao usuário ou a um programa de aplicação, a inclusão, remoção, seleção ou atualização de dados previamente armazenados no banco". E suas operações são \textit{Select}, \textit{Insert}, \textit{Update} e \textit{Delete}. 
+
+Para a geração de testes no banco é utilizada a DML, as operações de \textit{Insert}, \textit{Delete} e \textit{Update} podem alterar o estado do banco. Esses comandos de DML podem ser aplicados em um banco de dados, como testes para verificação de restrições de integridades e para qualquer outro tipo de teste que se deseja inserir em um BDR (ABREU e MACHADO, 2000).
+
+O \textit{Insert} é um comando que quando executado inclui novas tuplas à tabela, dependendo do valor inserido ele pode quebrar algumas restrições impostas pelo modelo relacional. Por exemplo, se for inserido um valor de atributo nulo, sendo o atributo chave primária, isso violará a restrição de integridade de entidade, pois em uma chave primária não são permitidos valores nulos (ABREU e MACHADO, 2000).
+
+O \textit{Update} atualiza alguns atributos de uma tupla, em que são selecionados por condições impostas no comando, a utilização do update também possui restrições quanto a não modificar atributos que são chaves primárias e estrangeiras (ABREU e MACHADO, 2000). Segundo Elmasri e Navathe (2005)\cite{ElmasriNavathe}, "modificar um atributo de chave primária é similar a remover uma tupla e inserir outra em seu lugar, porque usamos a chave primária para identificar as tuplas".
+
+O \textit{Delete} remove apenas a tupla, mas pode violar apenas a restrição de integridade referencial. Uma tabela que é referenciada por outra não pode ter remoção de tuplas, pois a
+tabela que referenciou contém tuplas onde terá atributos que dependem da tabela referenciada (ABREU e MACHADO, 2000)
+
+Em alguns tipos de SGBD, por exemplo, em Banco de Dados transacionais para validar o que foi modificado no banco até o momento, pode ser utilizado o comando COMMIT, este comando valída a transação em execução e a torna visível é um comando utilizado para controle de transações, tornando o dado armazenado persistente. Diferente do comando ROLLBACK que anula as transações feitas, desfaz o trabalho (ELMASRI e NAVATHE, 2005)\cite{ElmasriNavathe}.
+
 
 
 

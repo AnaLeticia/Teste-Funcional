@@ -25,7 +25,7 @@ O sistema foi construído com a finalidade de controlar as licenças dos clientes 
 
 O ~\nameref{sigla:DER} do software de Licenças é apresentado na Figura \ref{fig:figura3}: 
 
-%% figura 2
+%% figura 3
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{./fig/figura3}
@@ -35,11 +35,11 @@ O ~\nameref{sigla:DER} do software de Licenças é apresentado na Figura \ref{fig:
 
 De acordo com o \nameref{sigla:DER} apresentado na Figura \ref{fig:figura3}, a tabela \verb|empresa| está relacionada às empresas que irão receber a licença de uso. Geralmente são clientes ou outras empresas parceiras (software-houses), a tabela \verb|filial| indica as filiais que uma empresa pode ter. Cada registro de filial está relacionada com um e apenas um registro de empresa.
 
-Da mesma forma a tabela \verb|conta| indica a conta na qual a empresa está inserida. Uma conta pode conter várias empresas, como por exemplo, quando um cliente possui um grupo de empresas distintas (CNPJ?s bases distintos), mas todas elas pertencem a mesma conta. Em contrapartida, uma empresa só pode pertencer a uma única conta.
+Da mesma forma a tabela \verb|conta| indica a conta na qual a empresa está inserida. Uma conta pode conter várias empresas, como por exemplo, quando um cliente possui um grupo de empresas distintas (CNPJ's bases distintos), mas todas elas pertencem a mesma conta. Em contrapartida, uma empresa só pode pertencer a uma única conta.
 
-A tabela \verb|plano| determina a quantidade máxima de CNPJ?s que cada plano possuirá. Cada plano se adequa a realidade da empresa: micro, pequena, média, grande, multi-nacional etc.
+A tabela \verb|plano| determina a quantidade máxima de CNPJ's que cada plano possuirá. Cada plano se adequa a realidade da empresa: micro, pequena, média, grande, multi-nacional etc.
 
-Na tabela \verb|conta_plano| fica a relação da conta com o plano na qual ela foi ?vinculada?, que tem o relacionamento direto com a tabela conta e com a tabela plano.
+Na tabela \verb|conta_plano| fica a relação da conta com o plano na qual ela foi "vinculada", que tem o relacionamento direto com a tabela conta e com a tabela plano.
 
 A tabela \verb|preco_modulo| mostra qual valor que cada módulo tem para um determinado plano, para assim o pagamento ser efetuado de acordo com cada plano do cliente.
 
