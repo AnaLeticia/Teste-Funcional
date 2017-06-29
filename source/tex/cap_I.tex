@@ -1,10 +1,9 @@
-
 \chapter{Introdução}
 \label{cap:intro}
 
 A onipresença de software ao redor do globo é indiscutível. Consumimos (e produzimos) em uma escala imensurável pelos mais otimistas de tempos passados. Temos contato
 
-A qualidade de software aos poucos vem ocupando seu espaço no processo de desenvolvimento de um software. O testes de software em si, é a principal etapa para que a qualidade seja garantida. Foram realizados alguns trabalhos e pesquisa com base nas diversas técnicas de testes, importantes para a realização deste trabalho em si. 
+A qualidade de software aos poucos vem ocupando seu espaço no processo de desenvolvimento de um software. O testes de software em si, é a principal etapa para que a qualidade seja garantida. Foram realizados alguns trabalhos e pesquisa com base nas diversas técnicas de testes, importantes para a realização deste trabalho em si.
 
 Souza \cite{Souza} realizou uma pesquisa a qual foi a base para alguns critérios de testes aplicados neste trabalho. Ela propôs alguns critérios de testes em Banco de Dados Relacional baseados na especificação de requisitos através da UML. Para apoiar a aplicação dos conjuntos de critérios propostos, foi desenvolvido uma abordagem denominada mapeamento Conceitual de Informação.
 
@@ -13,10 +12,102 @@ Souza \cite{Souza} realizou uma pesquisa a qual foi a base para alguns critérios
 \section{Objetivos}
 \label{sec:objetivos}
 
-Objetivos
+O objetivo deste trabalho é mostrar diferentes técnicas de testes que podem ser aplicadas em um banco de dados relacional e apontar quais benefícios cada técnica pode trazer na detecção de defeitos. Mostrar que as duas técnicas utilizadas neste trabalho são complementares para que uma aplicação de banco de dados relacional possa alcançar níveis mais satisfatórios de qualidade.
+Os objetivos específicos são:
+
+\begin{itemize}
+	\item Mostrar como cada técnica funciona;
+	\item Mostrar como são gerados os planos de Testes de cada Técnica;
+	\item Mostrar a execução de cada técnica em um BDR;
+	\item Realizar uma análise de cada técnica, comparando os resultados obtidos;
+\end{itemize}
+
 
 %% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \section{Motivação}
 \label{sec:motivacao}
 
-Motivacao
+Grande parte dos testes aplicados atualmente levam em consideração apenas o código fonte do software ou o executável.  Poucos se preocupam em realizar testes no Banco de Dados e nas partes do código que se relacionam com o Banco de Dados. O exemplo de~\nameref{sigla:ABDR} utilizado neste trabalho, foi extraído de uma empresa que não realizam as técnicas de testes no~\nameref{sigla:BDR}. Sendo assim foi com esse intuito gerar essa demonstração aplicando as técnicas de testes funcional e de mutantes aplicados em Banco de Dados, para assim manter a integridade de seus dados. 
+
+%% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+\section{Organização do trabalho}
+\label{sec:organizacao}
+
+Esse trabalho foi organizado da seguinte forma:
+
+\begin{itemize}
+	
+	\item No Capítulo 1 foi apresentado uma introdução sobre testes em Banco de Dados que são referenciados por vários trabalhos anteriores,
+	\item No Capítulo 2 foram colocados as principais teorias que serão utilizadas sobre Teste de Software,
+	\item No Capítulo 3 foram elencadas as características essenciais de um Banco de Dados, com foco em Banco de Dados Relacional,
+	\item No Capítulo 4 foram apresentadas as técnicas de testes de Banco de Dados Relacional,
+	\item No Capítulo 5 foram apresentados um estudo de caso,
+	\item No Capítulo 6 são mostrados os  planos de testes das duas técnicas utilizadas (Funcional e Mutantes),
+	\item No Capítulo 7 são apresentados os resultados obtidos e, por fim,
+	\item no Capítulo 8 são apresentadas as conclusões e trabalhos futuros. 
+	
+\end{itemize}
+
+%% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+\section{Lista de abreviaturas e siglas}
+\label{sec:siglas}
+
+\paragraph{ABDR}
+\label{sigla:ABDR}
+Aplicação de Banco de Dados Relacional
+
+\paragraph{BD}
+\label{sigla:BD}
+Banco de Dados
+
+\paragraph{BDR}
+\label{sigla:BDR}
+Banco de Dados Relacional
+
+\paragraph{CPU}
+\label{sigla:CPU}
+Central Processing Unit
+
+\paragraph{DB}
+\label{sigla:DB}
+Database
+
+\paragraph{DBMS} 
+\label{sigla:DBMS}
+Database Management System
+
+\paragraph{DDL}
+\label{sigla:DDL}
+Data Definition Language
+
+\paragraph{DER}
+\label{sigla:DER}
+Diagrama Entidade Relacionamento
+
+\paragraph{DML}
+\label{sigla:DML}
+Data Manipulation Language
+
+\paragraph{FK}
+\label{sigla:FK}
+Foreign Key
+
+\paragraph{GPU}
+\label{sigla:GPU}
+Graphical Processing Unit
+
+\paragraph{MER}
+\label{sigla:MER}
+Modelo Entidade Relacionamento
+
+\paragraph{RDBMS}
+\label{sigla:RDBMS}
+Relational Database Management System
+
+\paragraph{SGBD}
+\label{sigla:SGBD}
+Sistema Gerenciador de Banco de Dados
+
+\paragraph{SQL}
+\label{sigla:SQL}
+Structured Query Language

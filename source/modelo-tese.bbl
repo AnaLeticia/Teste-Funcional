@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{Flyway}
+{\sffamily\scshape {Boxfuse GmbH}.}
+\newblock {\bfseries {Flyway}}.
+\newblock \url{https://flywaydb.org/}.
+\newblock Accessado em: 2016-12-03.
+
 \bibitem{Cabeca}
 {\sffamily\scshape Cabeça, A. G.; Leitão-Jr, P. J.~M.}
 \newblock {\bfseries {Análise de Mutantes em Aplicações SQL de Banco de
@@ -12,8 +18,14 @@
   Model of Data for Large Shared Data Banks}}, 1970.
 
 \bibitem{Crespo}
-{\sffamily\scshape CRESPO.}
-\newblock {\bfseries Crespo}, 2000.
+{\sffamily\scshape CRESPO, .}
+\newblock {\bfseries ?}, 2000.
+
+\bibitem{Oobj}
+{\sffamily\scshape da~Informação, O.~T.}
+\newblock {\bfseries {Oobj Tecnologia da Informação}}.
+\newblock \url{http://www.oobj.com.br/}.
+\newblock Accessado em: 2017-12-03.
 
 \bibitem{DelamaroMaldonadoJino}
 {\sffamily\scshape DELAMARO, M. E;~MALDONADO, J. C. J.~M.}
@@ -28,7 +40,7 @@
 
 \bibitem{Howden}
 {\sffamily\scshape Howden.}
-\newblock {\bfseries Howden}.
+\newblock {\bfseries ?}
 
 \bibitem{Korth}
 {\sffamily\scshape KORTH, Henry F.;~SILBERSCHATZ, A. S.~S.}
@@ -48,8 +60,8 @@
 
 \bibitem{Myers1976}
 {\sffamily\scshape MYERS, G.~J.}
-\newblock {\bfseries The art of software testing}.
-\newblock John Wiley \& Sons, Inc, Hoboken, New Jersey, 1976.
+\newblock {\bfseries ?}
+\newblock ?, ?, 1976.
 
 \bibitem{Myers2004}
 {\sffamily\scshape MYERS, G.~J.}
@@ -58,31 +70,31 @@
 
 \bibitem{Pressman2000}
 {\sffamily\scshape PRESSMAN, R.}
-\newblock {\bfseries Software Engineering}.
+\newblock {\bfseries Software Engineering?}
 \newblock 2000.
 
 \bibitem{Pressman2002}
 {\sffamily\scshape PRESSMAN, R.}
-\newblock {\bfseries Software Engineering}.
+\newblock {\bfseries Software Engineering?}
 \newblock 2002.
 
 \bibitem{Pressman2005}
 {\sffamily\scshape PRESSMAN, R.}
-\newblock {\bfseries Software Engineering}.
+\newblock {\bfseries Software Engineering?}
 \newblock 2005.
 
 \bibitem{Pressman2006}
 {\sffamily\scshape PRESSMAN, R.}
-\newblock {\bfseries Software Engineering}.
+\newblock {\bfseries Software Engineering?}
 \newblock 2006.
 
 \bibitem{RochaEtAl}
 {\sffamily\scshape ROCHA, T.}
-\newblock {\bfseries Rocha}, 2001.
+\newblock {\bfseries ?}, 2001.
 
 \bibitem{Silberschatz}
 {\sffamily\scshape SILBERSCHATZ, J.}
-\newblock {\bfseries Silberschatz}, 2006.
+\newblock {\bfseries Silberschatz ?}, 2006.
 
 \bibitem{Sommerville}
 {\sffamily\scshape SOMMERVILLE, I.}
