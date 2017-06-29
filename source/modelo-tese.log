@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.6.20)  29 JUN 2017 01:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.6.20)  29 JUN 2017 01:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -575,19 +575,16 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 54.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 54.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 54.
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 54.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 54.
- [1]
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 55.
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <17.28> not available
@@ -855,7 +852,7 @@ Underfull \hbox (badness 1946) in paragraph at lines 15--16
 cr/m/n/12 r(R) \T1/ptm/m/n/12 é um con-junto de vá-rias tu-plas
  []
 
-<./fig/figura1.png, id=495, 1210.5225pt x 333.245pt>
+<./fig/figura1.png, id=490, 1210.5225pt x 333.245pt>
 File: ./fig/figura1.png Graphic file (type png)
  <use ./fig/figura1.png>
 Package pdftex.def Info: ./fig/figura1.png used on input line 21.
@@ -873,7 +870,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 39.
 
-<./fig/figura2.png, id=499, 749.80125pt x 645.41125pt>
+<./fig/figura2.png, id=494, 749.80125pt x 645.41125pt>
 File: ./fig/figura2.png Graphic file (type png)
  <use ./fig/figura2.png>
 Package pdftex.def Info: ./fig/figura2.png used on input line 47.
@@ -899,7 +896,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 8.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 11.
-<./fig/figura4.png, id=514, 1197.47375pt x 411.5375pt>
+<./fig/figura4.png, id=510, 1197.47375pt x 411.5375pt>
 File: ./fig/figura4.png Graphic file (type png)
  <use ./fig/figura4.png>
 Package pdftex.def Info: ./fig/figura4.png used on input line 19.
@@ -920,7 +917,7 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 5.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
-<./fig/figura3.jpg, id=526, 961.5925pt x 789.95125pt>
+<./fig/figura3.jpg, id=522, 961.5925pt x 789.95125pt>
 File: ./fig/figura3.jpg Graphic file (type jpg)
  <use ./fig/figura3.jpg>
 Package pdftex.def Info: ./fig/figura3.jpg used on input line 31.
@@ -966,27 +963,27 @@ Overfull \hbox (36.72882pt too wide) in paragraph at lines 30--38
  [][] 
  []
 
-<./fig/unicidade.png, id=556, 286.06876pt x 250.9375pt>
+<./fig/unicidade.png, id=552, 286.06876pt x 250.9375pt>
 File: ./fig/unicidade.png Graphic file (type png)
 
 <use ./fig/unicidade.png>
 Package pdftex.def Info: ./fig/unicidade.png used on input line 52.
 (pdftex.def)             Requested size: 192.0548pt x 168.47185pt.
- <./fig/dominio.png, id=557, 289.08pt x 255.95625pt>
+ <./fig/dominio.png, id=553, 289.08pt x 255.95625pt>
 File: ./fig/dominio.png Graphic file (type png)
 
 <use ./fig/dominio.png>
 Package pdftex.def Info: ./fig/dominio.png used on input line 57.
 (pdftex.def)             Requested size: 192.0548pt x 170.04863pt.
 
-<./fig/referencial.png, id=558, 295.1025pt x 254.9525pt>
+<./fig/referencial.png, id=554, 295.1025pt x 254.9525pt>
 File: ./fig/referencial.png Graphic file (type png)
 
 <use ./fig/referencial.png>
 Package pdftex.def Info: ./fig/referencial.png used on input line 62.
 (pdftex.def)             Requested size: 192.0548pt x 165.92722pt.
 
-<./fig/total.png, id=559, 299.1175pt x 259.97125pt>
+<./fig/total.png, id=555, 299.1175pt x 259.97125pt>
 File: ./fig/total.png Graphic file (type png)
  <use ./fig/total.png>
 Package pdftex.def Info: ./fig/total.png used on input line 67.
@@ -1001,7 +998,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 77.
 [30
 
-] <./fig/operadores.png, id=575, 572.1375pt x 320.19624pt>
+] <./fig/operadores.png, id=571, 572.1375pt x 320.19624pt>
 File: ./fig/operadores.png Graphic file (type png)
 
 <use ./fig/operadores.png>
@@ -1148,8 +1145,8 @@ Package rerunfilecheck Info: File `modelo-tese.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 11153 strings out of 493105
- 163830 string characters out of 6137072
+ 11152 strings out of 493105
+ 163823 string characters out of 6137072
  297206 words of memory out of 5000000
  14173 multiletter control sequences out of 15000+600000
  103417 words of font info for 101 fonts, out of 8000000 for 9000
@@ -1163,10 +1160,10 @@ lvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo-tese.pdf (48 pages, 687211 bytes).
+Output written on modelo-tese.pdf (47 pages, 687346 bytes).
 PDF statistics:
- 726 PDF objects out of 1000 (max. 8388607)
- 638 compressed objects within 7 object streams
- 156 named destinations out of 1000 (max. 500000)
+ 722 PDF objects out of 1000 (max. 8388607)
+ 635 compressed objects within 7 object streams
+ 155 named destinations out of 1000 (max. 500000)
  494 words of extra memory for PDF output out of 10000 (max. 10000000)
 
