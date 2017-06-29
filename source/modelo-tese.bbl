@@ -18,8 +18,9 @@
   Model of Data for Large Shared Data Banks}}, 1970.
 
 \bibitem{Crespo}
-{\sffamily\scshape CRESPO, .}
-\newblock {\bfseries ?}, 2000.
+{\sffamily\scshape CRESPO, A. N.;~MARTINEZ, M. R. M. J. M. J. M. T.~A.}
+\newblock {\bfseries Documentação de teste - referência: Norma ieee std 829},
+  2000.
 
 \bibitem{Oobj}
 {\sffamily\scshape da~Informação, O.~T.}
@@ -39,8 +40,9 @@
 \newblock São Paulo, sixth edition, 2005.
 
 \bibitem{Howden}
-{\sffamily\scshape Howden.}
-\newblock {\bfseries ?}
+{\sffamily\scshape HOWDEN, W.}
+\newblock {\bfseries Functional Program Testing and Analysis}.
+\newblock McGraw-Hill, USA, 1987.
 
 \bibitem{Korth}
 {\sffamily\scshape KORTH, Henry F.;~SILBERSCHATZ, A. S.~S.}
@@ -49,7 +51,10 @@
 
 \bibitem{Maldonado1991}
 {\sffamily\scshape MALDONADO, J.~C.}
-\newblock {\bfseries ?}, 1991.
+\newblock {\bfseries Critérios potenciais usos: Uma contribuição ao teste
+  estrutural de software}.
+\newblock Tese de doutorado em engenharia elétrica, DCA/FEE/UNICAMP, Campinas,
+  SP, 1991.
 
 \bibitem{Modesto}
 {\sffamily\scshape MODESTO, L.~R.}
@@ -60,41 +65,32 @@
 
 \bibitem{Myers1976}
 {\sffamily\scshape MYERS, G.~J.}
-\newblock {\bfseries ?}
-\newblock ?, ?, 1976.
+\newblock {\bfseries Software Reliability Principles and Practices}.
+\newblock John Wiley \& Sons, INC, 1976.
 
 \bibitem{Myers2004}
 {\sffamily\scshape MYERS, G.~J.}
 \newblock {\bfseries The art of software testing}.
 \newblock John Wiley \& Sons, Inc, Hoboken, New Jersey, 2004.
 
-\bibitem{Pressman2000}
-{\sffamily\scshape PRESSMAN, R.}
-\newblock {\bfseries Software Engineering?}
-\newblock 2000.
-
 \bibitem{Pressman2002}
 {\sffamily\scshape PRESSMAN, R.}
-\newblock {\bfseries Software Engineering?}
-\newblock 2002.
-
-\bibitem{Pressman2005}
-{\sffamily\scshape PRESSMAN, R.}
-\newblock {\bfseries Software Engineering?}
-\newblock 2005.
+\newblock {\bfseries Engenharia de Software}.
+\newblock McGraw-Hill, Rio de Janeiro, 5 edition, 2002.
 
 \bibitem{Pressman2006}
 {\sffamily\scshape PRESSMAN, R.}
-\newblock {\bfseries Software Engineering?}
-\newblock 2006.
+\newblock {\bfseries Engenharia de Software}.
+\newblock McGraw-Hill, São Paulo, 6 edition, 2006.
 
 \bibitem{RochaEtAl}
-{\sffamily\scshape ROCHA, T.}
-\newblock {\bfseries ?}, 2001.
+{\sffamily\scshape ROCHA, A. R. C.;~MALDONADO, J. C. W. K.~C.}
+\newblock {\bfseries Qualidade de Software - Teoria e Prática}.
+\newblock Prentice Hall, 2001.
 
 \bibitem{Silberschatz}
-{\sffamily\scshape SILBERSCHATZ, J.}
-\newblock {\bfseries Silberschatz ?}, 2006.
+{\sffamily\scshape SILBERSCHATZ, A;~KORTH, H. F. S.~S.}
+\newblock {\bfseries Sistema de banco de dados}, 2006.
 
 \bibitem{Sommerville}
 {\sffamily\scshape SOMMERVILLE, I.}
