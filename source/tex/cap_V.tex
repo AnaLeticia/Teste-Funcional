@@ -1,3 +1,63 @@
 \chapter{Estudo de Caso}
-\label{estudoDeCaso}
+\label{cap:estudoDeCaso}
 
+O estudo de caso utilizado para exemplo é de um sistema  de gestão comercial real em desenvolvimento pela empresa Oobj Tecnologia de Informação\cite{Oobj}.
+
+O sistema foi construído com a finalidade de controlar as licenças dos clientes e parceiros que utilizam outros produtos de software comercializados pela empresa. Será necessário realizar integrações com demais sistemas da empresa, tais como ERP, CRM, Financeiro, Operação, etc afim de garantir o cruzamento dos dados para tomada de decisão. Novos módulos comercializados serão ativados nesse sistema para que o cliente possa usufruir, bem como o bloqueio previsto em contrato em casos de inadimplência. O~\nameref{sigla:BD} possui 14 (quatorze) tabelas que são: 
+
+\begin{itemize}
+
+\item \verb|empresa|,
+\item \verb|filial|,
+\item \verb|conta|,
+\item \verb|plano|,
+\item \verb|conta_plano|,
+\item \verb|preco_modulo|,
+\item \verb|matriz_empresa_modulo|,
+\item \verb|usuario|,
+\item \verb|grupo|,
+\item \verb|usuario_grupo|,
+\item \verb|grupo_permissao|,
+\item \verb|schema_version|,
+\item \verb|email_log| e
+\item \verb|licencas_parametros|
+\end{itemize}
+
+O ~\nameref{sigla:DER} do software de Licenças é apresentado na Figura \ref{fig:figura2}: 
+
+%% figura 2
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./fig/figura2}
+	\caption{Diagrama Entidade-Relacionamento do software objeto do estudo de caso}
+	\label{fig:figura2}
+\end{figure}
+
+De acordo com o \nameref{sigla:DER} apresentado na Figura \ref{fig:figura2}, a tabela \verb|empresa| está relacionada às empresas que irão receber a licença de uso. Geralmente são clientes ou outras empresas parceiras (software-houses), a tabela \verb|filial| indica as filiais que uma empresa pode ter. Cada registro de filial está relacionada com um e apenas um registro de empresa.
+
+Da mesma forma a tabela \verb|conta| indica a conta na qual a empresa está inserida. Uma conta pode conter várias empresas, como por exemplo, quando um cliente possui um grupo de empresas distintas (CNPJ?s bases distintos), mas todas elas pertencem a mesma conta. Em contrapartida, uma empresa só pode pertencer a uma única conta.
+
+A tabela \verb|plano| determina a quantidade máxima de CNPJ?s que cada plano possuirá. Cada plano se adequa a realidade da empresa: micro, pequena, média, grande, multi-nacional etc.
+
+Na tabela \verb|conta_plano| fica a relação da conta com o plano na qual ela foi ?vinculada?, que tem o relacionamento direto com a tabela conta e com a tabela plano.
+
+A tabela \verb|preco_modulo| mostra qual valor que cada módulo tem para um determinado plano, para assim o pagamento ser efetuado de acordo com cada plano do cliente.
+
+A tabela \verb|matriz_empresa_modulo| relaciona os módulos que uma determinada empresa possui. Cada módulo pode ser um produto ou serviço diferente que a empresa contratou.
+
+A tabela \verb|usuario|  é o onde são armazenados os dados dos usuários do sistema.
+
+
+A tabela grupo descreve um grupo de usuários. Geralmente, utilizado para agrupar usuários de um mesmo departamento ou função.
+
+A tabela \verb|usuario_grupo| indica em qual grupo o usuário está incluído.
+
+A tabela \verb|grupo_permissao| indica quais permissões de módulos que um grupo de usuários possui no sistema.
+
+A tabela \verb|schema_version| é a tabela para versionamento e controle de versão da base de dados. Ela é mantida automaticamente pelo framework Flyway\cite{Flyway}.
+
+A tabela \verb|email_log| registra o histórico de alertas de emails enviados pelo sistema. Persiste informações tais como status do envio de email (sucesso ou falha), destinatário etc.
+
+A tabela \verb|licencas_parametros| armazena os parâmetros de configuração do sistema. É basicamente um mapa chave-valor (nome do parâmetro e seu respectivo valor)
+
+A partir deste DER iremos realizar vários Casos de Testes Funcionais para exercitar alguns critérios de Teste Funcional de Banco de Dados de Souza\cite{Souza}. Esses critérios serão apresentados no próximo capítulo. Bem como serão realizados alguns scripts de de Banco de dados para mostrar os efeitos do teste de mutantes em \nameref{sigla:SQL}, de forma a mostrar como o teste de Mutantes é realizado. 
