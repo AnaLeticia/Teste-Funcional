@@ -1,6 +1,5 @@
 \begin{thebibliography}{10}
 
-
 \bibitem{Flyway}
 {\sffamily\scshape {Boxfuse GmbH}.}
 \newblock {\bfseries {Flyway}}.
@@ -39,6 +38,12 @@
 {\sffamily\scshape ELMASRI, Ramez;~NAVATHE, S.}
 \newblock {\bfseries Sistemas de banco de dados}.
 \newblock São Paulo, sixth edition, 2005.
+
+\bibitem{HarroldRothermel}
+{\sffamily\scshape HARROLD, M. J.;~ROTHERMEL, G.}
+\newblock {\bfseries Performing data flow testing on claases}.
+\newblock Second ACM SIGSOFT Symposium on Foundations os Software Engineering,
+  New York, 1994.
 
 \bibitem{Howden}
 {\sffamily\scshape HOWDEN, W.}
