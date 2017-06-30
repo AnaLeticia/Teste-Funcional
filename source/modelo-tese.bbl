@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{AbreuMachado}
+{\sffamily\scshape ABREU, Maurício Pereira de;~MACHADO, F. N.~R.}
+\newblock {\bfseries Projeto de banco de dados}.
+\newblock São Paulo), 6 edition, 2000.
+
 \bibitem{Flyway}
 {\sffamily\scshape {Boxfuse GmbH}.}
 \newblock {\bfseries {Flyway}}.

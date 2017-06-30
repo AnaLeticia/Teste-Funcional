@@ -3,8 +3,13 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: modelo-tese.aux
 The style file: inf-ufg.bst
 Database file #1: ./bib/modelo-tese.bib
+I was expecting a `,' or a `}'---line 10 of file ./bib/modelo-tese.bib
+ : 
+ : %% Cabeça, A. G.; Leitão-Jr, P.S.; Jino, M. ?Análise de Mutantes em Aplicações SQL de Banco de Dados? - VII SBQS - Recife, 2008.
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "Souza" isn't style-file defined
---line 183 of file ./bib/modelo-tese.bib
+--line 192 of file ./bib/modelo-tese.bib
 Too many commas in name 1 of "Cabeça, A. G.; Leitão-Jr, P.S.; Jino, M" for entry Cabeca
 while executing---line 1096 of file inf-ufg.bst
 Too many commas in name 1 of "ROCHA, A. R. C.; MALDONADO, J. C.; WEBER, K. C" for entry RochaEtAl
@@ -19,6 +24,7 @@ Too many commas in name 1 of "SILBERSCHATZ, A; KORTH, H. F; SUDARSHAN, S" for en
 while executing---line 1096 of file inf-ufg.bst
 Too many commas in name 1 of "KORTH, Henry F.; SILBERSCHATZ, Abraham; SUDARSHAN, S" for entry Korth
 while executing---line 1096 of file inf-ufg.bst
+Warning--empty publisher in AbreuMachado
 Too many commas in name 1 of "Cabeça, A. G.; Leitão-Jr, P.S.; Jino, M" for entry Cabeca
 while executing---line 1137 of file inf-ufg.bst
 Too many commas in name 1 of "CRESPO, A. N.; MARTINEZ, Márcia R. M.; JINO M.; JÚNIOR, Miguel T. A" for entry Crespo
@@ -34,45 +40,45 @@ Too many commas in name 1 of "SILBERSCHATZ, A; KORTH, H. F; SUDARSHAN, S" for en
 while executing---line 1137 of file inf-ufg.bst
 Too many commas in name 1 of "Tuya,J.; Suárez-Cabal, M.J.; Riva, C" for entry Tuya2006
 while executing---line 1137 of file inf-ufg.bst
-You've used 23 entries,
+You've used 24 entries,
             2158 wiz_defined-function locations,
-            656 strings with 6692 characters,
-and the built_in function-call counts, 5104 in all, are:
-= -- 430
-> -- 161
+            661 strings with 6809 characters,
+and the built_in function-call counts, 5332 in all, are:
+= -- 449
+> -- 168
 < -- 1
-+ -- 70
-- -- 46
-* -- 267
-:= -- 877
-add.period$ -- 65
-call.type$ -- 23
-change.case$ -- 86
++ -- 73
+- -- 48
+* -- 282
+:= -- 916
+add.period$ -- 68
+call.type$ -- 24
+change.case$ -- 90
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 264
-empty$ -- 532
-format.name$ -- 46
-if$ -- 1069
+cite$ -- 26
+duplicate$ -- 277
+empty$ -- 555
+format.name$ -- 48
+if$ -- 1116
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 21
-newline$ -- 113
-num.names$ -- 46
-pop$ -- 145
+int.to.str$ -- 24
+missing$ -- 23
+newline$ -- 118
+num.names$ -- 48
+pop$ -- 151
 preamble$ -- 1
-purify$ -- 69
+purify$ -- 72
 quote$ -- 0
-skip$ -- 132
+skip$ -- 137
 stack$ -- 0
-substring$ -- 143
-swap$ -- 63
+substring$ -- 148
+swap$ -- 65
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
-warning$ -- 1
-while$ -- 49
-width$ -- 25
-write$ -- 239
-(There were 14 error messages)
+type$ -- 74
+warning$ -- 2
+while$ -- 51
+width$ -- 26
+write$ -- 250
+(There were 15 error messages)

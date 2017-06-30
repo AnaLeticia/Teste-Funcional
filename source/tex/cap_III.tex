@@ -68,9 +68,9 @@ As restrições de integridade referencial baseiam-se nas condições das Chaves Est
 
 i) Os atributos FK de R1 têm o mesmo domínio que os atributos da chave primária PK (Primary Key) de R2 ;
 
-ii) O valor de FK em uma tupla t1 do estado corrente r1 (R1 ) pode ser um valor de PK de alguma tupla t2 no estado r2 (R2 ) ou pode ser um valor null (ELMASRI e NAVATHE, 2005).
+ii) O valor de FK em uma tupla t1 do estado corrente r1 (R1 ) pode ser um valor de PK de alguma tupla t2 no estado r2 (R2 ) ou pode ser um valor null (ELMASRI e NAVATHE, 2005)\cite{ElmasriNavathe}.
 
-Segundo Souza (2015), neste contexto, R1 é chamada relação referência, e R2 é a relação referida. Portanto, se essas condições citadas anteriormente forem satisfeitas, uma restrição de integridade referencial de R1 para R2 é garantida.
+Segundo Souza (2015)\cite{Souza}, neste contexto, R1 é chamada relação referência, e R2 é a relação referida. Portanto, se essas condições citadas anteriormente forem satisfeitas, uma restrição de integridade referencial de R1 para R2 é garantida.
 
 Souza (2015)\cite{Souza} em seu trabalho, descreveu um quadro comparando  as principais restrições de BD baseadas em esquemas, conforme mostrado na tabela presente na Figura \ref{fig:figura2} :
 
@@ -96,18 +96,18 @@ adotado, e permite a utilização de comandos da linguagem \nameref{sigla:SQL} em 
 \section{Linguagem de Banco de Dados}
 \label{sec:linguagemBd} 
 
-Na Linguagem \nameref{sigla:SQL} a estrutura do BDR é definida através da linguagem de definição de dados (\nameref{sigla:DDL}), alguns dos comandos utilizados é a criação, exclusão e alteração na tabela, sendo permitido então que os dados sejam manipulados e para manipular esses dados existe uma linguagem de manipulação de dados (\nameref{sigla:DML}) (ABREU E MACHADO, 2000). 
+Na Linguagem \nameref{sigla:SQL} a estrutura do BDR é definida através da linguagem de definição de dados (\nameref{sigla:DDL}), alguns dos comandos utilizados é a criação, exclusão e alteração na tabela, sendo permitido então que os dados sejam manipulados e para manipular esses dados existe uma linguagem de manipulação de dados (\nameref{sigla:DML}) (ABREU E MACHADO, 2000)\cite{AbreuMachado}. 
 
-Segundo Abreu e Machado (2000), o conceito de DML "permite ao usuário ou a um programa de aplicação, a inclusão, remoção, seleção ou atualização de dados previamente armazenados no banco". E suas operações são \textit{Select}, \textit{Insert}, \textit{Update} e \textit{Delete}. 
+Segundo Abreu e Machado (2000)\cite{AbreuMachado}, o conceito de DML "permite ao usuário ou a um programa de aplicação, a inclusão, remoção, seleção ou atualização de dados previamente armazenados no banco". E suas operações são \textit{Select}, \textit{Insert}, \textit{Update} e \textit{Delete}. 
 
-Para a geração de testes no banco é utilizada a DML, as operações de \textit{Insert}, \textit{Delete} e \textit{Update} podem alterar o estado do banco. Esses comandos de DML podem ser aplicados em um banco de dados, como testes para verificação de restrições de integridades e para qualquer outro tipo de teste que se deseja inserir em um BDR (ABREU e MACHADO, 2000).
+Para a geração de testes no banco é utilizada a DML, as operações de \textit{Insert}, \textit{Delete} e \textit{Update} podem alterar o estado do banco. Esses comandos de DML podem ser aplicados em um banco de dados, como testes para verificação de restrições de integridades e para qualquer outro tipo de teste que se deseja inserir em um BDR (ABREU e MACHADO, 2000)\cite{AbreuMachado}.
 
-O \textit{Insert} é um comando que quando executado inclui novas tuplas à tabela, dependendo do valor inserido ele pode quebrar algumas restrições impostas pelo modelo relacional. Por exemplo, se for inserido um valor de atributo nulo, sendo o atributo chave primária, isso violará a restrição de integridade de entidade, pois em uma chave primária não são permitidos valores nulos (ABREU e MACHADO, 2000).
+O \textit{Insert} é um comando que quando executado inclui novas tuplas à tabela, dependendo do valor inserido ele pode quebrar algumas restrições impostas pelo modelo relacional. Por exemplo, se for inserido um valor de atributo nulo, sendo o atributo chave primária, isso violará a restrição de integridade de entidade, pois em uma chave primária não são permitidos valores nulos (ABREU e MACHADO, 2000)\cite{AbreuMachado}.
 
-O \textit{Update} atualiza alguns atributos de uma tupla, em que são selecionados por condições impostas no comando, a utilização do update também possui restrições quanto a não modificar atributos que são chaves primárias e estrangeiras (ABREU e MACHADO, 2000). Segundo Elmasri e Navathe (2005)\cite{ElmasriNavathe}, "modificar um atributo de chave primária é similar a remover uma tupla e inserir outra em seu lugar, porque usamos a chave primária para identificar as tuplas".
+O \textit{Update} atualiza alguns atributos de uma tupla, em que são selecionados por condições impostas no comando, a utilização do update também possui restrições quanto a não modificar atributos que são chaves primárias e estrangeiras (ABREU e MACHADO, 2000)\cite{AbreuMachado}. Segundo Elmasri e Navathe (2005)\cite{ElmasriNavathe}, "modificar um atributo de chave primária é similar a remover uma tupla e inserir outra em seu lugar, porque usamos a chave primária para identificar as tuplas".
 
 O \textit{Delete} remove apenas a tupla, mas pode violar apenas a restrição de integridade referencial. Uma tabela que é referenciada por outra não pode ter remoção de tuplas, pois a
-tabela que referenciou contém tuplas onde terá atributos que dependem da tabela referenciada (ABREU e MACHADO, 2000)
+tabela que referenciou contém tuplas onde terá atributos que dependem da tabela referenciada (ABREU e MACHADO, 2000)\cite{AbreuMachado}
 
 Em alguns tipos de SGBD, por exemplo, em Banco de Dados transacionais para validar o que foi modificado no banco até o momento, pode ser utilizado o comando COMMIT, este comando valída a transação em execução e a torna visível é um comando utilizado para controle de transações, tornando o dado armazenado persistente. Diferente do comando ROLLBACK que anula as transações feitas, desfaz o trabalho (ELMASRI e NAVATHE, 2005)\cite{ElmasriNavathe}.
 
