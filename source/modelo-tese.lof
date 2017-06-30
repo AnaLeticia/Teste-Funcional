@@ -22,36 +22,35 @@
 \contentsline {figure}{\numberline {6.11}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {usuario}\relax }}{45}{figure.caption.59}
 \contentsline {figure}{\numberline {6.12}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {grupo}\relax }}{45}{figure.caption.60}
 \contentsline {figure}{\numberline {6.13}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {grupo-permissao}\relax }}{46}{figure.caption.61}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Restri\c c\~ao de Dom\IeC {\'\i }nio de Atributo da tabela \textit {conta}\relax }}{46}{figure.caption.62}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Restri\c c\~ao de Integridade Referencial entre as tabelas \textit {empresa}, \textit {filial} e \textit {matriz\_empresa\_modulo}\relax }}{47}{figure.caption.64}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Restri\c c\~ao de Integridade Referencial entre as tabelas \textit {empresa}, \textit {conta\_plano} e \textit {conta}.\relax }}{47}{figure.caption.65}
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Restri\c c\~ao de Integridade Referencial entre as tabelas \textit {conta\_plano}, \textit {plano} e \textit {preco\_modulo}\relax }}{48}{figure.caption.66}
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Restri\c c\~ao de Integridade Referencial entre as tabelas \textit {usuario}, \textit {grupo}, \textit {usuario\_grupo} e \textit {grupo\_permisso}.\relax }}{48}{figure.caption.67}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Restri\c c\~ao de Integridade Referencial entre as tabelas \textit {empresa}, \textit {filial} e \textit {matriz\_empresa\_modulo}\relax }}{46}{figure.caption.63}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Restri\c c\~ao de Integridade Referencial entre as tabelas \textit {empresa}, \textit {conta\_plano} e \textit {conta}.\relax }}{47}{figure.caption.64}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Restri\c c\~ao de Integridade Referencial entre as tabelas \textit {conta\_plano}, \textit {plano} e \textit {preco\_modulo}\relax }}{47}{figure.caption.65}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Restri\c c\~ao de Integridade Referencial entre as tabelas \textit {usuario}, \textit {grupo}, \textit {usuario\_grupo} e \textit {grupo\_permissao}.\relax }}{48}{figure.caption.66}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Resultados da execu\c c\~ao dos testes Intra-tabelas 1\relax }}{50}{figure.caption.70}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Resultados da execu\c c\~ao dos testes Intra-tabelas 2\relax }}{51}{figure.caption.71}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Resultados da execu\c c\~ao dos testes Intra-tabelas 3\relax }}{52}{figure.caption.72}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {empresa}\relax }}{53}{figure.caption.73}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {empresa} (continua\c c\~ao)\relax }}{54}{figure.caption.74}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {filial}\relax }}{55}{figure.caption.75}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {filial} (continua\c c\~ao)\relax }}{56}{figure.caption.76}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {conta}\relax }}{57}{figure.caption.77}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {conta} (continua\c c\~ao)\relax }}{58}{figure.caption.78}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {plano}\relax }}{59}{figure.caption.79}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {conta\_plano}\relax }}{60}{figure.caption.80}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {preco\_modulo}\relax }}{61}{figure.caption.81}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {matriz\_empresa\_modulo}\relax }}{62}{figure.caption.82}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {usuario}\relax }}{63}{figure.caption.83}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {usuario} (continua\c c\~ao)\relax }}{64}{figure.caption.84}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {grupo}\relax }}{65}{figure.caption.85}
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {grupo\_permissao}\relax }}{66}{figure.caption.86}
-\contentsline {figure}{\numberline {7.18}{\ignorespaces Restri\c c\~ao de Integridade Referencial Chave Prim\'aria\relax }}{67}{figure.caption.88}
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Restri\c c\~ao de Integridade Referencial -Aceita\c c\~ao\relax }}{68}{figure.caption.89}
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Restri\c c\~ao de Unicidade {\ref {sub@subfig:unicidade}}, Integridade de Dom\IeC {\'\i }nio {\ref {sub@subfig:dominio}}, Integridade Referencial{\ref {sub@subfig:referencial}} e Total {\ref {sub@subfig:total}}.\relax }}{70}{figure.caption.92}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Integridade de dom\IeC {\'\i }nio.}}}{70}{figure.caption.92}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Total.}}}{70}{figure.caption.92}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Defini\c c\~ao de Operadores Utilizados\relax }}{71}{figure.caption.98}
-\contentsline {figure}{\numberline {7.22}{\ignorespaces Porcentagem de Mutantes gerados por grupo\relax }}{78}{figure.caption.107}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Resultados da execu\c c\~ao dos testes Intra-tabelas 1\relax }}{50}{figure.caption.69}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Resultados da execu\c c\~ao dos testes Intra-tabelas 2\relax }}{51}{figure.caption.70}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Resultados da execu\c c\~ao dos testes Intra-tabelas 3\relax }}{52}{figure.caption.71}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {empresa}\relax }}{53}{figure.caption.72}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {empresa} (continua\c c\~ao)\relax }}{54}{figure.caption.73}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {filial}\relax }}{55}{figure.caption.74}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {filial} (continua\c c\~ao)\relax }}{56}{figure.caption.75}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {conta}\relax }}{57}{figure.caption.76}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {conta} (continua\c c\~ao)\relax }}{58}{figure.caption.77}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {plano}\relax }}{59}{figure.caption.78}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {conta\_plano}\relax }}{60}{figure.caption.79}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {preco\_modulo}\relax }}{61}{figure.caption.80}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {matriz\_empresa\_modulo}\relax }}{62}{figure.caption.81}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {usuario}\relax }}{63}{figure.caption.82}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {usuario} (continua\c c\~ao)\relax }}{64}{figure.caption.83}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {grupo}\relax }}{65}{figure.caption.84}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Resultados da execu\c c\~ao dos testes de dom\IeC {\'\i }nio da tabela \textit {grupo\_permissao}\relax }}{66}{figure.caption.85}
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Restri\c c\~ao de Integridade Referencial Chave Prim\'aria\relax }}{67}{figure.caption.87}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Restri\c c\~ao de Integridade Referencial -Aceita\c c\~ao\relax }}{68}{figure.caption.88}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Restri\c c\~ao de Unicidade {\ref {sub@subfig:unicidade}}, Integridade de Dom\IeC {\'\i }nio {\ref {sub@subfig:dominio}}, Integridade Referencial{\ref {sub@subfig:referencial}} e Total {\ref {sub@subfig:total}}.\relax }}{70}{figure.caption.91}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Integridade de dom\IeC {\'\i }nio.}}}{70}{figure.caption.91}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Total.}}}{70}{figure.caption.91}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Defini\c c\~ao de Operadores Utilizados\relax }}{71}{figure.caption.97}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Porcentagem de Mutantes gerados por grupo\relax }}{78}{figure.caption.106}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

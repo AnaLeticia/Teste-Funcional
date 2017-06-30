@@ -45,20 +45,20 @@
 \contentsline {chapter}{\numberline {6}Plano de Teste}{37}{chapter.46}
 \contentsline {section}{\numberline {6.1}Plano de Testes Baseado no Teste Funcional em BDR}{37}{section.47}
 \contentsline {subsection}{\numberline {6.1.1}Testes Funcionais Intra - Tabelas}{37}{subsection.48}
-\contentsline {subsection}{\numberline {6.1.2}Testes Funcionais Inter - Tabelas}{46}{subsection.63}
-\contentsline {chapter}{\numberline {7}Resultados obtidos}{49}{chapter.68}
-\contentsline {section}{\numberline {7.1}Casos de Testes Intra-Tabelas}{49}{section.69}
-\contentsline {section}{\numberline {7.2}Casos de Testes Inter-Tabelas}{66}{section.87}
-\contentsline {section}{\numberline {7.3}An\'alise dos Resultados Obtidos na T\'ecnica Funcional}{69}{section.90}
-\contentsline {section}{\numberline {7.4}Aplica\c c\~ao de Teste de Mutantes em Scripts de Banco de Dados (SQL)}{70}{section.97}
-\contentsline {subsection}{\numberline {7.4.1}Caso 1}{72}{subsection.99}
-\contentsline {subsection}{\numberline {7.4.2}Caso 2}{74}{subsection.101}
-\contentsline {subsection}{\numberline {7.4.3}Caso 3}{76}{subsection.103}
-\contentsline {section}{\numberline {7.5}An\'alise dos Resultados obtidos em Testes de Mutante}{77}{section.105}
-\contentsline {chapter}{\numberline {8}Conclus\~ao e trabalhos futuros}{79}{chapter.108}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{81}{chapter.108}
-\contentsline {chapter}{\numberline {A}Script de cria\c c\~ao da base de dados}{83}{appendix.109}
-\contentsline {chapter}{\numberline {B}Script de Inser\c c\~ao inicial no Banco}{87}{appendix.110}
-\contentsline {chapter}{\numberline {C}Scripts dos casos de testes}{91}{appendix.111}
-\contentsline {chapter}{\numberline {D}Scripts dos Testes de Mutantes}{100}{appendix.112}
+\contentsline {subsection}{\numberline {6.1.2}Testes Funcionais Inter - Tabelas}{46}{subsection.62}
+\contentsline {chapter}{\numberline {7}Resultados obtidos}{49}{chapter.67}
+\contentsline {section}{\numberline {7.1}Casos de Testes Intra-Tabelas}{49}{section.68}
+\contentsline {section}{\numberline {7.2}Casos de Testes Inter-Tabelas}{66}{section.86}
+\contentsline {section}{\numberline {7.3}An\'alise dos Resultados Obtidos na T\'ecnica Funcional}{69}{section.89}
+\contentsline {section}{\numberline {7.4}Aplica\c c\~ao de Teste de Mutantes em Scripts de Banco de Dados (SQL)}{70}{section.96}
+\contentsline {subsection}{\numberline {7.4.1}Caso 1}{72}{subsection.98}
+\contentsline {subsection}{\numberline {7.4.2}Caso 2}{74}{subsection.100}
+\contentsline {subsection}{\numberline {7.4.3}Caso 3}{76}{subsection.102}
+\contentsline {section}{\numberline {7.5}An\'alise dos Resultados obtidos em Testes de Mutante}{77}{section.104}
+\contentsline {chapter}{\numberline {8}Conclus\~ao e trabalhos futuros}{79}{chapter.107}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{81}{chapter.107}
+\contentsline {chapter}{\numberline {A}Script de cria\c c\~ao da base de dados}{83}{appendix.108}
+\contentsline {chapter}{\numberline {B}Script de Inser\c c\~ao inicial no Banco}{87}{appendix.109}
+\contentsline {chapter}{\numberline {C}Scripts dos casos de testes}{91}{appendix.110}
+\contentsline {chapter}{\numberline {D}Scripts dos Testes de Mutantes}{100}{appendix.111}
 \contentsfinish 

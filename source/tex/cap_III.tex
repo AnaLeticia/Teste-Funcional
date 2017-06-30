@@ -14,13 +14,13 @@ No modelo relacional existem quatro termos que são utilizados: domínio, tupla, a
 
 Outra definição a se destacar é de uma relação. Uma relação \verb|R (A1, A2, A3, ..., An)|, o elemento A1 refere-se aos atributos de uma relação, que  é o nome do papel desempenhado por um domínio \verb|D|. Uma relação \verb|R (A1, A2, A3, ..., An)|, indicada por \verb|r(R)| é um conjunto de várias tuplas \verb|r{t1, t2, ..., tn}|. Cada \verb|n|-tuplas é uma lista ordenada de \verb|n| valores, cada valor é um elemento do domínio (A) ou um valor \verb|null| (Elmasri; Navathe, 2005)\cite{ElmasriNavathe}.    
 
+A Figura \ref{fig:elementosDeUmaRelacao} ilustra os principais conceitos de uma relação.
 
-%% figura 1
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{./fig/figura1}
 	\caption{Principais elementos de uma relação}
-	\label{fig:figura1}
+	\label{fig:elementosDeUmaRelacao}
 \end{figure}
 
 
@@ -109,7 +109,7 @@ O \textit{Update} atualiza alguns atributos de uma tupla, em que são selecionado
 O \textit{Delete} remove apenas a tupla, mas pode violar apenas a restrição de integridade referencial. Uma tabela que é referenciada por outra não pode ter remoção de tuplas, pois a
 tabela que referenciou contém tuplas onde terá atributos que dependem da tabela referenciada (ABREU e MACHADO, 2000)\cite{AbreuMachado}
 
-Em alguns tipos de SGBD, por exemplo, em Banco de Dados transacionais para validar o que foi modificado no banco até o momento, pode ser utilizado o comando COMMIT, este comando valída a transação em execução e a torna visível é um comando utilizado para controle de transações, tornando o dado armazenado persistente. Diferente do comando ROLLBACK que anula as transações feitas, desfaz o trabalho (ELMASRI e NAVATHE, 2005)\cite{ElmasriNavathe}.
+Em alguns tipos de SGBD, por exemplo, em Banco de Dados transacionais para validar o que foi modificado no banco até o momento, pode ser utilizado o comando COMMIT, este comando valida a transação em execução e a torna visível é um comando utilizado para controle de transações, tornando o dado armazenado persistente. Diferente do comando ROLLBACK que anula as transações feitas, desfaz o trabalho (ELMASRI e NAVATHE, 2005)\cite{ElmasriNavathe}.
 
 
 
