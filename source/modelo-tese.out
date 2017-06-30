@@ -37,8 +37,8 @@
 \BOOKMARK [0][-]{chapter.43}{5 Estudo de Caso}{}% 37
 \BOOKMARK [0][-]{chapter.45}{6 Plano de Teste}{}% 38
 \BOOKMARK [1][-]{section.46}{6.1 Plano de Testes Baseado no Teste Funcional em BDR}{chapter.45}% 39
-\BOOKMARK [2][-]{subsection.47}{6.1.1 Testes Intra - Tabelas}{section.46}% 40
-\BOOKMARK [2][-]{subsection.61}{6.1.2 Testes Inter - Tabelas}{section.46}% 41
+\BOOKMARK [2][-]{subsection.47}{6.1.1 Testes Funcionais Intra - Tabelas}{section.46}% 40
+\BOOKMARK [2][-]{subsection.61}{6.1.2 Testes Funcionais Inter - Tabelas}{section.46}% 41
 \BOOKMARK [0][-]{chapter.66}{7 Resultados obtidos}{}% 42
 \BOOKMARK [1][-]{section.67}{7.1 Casos de Testes Intra-Tabelas}{chapter.66}% 43
 \BOOKMARK [1][-]{section.89}{7.2 Casos de Testes Inter-Tabelas}{chapter.66}% 44

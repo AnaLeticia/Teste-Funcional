@@ -251,6 +251,7 @@ Nas Figuras \ref{subfig:unicidade}, \ref{subfig:dominio}, \ref{subfig:referencia
 
 \pagebreak
 
+
 \section{Aplicação de Teste de Mutantes em Scripts de Banco de Dados (SQL)}
 \label{sec:aplicacaoTesteMutantesEmScriptSql}
 
@@ -358,6 +359,8 @@ Na Tabela \ref{tab:execucaoMutantesCaso1} mostra os resultados da execução de ca
 	\end{tabular} 
 \end{table*}
 
+\pagebreak
+
 
 \subsection{Caso 2}
 \label{subsec:caso2}
@@ -409,7 +412,6 @@ U.id  not in(SELECT distinct id from usuario WHERE ativo = true);
 
 Na Tabela \ref{tab:execucaoMutantesCaso2} mostra o resultado dos mutantes gerados nos mutantes gerados no Caso 2 mostrados anteriormente. Nesse caso também ilustra que os defeitos colocados em cada mutante não está presente no Script original. No Caso 2 foram gerados 13 mutantes baseados nos operadores já comentados anteriormente. Os Mutantes são apresentados no Apêndice \ref{apend:D}. 
 
-
 % Tabela Execução dos Mutantes Caso2
 \begin{table*}[hp]
 	\centering
@@ -435,8 +437,7 @@ Na Tabela \ref{tab:execucaoMutantesCaso2} mostra o resultado dos mutantes gerado
 	\end{tabular} 
 \end{table*}
 
-
-%% ---------------------------------------
+\pagebreak
 
 \subsection{Caso 3}
 \label{subsec:caso3}
@@ -456,30 +457,28 @@ M3.1 :
 SELECT * from Usuario
 WHERE nome Like 'A_';
 \end{verbatim}
-
 M3.2
 \begin{verbatim}
 SELECT * from Usuario
 WHERE nome Like 'a%';
 \end{verbatim}
-
 M3.3
 \begin{verbatim}
 SELECT * from Usuario
 WHERE nome Like 'a_';
 \end{verbatim}
-
 M3.4:
 \begin{verbatim}
 SELECT * from Usuario
 WHERE nome Like 'C%';
 \end{verbatim}
-
 M3.5: 
 \begin{verbatim}
 SELECT * from Usuario
 WHERE nome Like 'C_';
 \end{verbatim}
+
+\pagebreak
 
 Na Tabela \ref{tab:execucaoMutantesCaso3} mostra o resultado dos mutantes gerados nos mutantes gerados no Caso 3 mostrados anteriormente. Nesse caso também ilustra que os defeitos colocados em cada mutante não está presente no Script original. No Caso 3 foram gerados 5 mutantes baseados nos operadores já comentados anteriormente. Os Mutantes são apresentados no Apêndice \ref{apend:D}. 
 
@@ -508,6 +507,7 @@ Pode-se observar que o  teste de mutantes não tem efeito direto como a técnica d
 
 Na Tabela \ref{tab:relacaoMutantesGeradosNosExemplos} é apresentada a relação de quantidade de mutantes gerados por cada grupo de cada caso (scripts) utilizado como exemplo para ilustrar essa prática.
 
+
 % Relação de Mutantes gerados nos exemplos
 \begin{table*}[hp]
 	\centering
@@ -523,6 +523,7 @@ Na Tabela \ref{tab:relacaoMutantesGeradosNosExemplos} é apresentada a relação de
 	\end{tabular} 
 \end{table*}
 
+\pagebreak
 
 Na Figura \ref{fig:mutantes} é mostrado o total de mutantes em porcentagem de grupo.
 
