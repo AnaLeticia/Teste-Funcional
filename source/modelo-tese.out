@@ -38,19 +38,19 @@
 \BOOKMARK [0][-]{chapter.45}{6 Plano de Teste}{}% 38
 \BOOKMARK [1][-]{section.46}{6.1 Plano de Testes Baseado no Teste Funcional em BDR}{chapter.45}% 39
 \BOOKMARK [2][-]{subsection.47}{6.1.1 Testes Funcionais Intra - Tabelas}{section.46}% 40
-\BOOKMARK [2][-]{subsection.61}{6.1.2 Testes Funcionais Inter - Tabelas}{section.46}% 41
-\BOOKMARK [0][-]{chapter.66}{7 Resultados obtidos}{}% 42
-\BOOKMARK [1][-]{section.67}{7.1 Casos de Testes Intra-Tabelas}{chapter.66}% 43
-\BOOKMARK [1][-]{section.89}{7.2 Casos de Testes Inter-Tabelas}{chapter.66}% 44
-\BOOKMARK [1][-]{section.93}{7.3 An\341lise dos Resultados Obtidos na T\351cnica Funcional}{chapter.66}% 45
-\BOOKMARK [1][-]{section.100}{7.4 Aplica\347\343o de Teste de Mutantes em Scripts de Banco de Dados \(SQL\)}{chapter.66}% 46
-\BOOKMARK [2][-]{subsection.102}{7.4.1 Caso 1}{section.100}% 47
-\BOOKMARK [2][-]{subsection.104}{7.4.2 Caso 2}{section.100}% 48
-\BOOKMARK [2][-]{subsection.106}{7.4.3 Caso 3}{section.100}% 49
-\BOOKMARK [1][-]{section.108}{7.5 An\341lise dos Resultados obtidos em Testes de Mutante}{chapter.66}% 50
-\BOOKMARK [0][-]{chapter.111}{8 Conclus\343o e trabalhos futuros}{}% 51
-\BOOKMARK [0][-]{chapter.111}{Refer\352ncias Bibliogr\341ficas}{}% 52
-\BOOKMARK [0][-]{appendix.112}{A Script de cria\347\343o da base de dados}{}% 53
-\BOOKMARK [0][-]{appendix.113}{B Script de Inser\347\343o inicial no Banco}{}% 54
-\BOOKMARK [0][-]{appendix.114}{C Scripts dos casos de testes}{}% 55
-\BOOKMARK [0][-]{appendix.115}{D Scripts dos Testes de Mutantes}{}% 56
+\BOOKMARK [2][-]{subsection.62}{6.1.2 Testes Funcionais Inter - Tabelas}{section.46}% 41
+\BOOKMARK [0][-]{chapter.67}{7 Resultados obtidos}{}% 42
+\BOOKMARK [1][-]{section.68}{7.1 Casos de Testes Intra-Tabelas}{chapter.67}% 43
+\BOOKMARK [1][-]{section.90}{7.2 Casos de Testes Inter-Tabelas}{chapter.67}% 44
+\BOOKMARK [1][-]{section.94}{7.3 An\341lise dos Resultados Obtidos na T\351cnica Funcional}{chapter.67}% 45
+\BOOKMARK [1][-]{section.101}{7.4 Aplica\347\343o de Teste de Mutantes em Scripts de Banco de Dados \(SQL\)}{chapter.67}% 46
+\BOOKMARK [2][-]{subsection.103}{7.4.1 Caso 1}{section.101}% 47
+\BOOKMARK [2][-]{subsection.105}{7.4.2 Caso 2}{section.101}% 48
+\BOOKMARK [2][-]{subsection.107}{7.4.3 Caso 3}{section.101}% 49
+\BOOKMARK [1][-]{section.109}{7.5 An\341lise dos Resultados obtidos em Testes de Mutante}{chapter.67}% 50
+\BOOKMARK [0][-]{chapter.112}{8 Conclus\343o e trabalhos futuros}{}% 51
+\BOOKMARK [0][-]{chapter.112}{Refer\352ncias Bibliogr\341ficas}{}% 52
+\BOOKMARK [0][-]{appendix.113}{A Script de cria\347\343o da base de dados}{}% 53
+\BOOKMARK [0][-]{appendix.114}{B Script de Inser\347\343o inicial no Banco}{}% 54
+\BOOKMARK [0][-]{appendix.115}{C Scripts dos casos de testes}{}% 55
+\BOOKMARK [0][-]{appendix.116}{D Scripts dos Testes de Mutantes}{}% 56
