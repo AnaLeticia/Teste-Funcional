@@ -35,9 +35,9 @@ O ~\nameref{sigla:DER} do software de Licenças é apresentado na Figura \ref{fig:
 
 De acordo com o \nameref{sigla:DER} apresentado na Figura \ref{fig:figura3}, a tabela \verb|empresa| está relacionada às empresas que irão receber a licença de uso. Geralmente são clientes ou outras empresas parceiras (software-houses), a tabela \verb|filial| indica as filiais que uma empresa pode ter. Cada registro de filial está relacionada com um e apenas um registro de empresa.
 
-Da mesma forma a tabela \verb|conta| indica a conta na qual a empresa está inserida. Uma conta pode conter várias empresas, como por exemplo, quando um cliente possui um grupo de empresas distintas (CNPJ's bases distintos), mas todas elas pertencem a mesma conta. Em contrapartida, uma empresa só pode pertencer a uma única conta.
+Da mesma forma a tabela \verb|conta| indica a conta na qual a empresa está inserida. Uma conta pode conter várias empresas, como por exemplo, quando um cliente possui um grupo de empresas distintas (\nameref{sigla:CNPJ}'s bases distintos), mas todas elas pertencem a mesma conta. Em contrapartida, uma empresa só pode pertencer a uma única conta.
 
-A tabela \verb|plano| determina a quantidade máxima de CNPJ's que cada plano possuirá. Cada plano se adequa a realidade da empresa: micro, pequena, média, grande, multi-nacional etc.
+A tabela \verb|plano| determina a quantidade máxima de \nameref{sigla:CNPJ}'s que cada plano possuirá. Cada plano se adequa a realidade da empresa: micro, pequena, média, grande, multi-nacional etc.
 
 Na tabela \verb|conta_plano| fica a relação da conta com o plano na qual ela foi "vinculada", que tem o relacionamento direto com a tabela conta e com a tabela plano.
 
@@ -60,4 +60,4 @@ A tabela \verb|email_log| registra o histórico de alertas de emails enviados pel
 
 A tabela \verb|licencas_parametros| armazena os parâmetros de configuração do sistema. É basicamente um mapa chave-valor (nome do parâmetro e seu respectivo valor)
 
-A partir deste DER iremos realizar vários Casos de Testes Funcionais para exercitar alguns critérios de Teste Funcional de Banco de Dados de Souza\cite{Souza}. Esses critérios serão apresentados no próximo capítulo. Bem como serão realizados alguns scripts de de Banco de dados para mostrar os efeitos do teste de mutantes em \nameref{sigla:SQL}, de forma a mostrar como o teste de Mutantes é realizado. 
+A partir deste \nameref{sigla:DER} iremos realizar vários Casos de Testes Funcionais para exercitar alguns critérios de Teste Funcional de Banco de Dados de Souza\cite{Souza}. Esses critérios serão apresentados no próximo capítulo. Bem como serão realizados alguns scripts de de Banco de dados para mostrar os efeitos do teste de mutantes em \nameref{sigla:SQL}, de forma a mostrar como o teste de Mutantes é realizado. 
