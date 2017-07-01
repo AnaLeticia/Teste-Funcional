@@ -52,13 +52,25 @@
 \contentsline {section}{\numberline {7.3}An\'alise dos Resultados Obtidos na T\'ecnica Funcional}{69}{section.89}
 \contentsline {section}{\numberline {7.4}Aplica\c c\~ao de Teste de Mutantes em Scripts de Banco de Dados (SQL)}{70}{section.96}
 \contentsline {subsection}{\numberline {7.4.1}Caso 1}{72}{subsection.98}
-\contentsline {subsection}{\numberline {7.4.2}Caso 2}{74}{subsection.100}
-\contentsline {subsection}{\numberline {7.4.3}Caso 3}{76}{subsection.102}
-\contentsline {section}{\numberline {7.5}An\'alise dos Resultados obtidos em Testes de Mutante}{77}{section.104}
-\contentsline {chapter}{\numberline {8}Conclus\~ao e trabalhos futuros}{79}{chapter.107}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{81}{chapter.107}
-\contentsline {chapter}{\numberline {A}Script de cria\c c\~ao da base de dados}{83}{appendix.108}
-\contentsline {chapter}{\numberline {B}Script de Inser\c c\~ao inicial no Banco}{87}{appendix.109}
-\contentsline {chapter}{\numberline {C}Scripts dos casos de testes}{91}{appendix.110}
-\contentsline {chapter}{\numberline {D}Scripts dos Testes de Mutantes}{100}{appendix.111}
+\contentsline {paragraph}{M1.1}{72}{section*.99}
+\contentsline {paragraph}{M1.5}{72}{section*.100}
+\contentsline {paragraph}{M1.9}{72}{section*.101}
+\contentsline {paragraph}{M1.13}{73}{section*.102}
+\contentsline {subsection}{\numberline {7.4.2}Caso 2}{74}{subsection.104}
+\contentsline {paragraph}{M2.1}{74}{section*.105}
+\contentsline {paragraph}{M2.9}{74}{section*.106}
+\contentsline {paragraph}{M2.10}{74}{section*.107}
+\contentsline {subsection}{\numberline {7.4.3}Caso 3}{76}{subsection.109}
+\contentsline {paragraph}{M3.1}{76}{section*.110}
+\contentsline {paragraph}{M3.2}{76}{section*.111}
+\contentsline {paragraph}{M3.3}{76}{section*.112}
+\contentsline {paragraph}{M3.4}{76}{section*.113}
+\contentsline {paragraph}{M3.5}{76}{section*.114}
+\contentsline {section}{\numberline {7.5}An\'alise dos Resultados obtidos em Testes de Mutante}{77}{section.116}
+\contentsline {chapter}{\numberline {8}Conclus\~ao e trabalhos futuros}{79}{chapter.119}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{81}{chapter.119}
+\contentsline {chapter}{\numberline {A}Script de cria\c c\~ao da base de dados}{83}{appendix.120}
+\contentsline {chapter}{\numberline {B}Script de Inser\c c\~ao inicial no Banco}{87}{appendix.121}
+\contentsline {chapter}{\numberline {C}Scripts dos casos de testes}{91}{appendix.122}
+\contentsline {chapter}{\numberline {D}Scripts dos Testes de Mutantes}{100}{appendix.123}
 \contentsfinish 

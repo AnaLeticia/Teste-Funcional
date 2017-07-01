@@ -242,9 +242,9 @@ No Caso 1, serão aplicados os subtipos \textbf{ROR} e \textbf{LCR} do grupo \tex
 Query SQL:  Exibe o 
 
 \begin{verbatim}
-SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
-FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
-WHERE F.id_empresa = E.id and
+SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano,
+U.nome, C.id FROM filial F, empresa E, conta_plano CP, plano P, usuario U, 
+conta C WHERE F.id_empresa = E.id and
 E.id_plano = CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
@@ -252,45 +252,46 @@ U.id_conta = C.id;
 
 Exemplos dos Mutantes  gerados no Caso 1:
  
-M1.1 :
+\paragraph{M1.1}
+\label{mutante:1.1}
 \begin{verbatim} 
-SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
-FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
-WHERE 
-F.id_empresa > E.id and
+SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano,
+U.nome, C.id FROM filial F, empresa E, conta_plano CP, plano P, usuario U, 
+conta C WHERE F.id_empresa > E.id and
 E.id_plano = CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
 \end{verbatim}
 
-M.1.5:
+\paragraph{M1.5}
+\label{mutante:1.5}
 \begin{verbatim}
-SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
-FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
-WHERE 
-F.id_empresa = E.id and
+SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano,
+U.nome, C.id FROM filial F, empresa E, conta_plano CP, plano P, usuario U, 
+conta C WHERE F.id_empresa = E.id and
 E.id_plano < CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
 \end{verbatim}
 
-M1.9
+\paragraph{M1.9}
+\label{mutante:1.9}
 \begin{verbatim}
-SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
-FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
-WHERE 
+SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano,
+U.nome, C.id FROM filial F, empresa E, conta_plano CP, plano P, usuario U, 
+conta C WHERE 
 F.id_empresa = E.id and
 E.id_plano = CP.id  and
 P.id <> CP.id_plano and
 U.id_conta = C.id;
 \end{verbatim}
 
-M1.13
+\paragraph{M1.13}
+\label{mutante:1.13}
 \begin{verbatim}
-SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
-FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
-WHERE 
-F.id_empresa = E.id or
+SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano,
+U.nome, C.id FROM filial F, empresa E, conta_plano CP, plano P, usuario U, 
+conta C WHERE F.id_empresa = E.id or
 E.id_plano = CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
@@ -298,28 +299,27 @@ U.id_conta = C.id;
 
 Na Tabela \ref{tab:execucaoMutantesCaso1} mostra os resultados da execução de cada mutante gerado no Caso 1 mostrando que não houve nenhum mutante vivo. Ou seja todos mutantes deram resultados diferenciados em relação ao Script Original. Desta forma os erros plantados na geração de cada mutante mostrado nos exemplos acima e colocados no Apêndice, mostraram que no script original não existem esses respectivos defeitos, o que é muito importante e dá segurança para a aplicação.
 
-
 % Tabela Execução dos Mutantes Caso1
-\begin{table*}[hp]
+\begin{table*}[h!p]
 	\centering
-	\caption{ Execução dos Mutantes Caso1}
+	\caption{ Execução dos Mutantes \nameref{subsec:caso1}}
 	\label{tab:execucaoMutantesCaso1} 
 	\begin{tabular}{|c|c|}
 		\hline \textbf{Script Referenciado} & \textbf{Resultado}\\ 
 		\hline Original & 56 Linhas \\ 
-		\hline M1.1 & 63 Linhas \\ 
+		\hline \nameref{mutante:1.1} & 63 Linhas \\ 
 		\hline M1.2 & 217 Linhas \\ 
 		\hline M1.3 & 280 Linhas \\ 
 		\hline M1.4 & 63 Linhas \\ 
-		\hline M1.5 & 217 Linhas \\ 
+		\hline \nameref{mutante:1.5} & 217 Linhas \\ 
 		\hline M1.6 & 280 Linhas \\ 
 		\hline M1.7 & 49 Linhas \\ 
 		\hline M1.8 & 175 Linhas \\ 
-		\hline M1.9 & 224 Linhas \\ 
+		\hline \nameref{mutante:1.9} & 224 Linhas \\ 
 		\hline M1.10 & 32 Linhas \\ 
 		\hline M1.11 & 136 Linhas \\  
 		\hline M1.12 & 168 Linhas \\ 
-		\hline M1.13 & 19840 Linhas \\ 
+		\hline \nameref{mutante:1.13} & 19840 Linhas \\ 
 		\hline M1.14 & 5160 Linhas \\ 
 		\hline M1.15 & 10664 Linhas \\ 
 		\hline 
@@ -347,7 +347,8 @@ U.id in(SELECT distinct id from usuario WHERE ativo = true);
 
 Exemplos dos Mutantes  gerados no Caso 2: 
 
-M2.1
+\paragraph{M2.1}
+\label{mutante:2.1}
 \begin{verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
@@ -357,7 +358,8 @@ PM.id_plano = P.id and
 U.id in(SELECT distinct id from usuario WHERE ativo = true);
 \end{verbatim}
 
-M2.9
+\paragraph{M2.9}
+\label{mutante:2.9}
 \begin{verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
@@ -367,7 +369,8 @@ PM.id_plano <> P.id and
 U.id  in(SELECT distinct id from usuario WHERE ativo = true);
 \end{verbatim}
 
-M2.10
+\paragraph{M2.10}
+\label{mutante:2.10}
 \begin{verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
@@ -382,12 +385,12 @@ Na Tabela \ref{tab:execucaoMutantesCaso2} mostra o resultado dos mutantes gerado
 % Tabela Execução dos Mutantes Caso2
 \begin{table*}[hp]
 	\centering
-	\caption{ Execução dos Mutantes Caso2}
+	\caption{ Execução dos Mutantes \nameref{subsec:caso2}}
 	\label{tab:execucaoMutantesCaso2} 
 	\begin{tabular}{|c|c|}
 		\hline \textbf{Script Referenciado} & \textbf{Resultado}\\ 
 		\hline Original & 288 Linhas \\ 
-		\hline M2.1 & 3078 Linhas \\ 
+		\hline \nameref{mutante:2.1} & 3078 Linhas \\ 
 		\hline M2.2 & 1254 Linhas \\ 
 		\hline M2.3 & 4332 Linhas \\ 
 		\hline M2.4 & 0 Linha \\ 
@@ -395,8 +398,8 @@ Na Tabela \ref{tab:execucaoMutantesCaso2} mostra o resultado dos mutantes gerado
 		\hline M2.6 & 1140 Linhas \\ 
 		\hline M2.7 & 240 Linhas \\ 
 		\hline M2.8 & 672 Linhas \\ 
-		\hline M2.9 & 912 Linhas \\ 
-		\hline M2.10 & 0 Linha \\ 
+		\hline \nameref{mutante:2.9} & 912 Linhas \\ 
+		\hline \nameref{mutante:2.10} & 0 Linha \\ 
 		\hline M2.11 & 0 Linha \\  
 		\hline M2.12 & 0 Linha \\ 
 		\hline M2.13 & 0 Linha \\ 
@@ -414,32 +417,42 @@ No Terceiro exemplo é utilizado o subtipo \textbf{LKE} também pertencente ao gru
 Query SQL:
 \begin{verbatim}
 SELECT * from Usuario
-WHERE nome Like 'A%';  // onde a letra A pode ser uma entrada de dado de uma ou mais caracteres.
+-- onde a letra A pode ser uma entrada de dado de um ou mais caracteres.
+WHERE nome Like 'A%';  
 \end{verbatim}
 
 Exemplos dos Mutantes  gerados no Caso 3: 
 
-M3.1 : 	 	 	 	
+\paragraph{M3.1}
+\label{mutante:3.1} 	 	 	 	
 \begin{verbatim}
 SELECT * from Usuario
 WHERE nome Like 'A_';
 \end{verbatim}
-M3.2
+
+\paragraph{M3.2}
+\label{mutante:3.2} 
 \begin{verbatim}
 SELECT * from Usuario
 WHERE nome Like 'a%';
 \end{verbatim}
-M3.3
+
+\paragraph{M3.3}
+\label{mutante:3.3}
 \begin{verbatim}
 SELECT * from Usuario
 WHERE nome Like 'a_';
 \end{verbatim}
-M3.4:
+
+\paragraph{M3.4}
+\label{mutante:3.4}
 \begin{verbatim}
 SELECT * from Usuario
 WHERE nome Like 'C%';
 \end{verbatim}
-M3.5: 
+
+\paragraph{M3.5}
+\label{mutante:3.5} 
 \begin{verbatim}
 SELECT * from Usuario
 WHERE nome Like 'C_';
@@ -452,16 +465,16 @@ Na Tabela \ref{tab:execucaoMutantesCaso3} mostra o resultado dos mutantes gerado
 % Tabela Execução dos Mutantes Caso3
 \begin{table*}[hp]
 	\centering
-	\caption{ Execução dos Mutantes Caso3}
+	\caption{ Execução dos Mutantes \nameref{subsec:caso3}}
 	\label{tab:execucaoMutantesCaso3} 
 	\begin{tabular}{|c|c|}
 		\hline \textbf{Script Referenciado} & \textbf{Resultado}\\ 
 		\hline Original & 1 Linha \\ 
-		\hline M3.1 & 0 Linha \\ 
-		\hline M3.2 & 2 Linhas \\ 
-		\hline M3.3 & 0 Linha \\ 
-		\hline M3.4 & 6 Linhas \\ 
-		\hline M3.5 & 0 Linha \\ 
+		\hline \nameref{mutante:3.1} & 0 Linha \\ 
+		\hline \nameref{mutante:3.2} & 2 Linhas \\ 
+		\hline \nameref{mutante:3.3} & 0 Linha \\ 
+		\hline \nameref{mutante:3.4} & 6 Linhas \\ 
+		\hline \nameref{mutante:3.5} & 0 Linha \\ 
 		
 		\hline 
 	\end{tabular} 
@@ -481,7 +494,7 @@ Na Tabela \ref{tab:relacaoMutantesGeradosNosExemplos} é apresentada a relação de
 	\caption{ Relação de Mutantes gerados nos exemplos}
 	\label{tab:relacaoMutantesGeradosNosExemplos} 
 	\begin{tabular}{|c|c|c|c|c|}
-		\hline \textbf{Operador} & \textbf{Caso 1} & \textbf{Caso 2} & \textbf{Caso 3} & \textbf{Total}\\ 
+		\hline \textbf{Operador} & \textbf{\nameref{subsec:caso1}} & \textbf{\nameref{subsec:caso2}} & \textbf{\nameref{subsec:caso3}} & \textbf{Total}\\ 
 		\hline \textbf{OR} & 15 & 9 & 5 & 29\\ 
 		\hline \textbf{SC} & 0 & 1 & 0 & 1\\
 		\hline  &  &  &  & 30\\
