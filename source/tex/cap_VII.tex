@@ -5,7 +5,7 @@ Os casos de testes foram realizados no banco de dados Postgres através de comand
 São apresentados  as entradas de dados, o teste aplicado, a saída esperada, a mensagem exibida pelo BD e o Resultado obtido pelo BD.
 
 \section{Casos de Testes Intra-Tabelas}
-\label{sec:casosTestesIntraTabelas}
+\label{sec:resultadosCasosTestesIntraTabelas}
 
 Serão apresentados os casos de testes Intra -Tabelas, distinguidos pelo tipo de critério, e informando o :
 \begin{itemize}
@@ -17,7 +17,7 @@ Serão apresentados os casos de testes Intra -Tabelas, distinguidos pelo tipo de 
 	\item E o Resultado obtido pelo Banco de Dados
 \end{itemize}
 
-As Figuras \ref{fig:resultadoIntraTabelas1} a \ref{fig:resultadoIntraTabelasGrupoPermissao} apresentam os resultados obtidos.
+As Figuras \ref{fig:resultadoIntraTabelas1} a \ref{fig:resultadoIntraTabelasGrupoPermissao} são apresentados os resultados obtidos, conforme descritos na seção \ref{sec:casosTestesIntraTabela}.
 
 Os Scripts dos testes executados são apresentados no Apêndice \ref{apend:B}, ao final desse Trabalho.
 
@@ -143,7 +143,7 @@ Os Scripts dos testes executados são apresentados no Apêndice \ref{apend:B}, ao 
 
 
 \section{Casos de Testes Inter-Tabelas}
-\label{sec:casosTestesInterTabelas}
+\label{sec:resultadosCasosTestesInterTabelas}
 
 As Figuras \ref{fig:resultadoInterTabelasChavePrimaria} e \ref{fig:resultadoInterTabelasAceitacao} apresentam os resultados obtidos.
 
@@ -169,7 +169,7 @@ De acordo com os testes realizados podemos observar que na técnica de Restrição 
 
 Já na Integridade de domínio tivemos algumas falhas, onde o banco não teve o comportamento esperado, como não existir um check em cada variável que tenha limites inferior e superior válidos dentro do escopo de cada tipo de dados por exemplos datas inválidas que não deveriam ser aceitas ou valores negativos quando a variável deve ser somente positiva tipo idade, essas regras foram definidas no Plano de testes . Essas falhas são comuns, e pelo percentual de erros, pode-se afirmar que o banco de dados, está 90\% de qualidade atingida, apenas 10\% foram defeitos ocorridos por esses motivos. 
 
-Na Tabela \ref{tab:comparacao3Criterios} podemos observar o resultados dos testes:
+Na Tabela \ref{tab:comparacao3Criterios} pode-se observar a relação entre os casos de testes executados e os erros encontrados, conforme descritos nas seções \ref{sec:resultadosCasosTestesIntraTabelas} e \ref{sec:resultadosCasosTestesInterTabelas}:
 
 
 \begin{table*}[hp]
@@ -216,8 +216,8 @@ Nas Figuras \ref{subfig:unicidade}, \ref{subfig:dominio}, \ref{subfig:referencia
 	\label{fig:subfiguras1}
 \end{figure}
 
-\pagebreak
 
+\clearpage
 
 \section{Aplicação de Teste de Mutantes em Scripts de Banco de Dados (SQL)}
 \label{sec:aplicacaoTesteMutantesEmScriptSql}

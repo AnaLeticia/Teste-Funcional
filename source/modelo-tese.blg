@@ -9,7 +9,7 @@ I was expecting a `,' or a `}'---line 10 of file ./bib/modelo-tese.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "Souza" isn't style-file defined
---line 192 of file ./bib/modelo-tese.bib
+--line 199 of file ./bib/modelo-tese.bib
 Too many commas in name 1 of "Cabeça, A. G.; Leitão-Jr, P.S.; Jino, M" for entry Cabeca
 while executing---line 1096 of file inf-ufg.bst
 Too many commas in name 1 of "ROCHA, A. R. C.; MALDONADO, J. C.; WEBER, K. C" for entry RochaEtAl
@@ -40,45 +40,45 @@ Too many commas in name 1 of "SILBERSCHATZ, A; KORTH, H. F; SUDARSHAN, S" for en
 while executing---line 1137 of file inf-ufg.bst
 Too many commas in name 1 of "Tuya,J.; Suárez-Cabal, M.J.; Riva, C" for entry Tuya2006
 while executing---line 1137 of file inf-ufg.bst
-You've used 24 entries,
+You've used 25 entries,
             2158 wiz_defined-function locations,
-            661 strings with 6809 characters,
-and the built_in function-call counts, 5332 in all, are:
-= -- 449
-> -- 168
+            666 strings with 6886 characters,
+and the built_in function-call counts, 5551 in all, are:
+= -- 468
+> -- 175
 < -- 1
-+ -- 73
-- -- 48
-* -- 282
-:= -- 916
-add.period$ -- 68
-call.type$ -- 24
-change.case$ -- 90
++ -- 76
+- -- 50
+* -- 291
+:= -- 952
+add.period$ -- 72
+call.type$ -- 25
+change.case$ -- 94
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 277
-empty$ -- 555
-format.name$ -- 48
-if$ -- 1116
+cite$ -- 27
+duplicate$ -- 286
+empty$ -- 579
+format.name$ -- 50
+if$ -- 1163
 int.to.chr$ -- 0
-int.to.str$ -- 24
+int.to.str$ -- 25
 missing$ -- 23
-newline$ -- 118
-num.names$ -- 48
-pop$ -- 151
+newline$ -- 124
+num.names$ -- 50
+pop$ -- 160
 preamble$ -- 1
-purify$ -- 72
+purify$ -- 75
 quote$ -- 0
-skip$ -- 137
+skip$ -- 141
 stack$ -- 0
-substring$ -- 148
-swap$ -- 65
+substring$ -- 153
+swap$ -- 68
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 74
+type$ -- 78
 warning$ -- 2
-while$ -- 51
-width$ -- 26
-write$ -- 250
+while$ -- 53
+width$ -- 27
+write$ -- 261
 (There were 15 error messages)

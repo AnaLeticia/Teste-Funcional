@@ -9,7 +9,7 @@
 {\sffamily\scshape {Boxfuse GmbH}.}
 \newblock {\bfseries {Flyway}}.
 \newblock \url{https://flywaydb.org/}.
-\newblock Accessado em: 2016-12-03.
+\newblock Accessado em: 2017-06-03.
 
 \bibitem{Cabeca}
 {\sffamily\scshape Cabeça, A. G.; Leitão-Jr, P. J.~M.}
@@ -54,6 +54,12 @@
 {\sffamily\scshape HOWDEN, W.}
 \newblock {\bfseries Functional Program Testing and Analysis}.
 \newblock McGraw-Hill, USA, 1987.
+
+\bibitem{Dbunit}
+{\sffamily\scshape {Jensen, Jeff. et al}.}
+\newblock {\bfseries {DbUnit}}.
+\newblock \url{http://dbunit.sourceforge.net/}.
+\newblock Accessado em: 2017-06-03.
 
 \bibitem{Korth}
 {\sffamily\scshape KORTH, Henry F.;~SILBERSCHATZ, A. S.~S.}

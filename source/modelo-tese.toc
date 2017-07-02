@@ -50,7 +50,7 @@
 \contentsline {section}{\numberline {7.1}Casos de Testes Intra-Tabelas}{49}{section.68}
 \contentsline {section}{\numberline {7.2}Casos de Testes Inter-Tabelas}{66}{section.86}
 \contentsline {section}{\numberline {7.3}An\'alise dos Resultados Obtidos na T\'ecnica Funcional}{69}{section.89}
-\contentsline {section}{\numberline {7.4}Aplica\c c\~ao de Teste de Mutantes em Scripts de Banco de Dados (SQL)}{70}{section.96}
+\contentsline {section}{\numberline {7.4}Aplica\c c\~ao de Teste de Mutantes em Scripts de Banco de Dados (SQL)}{71}{section.96}
 \contentsline {subsection}{\numberline {7.4.1}Caso 1}{72}{subsection.98}
 \contentsline {paragraph}{M1.1}{72}{section*.99}
 \contentsline {paragraph}{M1.5}{72}{section*.100}
