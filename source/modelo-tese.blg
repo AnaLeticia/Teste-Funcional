@@ -42,7 +42,7 @@ Too many commas in name 1 of "Tuya,J.; Suárez-Cabal, M.J.; Riva, C" for entry Tu
 while executing---line 1137 of file inf-ufg.bst
 You've used 25 entries,
             2158 wiz_defined-function locations,
-            666 strings with 6886 characters,
+            666 strings with 6885 characters,
 and the built_in function-call counts, 5551 in all, are:
 = -- 468
 > -- 175
