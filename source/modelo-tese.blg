@@ -9,7 +9,7 @@ I was expecting a `,' or a `}'---line 10 of file ./bib/modelo-tese.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "Souza" isn't style-file defined
---line 199 of file ./bib/modelo-tese.bib
+--line 200 of file ./bib/modelo-tese.bib
 Too many commas in name 1 of "Cabeça, A. G.; Leitão-Jr, P.S.; Jino, M" for entry Cabeca
 while executing---line 1096 of file inf-ufg.bst
 Too many commas in name 1 of "ROCHA, A. R. C.; MALDONADO, J. C.; WEBER, K. C" for entry RochaEtAl

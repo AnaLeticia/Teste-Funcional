@@ -1,328 +1,359 @@
 \chapter{Scripts dos Testes de  Mutantes}
 \label{apend:D}
-Texto do Apêndice~\ref{apend:C}.
 
-Query dos Mutantes Caso 1:
+Query dos Mutantes \nameref{subsec:caso1}:
 
 M1.1 : 
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
-F.id_empresa > E.id and
+F.id_empresa \textbf{\textcolor{red}{>}} E.id and
 E.id_plano = CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 
 
 M1.2 : 
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
-F.id_empresa < E.id and
+F.id_empresa \textbf{\textcolor{red}{<}} E.id and
 E.id_plano = CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 
 M.1.3
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
-F.id_empresa <> E.id and
+F.id_empresa \textbf{\textcolor{red}{<>}} E.id and
 E.id_plano = CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 
 
 
 
 M1. 4: 
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
 F.id_empresa = E.id and
-E.id_plano > CP.id  and
+E.id_plano \textbf{\textcolor{red}{>}} CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
 
-\end{verbatim}
+\end{Verbatim}
 
 
 M.1.5:
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
 F.id_empresa = E.id and
-E.id_plano < CP.id  and
+E.id_plano \textbf{\textcolor{red}{<}} CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 
 
 M1.6
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
 F.id_empresa = E.id and
-E.id_plano <> CP.id  and
+E.id_plano \textbf{\textcolor{red}{<>}} CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 
 
 M1.7 :
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
 F.id_empresa = E.id and
 E.id_plano = CP.id  and
-P.id > CP.id_plano and
+P.id \textbf{\textcolor{red}{>}} CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 
 M1.8:
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
 F.id_empresa = E.id and
 E.id_plano = CP.id  and
-P.id < CP.id_plano and
+P.id \textbf{\textcolor{red}{<}} CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 M1.9
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
 F.id_empresa = E.id and
 E.id_plano = CP.id  and
-P.id <> CP.id_plano and
+P.id \textbf{\textcolor{red}{<>}} CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 
 M1.0 : 
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
 F.id_empresa = E.id and
 E.id_plano = CP.id  and
 P.id = CP.id_plano and
-U.id_conta > C.id;
-\end{verbatim}
+U.id_conta \textbf{\textcolor{red}{>}} C.id;
+\end{Verbatim}
 
 
 
 M1.11: 
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
 F.id_empresa = E.id and
 E.id_plano = CP.id  and
 P.id = CP.id_plano and
-U.id_conta < C.id;
-\end{verbatim}
+U.id_conta \textbf{\textcolor{red}{<}} C.id;
+\end{Verbatim}
 
 M1.12 :
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
 F.id_empresa = E.id and
 E.id_plano = CP.id  and
 P.id = CP.id_plano and
-U.id_conta <> C.id;
-\end{verbatim}
+U.id_conta \textbf{\textcolor{red}{<>}} C.id;
+\end{Verbatim}
 
 
 M1.13
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
-F.id_empresa = E.id or
+F.id_empresa = E.id \textbf{\textcolor{red}{or}}
 E.id_plano = CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 
 
 M1.14
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
 F.id_empresa = E.id and
-E.id_plano = CP.id  or
+E.id_plano = CP.id  \textbf{\textcolor{red}{or}}
 P.id = CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 M1.15
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano, U.nome, C.id
 FROM filial F, empresa E, conta_plano CP, plano P, usuario U, conta C
 WHERE 
 F.id_empresa = E.id and
 E.id_plano = CP.id  and
-P.id = CP.id_plano or
+P.id = CP.id_plano \textbf{\textcolor{red}{or}}
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 
 
-Query dos Mutantes Caso 2 :
+Query dos Mutantes \nameref{subsec:caso2}:
 
-M2.1
-\begin{verbatim}
+\paragraph{M2.1}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
-WHERE U.id > UP.id_usuario and
+WHERE U.id \textbf{\textcolor{red}{>}} UP.id_usuario and
 G.id = UP.id_grupo and
 PM.id_plano = P.id and
 U.id in(SELECT distinct id from usuario WHERE ativo = true);
-\end{verbatim}
+\end{Verbatim}
 
-M2.2
-\begin{verbatim}
+\paragraph{M2.2}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
-WHERE U.id < UP.id_usuario and
+WHERE U.id \textbf{\textcolor{red}{<}} UP.id_usuario and
 G.id = UP.id_grupo and
 PM.id_plano = P.id and
 U.id in(SELECT distinct id from usuario WHERE ativo = true);
-\end{verbatim}
+\end{Verbatim}
 
-M2.3
-\begin{verbatim}
+\paragraph{M2.3}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
-WHERE U.id <> UP.id_usuario and
+WHERE U.id \textbf{\textcolor{red}{<>}} UP.id_usuario and
 G.id = UP.id_grupo and
 PM.id_plano = P.id and
 U.id in(SELECT distinct id from usuario WHERE ativo = true);
-\end{verbatim}
+\end{Verbatim}
 
 
-
-M2.4
-\begin{verbatim}
+\paragraph{M2.4}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
 WHERE U.id = UP.id_usuario and
-G.id > UP.id_grupo and
+G.id \textbf{\textcolor{red}{>}} UP.id_grupo and
 PM.id_plano = P.id and
 U.id not in(SELECT distinct id from usuario WHERE ativo = true);
-\end{verbatim}
+\end{Verbatim}
 
-M2.5
-\begin{verbatim}
+\paragraph{M2.5}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
 WHERE U.id = UP.id_usuario and
-G.id < UP.id_grupo and
+G.id \textbf{\textcolor{red}{<}} UP.id_grupo and
 PM.id_plano = P.id and
 U.id in(SELECT distinct id from usuario WHERE ativo = true);
-\end{verbatim}
+\end{Verbatim}
 
-M2.6
-\begin{verbatim}
+\paragraph{M2.6}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
 WHERE U.id = UP.id_usuario and
-G.id <> UP.id_grupo and
+G.id \textbf{\textcolor{red}{<>}} UP.id_grupo and
 PM.id_plano = P.id and
 U.id in(SELECT distinct id from usuario WHERE ativo = true);
-\end{verbatim}
+\end{Verbatim}
 
-M2.7
-\begin{verbatim}
+\paragraph{M2.7}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
 WHERE U.id = UP.id_usuario and
 G.id = UP.id_grupo and
-PM.id_plano > P.id and
+PM.id_plano \textbf{\textcolor{red}{>}} P.id and
 U.id  in(SELECT distinct id from usuario WHERE ativo = true);
-\end{verbatim}
+\end{Verbatim}
 
-M2.8
-\begin{verbatim}
+\paragraph{M2.8}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
 WHERE U.id = UP.id_usuario and
 G.id = UP.id_grupo and
-PM.id_plano < P.id and
+PM.id_plano \textbf{\textcolor{red}{<}} P.id and
 U.id  in(SELECT distinct id from usuario WHERE ativo = true);
-\end{verbatim}
+\end{Verbatim}
 
 
 
-M2.9
-\begin{verbatim}
+\paragraph{M2.9}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
 WHERE U.id = UP.id_usuario and
 G.id = UP.id_grupo and
-PM.id_plano <> P.id and
+PM.id_plano \textbf{\textcolor{red}{<>}} P.id and
 U.id  in(SELECT distinct id from usuario WHERE ativo = true);
-\end{verbatim}
+\end{Verbatim}
 
-M2.10
-\begin{verbatim}
+\paragraph{M2.10}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
 WHERE U.id = UP.id_usuario and
 G.id = UP.id_grupo and
 PM.id_plano = P.id and
-U.id  not in(SELECT distinct id from usuario WHERE ativo = true);
-\end{verbatim}
+U.id \textbf{\textcolor{red}{not}} in(SELECT distinct id from usuario WHERE ativo = true);
+\end{Verbatim}
 
-M2.11
-\begin{verbatim}
+\paragraph{M2.11}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
 WHERE U.id = UP.id_usuario and
 G.id = UP.id_grupo and
 PM.id_plano = P.id and
-U.id in(SELECT distinct id from usuario WHERE ativo > true);
-\end{verbatim}
+U.id in(SELECT distinct id from usuario WHERE ativo \textbf{\textcolor{red}{>}} true);
+\end{Verbatim}
 
-M2.12
-\begin{verbatim}
+\paragraph{M2.12}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
 WHERE U.id = UP.id_usuario and
 G.id = UP.id_grupo and
 PM.id_plano = P.id and
-U.id  in(SELECT distinct id from usuario WHERE ativo < true);
-\end{verbatim}
+U.id  in(SELECT distinct id from usuario WHERE ativo \textbf{\textcolor{red}{<}} true);
+\end{Verbatim}
 
-M1.13
-\begin{verbatim}
+\paragraph{M2.13}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
 WHERE U.id = UP.id_usuario and
 G.id = UP.id_grupo and
 PM.id_plano = P.id and
-U.id  in(SELECT distinct id from usuario WHERE ativo <> true);
-\end{verbatim}
+U.id  in(SELECT distinct id from usuario WHERE ativo \textbf{\textcolor{red}{<>}} true);
+\end{Verbatim}
+
+Query dos Mutantes \nameref{subsec:caso3}:
+
+
+\paragraph{M3.1}	 	 	 	
+\begin{Verbatim}
+SELECT * from Usuario
+WHERE nome Like '\textbf{\textcolor{red}{A_}}';
+\end{Verbatim}
+
+\paragraph{M3.2}
+\begin{Verbatim}
+SELECT * from Usuario
+WHERE nome Like '\textbf{\textcolor{red}{a}}%';
+\end{Verbatim}
+
+\paragraph{M3.3}
+\begin{Verbatim}
+SELECT * from Usuario
+WHERE nome Like '\textbf{\textcolor{red}{a_}}';
+\end{Verbatim}
+
+\paragraph{M3.4}
+\begin{Verbatim}
+SELECT * from Usuario
+WHERE nome Like '\textbf{\textcolor{red}{C}}%';
+\end{Verbatim}
+
+\paragraph{M3.5}
+\begin{Verbatim}
+SELECT * from Usuario
+WHERE nome Like '\textbf{\textcolor{red}{C_}}';
+\end{Verbatim}

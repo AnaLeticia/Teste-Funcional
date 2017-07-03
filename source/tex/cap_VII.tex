@@ -239,7 +239,7 @@ Nesta seção será apresentado alguns scripts que serão aplicados os operadores de
 
 No Caso 1, serão aplicados os subtipos \textbf{ROR} e \textbf{LCR} do grupo \textbf{OR}, pré definidos na seção Técnicas de Teste de Mutante em Banco de Dados \ref{sec:testeMutanteBd}.
 
-Query SQL:  Exibe o 
+Query SQL: busca o plano e o usuário para cada filial de cada empresa.
 
 \begin{verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano,
@@ -254,48 +254,48 @@ Exemplos dos Mutantes  gerados no Caso 1:
  
 \paragraph{M1.1}
 \label{mutante:1.1}
-\begin{verbatim} 
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano,
 U.nome, C.id FROM filial F, empresa E, conta_plano CP, plano P, usuario U, 
-conta C WHERE F.id_empresa > E.id and
+conta C WHERE F.id_empresa \textbf{\textcolor{red}{>}} E.id and
 E.id_plano = CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 \paragraph{M1.5}
 \label{mutante:1.5}
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano,
 U.nome, C.id FROM filial F, empresa E, conta_plano CP, plano P, usuario U, 
 conta C WHERE F.id_empresa = E.id and
-E.id_plano < CP.id  and
+E.id_plano \textbf{\textcolor{red}{<}} CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 \paragraph{M1.9}
 \label{mutante:1.9}
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano,
 U.nome, C.id FROM filial F, empresa E, conta_plano CP, plano P, usuario U, 
 conta C WHERE 
 F.id_empresa = E.id and
 E.id_plano = CP.id  and
-P.id <> CP.id_plano and
+P.id \textbf{\textcolor{red}{<>}} CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 \paragraph{M1.13}
 \label{mutante:1.13}
-\begin{verbatim}
+\begin{Verbatim}
 SELECT E.id, E.razao_social, F.id, F.razao_social, P.nome, CP.id, CP.id_plano,
 U.nome, C.id FROM filial F, empresa E, conta_plano CP, plano P, usuario U, 
-conta C WHERE F.id_empresa = E.id or
+conta C WHERE F.id_empresa = E.id \textbf{\textcolor{red}{or}}
 E.id_plano = CP.id  and
 P.id = CP.id_plano and
 U.id_conta = C.id;
-\end{verbatim}
+\end{Verbatim}
 
 Na Tabela \ref{tab:execucaoMutantesCaso1} mostra os resultados da execução de cada mutante gerado no Caso 1 mostrando que não houve nenhum mutante vivo. Ou seja todos mutantes deram resultados diferenciados em relação ao Script Original. Desta forma os erros plantados na geração de cada mutante mostrado nos exemplos acima e colocados no Apêndice, mostraram que no script original não existem esses respectivos defeitos, o que é muito importante e dá segurança para a aplicação.
 
@@ -334,7 +334,7 @@ Na Tabela \ref{tab:execucaoMutantesCaso1} mostra os resultados da execução de ca
 
 No segundo exemplo,serão aplicados os subtipos \textbf{SUB} e \textbf{ROR}, do grupo \textbf{SC} e do grupo \textbf{OR}, respectivamente.
 
-Query SQL Exibe o Valor pago por cada usuário ativo em cada plano;
+Query SQL: consulta o valor de mensal pago por cada usuário ativo em cada plano
 
 \begin{verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
@@ -349,36 +349,36 @@ Exemplos dos Mutantes  gerados no Caso 2:
 
 \paragraph{M2.1}
 \label{mutante:2.1}
-\begin{verbatim}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
-WHERE U.id > UP.id_usuario and
+WHERE U.id \textbf{\textcolor{red}{>}} UP.id_usuario and
 G.id = UP.id_grupo and
 PM.id_plano = P.id and
 U.id in(SELECT distinct id from usuario WHERE ativo = true);
-\end{verbatim}
+\end{Verbatim}
 
 \paragraph{M2.9}
 \label{mutante:2.9}
-\begin{verbatim}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
 WHERE U.id = UP.id_usuario and
 G.id = UP.id_grupo and
-PM.id_plano <> P.id and
+PM.id_plano \textbf{\textcolor{red}{<>}} P.id and
 U.id  in(SELECT distinct id from usuario WHERE ativo = true);
-\end{verbatim}
+\end{Verbatim}
 
 \paragraph{M2.10}
 \label{mutante:2.10}
-\begin{verbatim}
+\begin{Verbatim}
 SELECT u.nome, g.id, p.nome, pm.valor_mensal_fixo
 FROM usuario U, grupo G, plano P, usuario_grupo UP, preco_modulo PM
 WHERE U.id = UP.id_usuario and
 G.id = UP.id_grupo and
 PM.id_plano = P.id and
-U.id  not in(SELECT distinct id from usuario WHERE ativo = true);
-\end{verbatim}
+U.id \textbf{\textcolor{red}{not}} in(SELECT distinct id from usuario WHERE ativo = true);
+\end{Verbatim}
 
 Na Tabela \ref{tab:execucaoMutantesCaso2} mostra o resultado dos mutantes gerados nos mutantes gerados no Caso 2 mostrados anteriormente. Nesse caso também ilustra que os defeitos colocados em cada mutante não está presente no Script original. No Caso 2 foram gerados 13 mutantes baseados nos operadores já comentados anteriormente. Os Mutantes são apresentados no Apêndice \ref{apend:D}. 
 
@@ -414,49 +414,50 @@ Na Tabela \ref{tab:execucaoMutantesCaso2} mostra o resultado dos mutantes gerado
 
 No Terceiro exemplo é utilizado o subtipo \textbf{LKE} também pertencente ao grupo \textbf{OR}; A quantidade desses mutantes é reduzida devido combinação efetuada com 2 operadores, e a quantidade de dados no Banco.
 
-Query SQL:
+Query SQL: busca todos usuários cuja primeira letra do nome comece em \textit{A} (maiúsculo)
+
 \begin{verbatim}
 SELECT * from Usuario
+WHERE nome Like 'A%';
 -- onde a letra A pode ser uma entrada de dado de um ou mais caracteres.
-WHERE nome Like 'A%';  
 \end{verbatim}
 
 Exemplos dos Mutantes  gerados no Caso 3: 
 
 \paragraph{M3.1}
 \label{mutante:3.1} 	 	 	 	
-\begin{verbatim}
+\begin{Verbatim}
 SELECT * from Usuario
-WHERE nome Like 'A_';
-\end{verbatim}
+WHERE nome Like '\textbf{\textcolor{red}{A_}}';
+\end{Verbatim}
 
 \paragraph{M3.2}
 \label{mutante:3.2} 
-\begin{verbatim}
+\begin{Verbatim}
 SELECT * from Usuario
-WHERE nome Like 'a%';
-\end{verbatim}
+WHERE nome Like '\textbf{\textcolor{red}{a}}%';
+\end{Verbatim}
 
 \paragraph{M3.3}
 \label{mutante:3.3}
-\begin{verbatim}
+\begin{Verbatim}
 SELECT * from Usuario
-WHERE nome Like 'a_';
-\end{verbatim}
+WHERE nome Like '\textbf{\textcolor{red}{a_}}';
+\end{Verbatim}
 
 \paragraph{M3.4}
 \label{mutante:3.4}
-\begin{verbatim}
+\begin{Verbatim}
 SELECT * from Usuario
-WHERE nome Like 'C%';
-\end{verbatim}
+WHERE nome Like '\textbf{\textcolor{red}{C}}%';
+\end{Verbatim}
 
 \paragraph{M3.5}
 \label{mutante:3.5} 
-\begin{verbatim}
+\begin{Verbatim}
 SELECT * from Usuario
-WHERE nome Like 'C_';
-\end{verbatim}
+WHERE nome Like '\textbf{\textcolor{red}{C_}}';
+\end{Verbatim}
 
 \pagebreak
 
