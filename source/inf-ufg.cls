@@ -659,6 +659,9 @@
  \normalfont\vspace*{\stretch{1}}
 }{\clearpage}
 
+
+
+
 %% Agradecimentos
 %% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \newenvironment{agradecimentos}{
@@ -668,11 +671,30 @@
  \@makeschapterhead{Agradecimentos}
 }{\clearpage}
 
+%% Epígrafe
+%% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+\newcommand{\epigrafe}[3]{%
+	\ifpdf
+	\pdfbookmark[1]{Epígrafe}{pretexto.8}
+	\fi
+	\thispagestyle{empty}\singlespacing\normalfont%
+	\vspace*{\stretch{1}}\par%
+	\begin{quotation}%
+		#1%
+		\par%
+		\begin{flushright}
+			\textbf{#2}, \\ \textit{#3}.
+		\end{flushright}%
+	\end{quotation}%
+	\onehalfspacing
+	\clearpage%
+}
+
 %% Resumo
 %% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \newenvironment{resumo}{%
  \ifpdf
-  \pdfbookmark[1]{Resumo}{pretexto.8}
+  \pdfbookmark[1]{Resumo}{pretexto.9}
  \fi
 
  \@makeschapterhead{Resumo}
@@ -710,7 +732,7 @@
 %% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \renewenvironment{abstract}[1]{%
  \ifpdf
-  \pdfbookmark[1]{Abstract}{pretexto.9} % Sets a PDF bookmark for the abstract
+  \pdfbookmark[1]{Abstract}{pretexto.10} % Sets a PDF bookmark for the abstract
  \fi
   \@makeschapterhead{Abstract}
   \begin{minipage}{13.5cm}
@@ -743,24 +765,17 @@
   \clearpage%
   }
 
-%% Epígrafe
+
+
+%% abreviaturas
 %% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-\newcommand{\epigrafe}[3]{%
-  \ifpdf
-   \pdfbookmark[1]{Epígrafe}{pretexto.10}
-  \fi
-  \thispagestyle{empty}\singlespacing\normalfont%
-  \vspace*{\stretch{1}}\par%
-  \begin{quotation}%
-  #1%
-  \par%
-  \begin{flushright}
-  \textbf{#2}, \\ \textit{#3}.
-  \end{flushright}%
-  \end{quotation}%
-  \onehalfspacing
-  \clearpage%
-}
+\newenvironment{abreviaturas}{
+	\ifpdf
+	\pdfbookmark[1]{Abreviaturas}{pretexto.11}
+	\fi
+	\normalfont\vspace*{\stretch{1}}
+	\@makeschapterhead{Lista de abreviaturas e siglas}
+}{\clearpage}
 
 %% Sumário
 %% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

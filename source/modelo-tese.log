@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.6.20)  8 JUL 2017 01:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.6.20)  12 JUL 2017 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -758,17 +758,28 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 7.
  [8
 
-])
+]) (./pre/pre_abreviaturas.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 65.
- (./modelo-tese.toc
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 71.
+ [9
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 75.
+ [10])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 66.
+
+(./modelo-tese.toc
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 5.
+(Font)              scaled to size 9.85492pt on input line 23.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 34.
+(Font)              scaled to size 8.99994pt on input line 33.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 52.
- [9
+ [11
 
 
 
@@ -777,12 +788,11 @@ Package babel Info: Redefining portuges shorthand "|
 \openout5 = `modelo-tese.toc'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 65.
- [10]
+(babel)             in language  on input line 66.
+ [12]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 65.
-
-(./modelo-tese.lof
+(babel)             in language  on input line 66.
+ (./modelo-tese.lof
 Underfull \hbox (badness 5533) in paragraph at lines 8--8
  [][] [][][]\T1/phv/m/n/12 Tabela das pers-pec-ti-vas dos cri-té-rios de Souza 
 (2008)[[]] em 
@@ -800,7 +810,7 @@ Underfull \hbox (badness 5431) in paragraph at lines 26--26
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 38.
-[11
+[13
 
 
 ]
@@ -826,17 +836,17 @@ Underfull \hbox (badness 1337) in paragraph at lines 44--44
 \openout6 = `modelo-tese.lof'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 65.
- [12]
+(babel)             in language  on input line 66.
+ [14]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 66.
  (./modelo-tese.lot)
 \tf@lot=\write7
 \openout7 = `modelo-tese.lot'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 65.
- [13
+(babel)             in language  on input line 66.
+ [15
 
 
 ] (./tex/cap_I.tex
@@ -871,7 +881,7 @@ s-tente para pos-te-rior
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 13.
-[14
+[16
 
 
 ]
@@ -885,15 +895,10 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 39.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 49.
- [15]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 58.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 119.
- [16]) (./tex/cap_II.tex
+ [17]) (./tex/cap_II.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [17]
+ [18]
 Cap\'{\i }tulo 2.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -907,7 +912,7 @@ e pos-sam ser
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 21.
-[18
+[19
 
 ]
 Underfull \hbox (badness 1226) in paragraph at lines 22--23
@@ -925,7 +930,7 @@ er vis-tas como
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 42.
-[19]
+[20]
 Underfull \hbox (badness 1270) in paragraph at lines 48--49
 []\T1/ptm/m/n/12 Formalmente, cri-té-rios de teste de-fi-nem qual é o con-junto
  de ele-men-tos
@@ -935,7 +940,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 60.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 66.
-[20]
+[21]
 Underfull \hbox (badness 1584) in paragraph at lines 69--70
 []\T1/ptm/m/n/12 Segundo Pres-s-man (2006)[[]], o cri-té-rio Par-ti-ci-o-na-men
 to em Clas-ses de
@@ -955,21 +960,21 @@ Underfull \hbox (badness 4940) in paragraph at lines 73--74
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 90.
-[21]
+[22]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 105.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 115.
- [22]) (./tex/cap_III.tex
+ [23]) (./tex/cap_III.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [23]
+ [24]
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 12.
-[24
+[25
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
@@ -989,7 +994,7 @@ Underfull \hbox (badness 1946) in paragraph at lines 15--16
 cr/m/n/12 r(R) \T1/ptm/m/n/12 é um con-junto de vá-rias tu-plas
  []
 
-<./fig/figura1.png, id=594, 1210.5225pt x 333.245pt>
+<./fig/figura1.png, id=597, 1210.5225pt x 333.245pt>
 File: ./fig/figura1.png Graphic file (type png)
  <use ./fig/figura1.png>
 Package pdftex.def Info: ./fig/figura1.png used on input line 21.
@@ -1006,7 +1011,7 @@ m-plo, nas
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 39.
-[25 <./fig/figura1.png>]
+[26 <./fig/figura1.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 45.
 Package babel Info: Redefining portuges shorthand "|
@@ -1021,7 +1026,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 57.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 62.
-[26]
+[27]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 64.
 
@@ -1030,7 +1035,7 @@ Underfull \hbox (badness 1221) in paragraph at lines 75--76
 -pa-rando as
  []
 
-<./fig/figura2.png, id=623, 749.80125pt x 645.41125pt>
+<./fig/figura2.png, id=626, 749.80125pt x 645.41125pt>
 File: ./fig/figura2.png Graphic file (type png)
  <use ./fig/figura2.png>
 Package pdftex.def Info: ./fig/figura2.png used on input line 80.
@@ -1038,7 +1043,7 @@ Package pdftex.def Info: ./fig/figura2.png used on input line 80.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 84.
 
-[27]
+[28]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 86.
 
@@ -1051,10 +1056,10 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 96.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 100.
-[28 <./fig/figura2.png>]) (./tex/cap_IV.tex
+[29 <./fig/figura2.png>]) (./tex/cap_IV.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [29]
+ [30]
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -1074,7 +1079,7 @@ o de mé-to-dos
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 26.
-[30
+[31
 
 ]
 Package babel Info: Redefining portuges shorthand "|
@@ -1093,7 +1098,7 @@ Underfull \hbox (badness 1019) in paragraph at lines 41--42
 e-men-tos que se-rão
  []
 
-<./fig/figura4.png, id=671, 1197.47375pt x 411.5375pt>
+<./fig/figura4.png, id=674, 1197.47375pt x 411.5375pt>
 File: ./fig/figura4.png Graphic file (type png)
  <use ./fig/figura4.png>
 Package pdftex.def Info: ./fig/figura4.png used on input line 49.
@@ -1110,20 +1115,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--50
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 53.
-[31]
+[32]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 55.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 74.
- [32 <./fig/figura4.png>]) (./tex/cap_V.tex
+ [33 <./fig/figura4.png>]) (./tex/cap_V.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [33]
+ [34]
 Cap\'{\i }tulo 5.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 
-<./fig/diagrama-entidade-relacionamento.png, id=693, 2335.72626pt x 1354.05875p
+<./fig/diagrama-entidade-relacionamento.png, id=696, 2335.72626pt x 1354.05875p
 t>
 File: ./fig/diagrama-entidade-relacionamento.png Graphic file (type png)
  <use ./fig/diagrama-entidade-relacionamento.png>
@@ -1137,7 +1142,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--32
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 35.
-[34
+[35
 
 ]
 Overfull \vbox (47.84639pt too high) has occurred while \output is active []
@@ -1145,10 +1150,10 @@ Overfull \vbox (47.84639pt too high) has occurred while \output is active []
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 35.
 
-[35 <./fig/diagrama-entidade-relacionamento.png (PNG copy)>]) (./tex/cap_VI.tex
+[36 <./fig/diagrama-entidade-relacionamento.png (PNG copy)>]) (./tex/cap_VI.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-[36]
+[37]
 Cap\'{\i }tulo 6.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -1157,7 +1162,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 12.
 
-<./fig/caso-teste/unicidade/unicidade-1.jpg, id=722, 609.77812pt x 697.8572pt>
+<./fig/caso-teste/unicidade/unicidade-1.jpg, id=725, 609.77812pt x 697.8572pt>
 File: ./fig/caso-teste/unicidade/unicidade-1.jpg Graphic file (type jpg)
 
 <use ./fig/caso-teste/unicidade/unicidade-1.jpg>
@@ -1166,10 +1171,10 @@ ut line 20.
 (pdftex.def)             Requested size: 426.79134pt x 488.4541pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 24.
- [37
+ [38
 
 ]
-<./fig/caso-teste/unicidade/unicidade-2.jpg, id=727, 609.77812pt x 697.10437pt>
+<./fig/caso-teste/unicidade/unicidade-2.jpg, id=730, 609.77812pt x 697.10437pt>
 File: ./fig/caso-teste/unicidade/unicidade-2.jpg Graphic file (type jpg)
 <use ./fig/caso-teste/unicidade/unicidade-2.jpg>
 Package pdftex.def Info: ./fig/caso-teste/unicidade/unicidade-2.jpg used on inp
@@ -1177,8 +1182,8 @@ ut line 28.
 (pdftex.def)             Requested size: 426.79134pt x 487.92719pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 32.
- [38 <./fig/caso-teste/unicidade/unicidade-1.jpg>]
-<./fig/caso-teste/entidade/entidade.jpg, id=734, 609.02531pt x 738.50906pt>
+ [39 <./fig/caso-teste/unicidade/unicidade-1.jpg>]
+<./fig/caso-teste/entidade/entidade.jpg, id=737, 609.02531pt x 738.50906pt>
 File: ./fig/caso-teste/entidade/entidade.jpg Graphic file (type jpg)
 
 <use ./fig/caso-teste/entidade/entidade.jpg>
@@ -1187,8 +1192,8 @@ ine 39.
 (pdftex.def)             Requested size: 426.79134pt x 517.55006pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 43.
- [39 <./fig/caso-teste/unicidade/unicidade-2.jpg>]
-<./fig/caso-teste/dominio/empresa.jpg, id=742, 611.28375pt x 522.45187pt>
+ [40 <./fig/caso-teste/unicidade/unicidade-2.jpg>]
+<./fig/caso-teste/dominio/empresa.jpg, id=745, 611.28375pt x 522.45187pt>
 File: ./fig/caso-teste/dominio/empresa.jpg Graphic file (type jpg)
 
 <use ./fig/caso-teste/dominio/empresa.jpg>
@@ -1197,8 +1202,8 @@ e 50.
 (pdftex.def)             Requested size: 426.79134pt x 364.76515pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 54.
- [40 <./fig/caso-teste/entidade/entidade.jpg>]
-<./fig/caso-teste/dominio/filial.jpg, id=747, 610.53094pt x 449.42906pt>
+ [41 <./fig/caso-teste/entidade/entidade.jpg>]
+<./fig/caso-teste/dominio/filial.jpg, id=751, 610.53094pt x 449.42906pt>
 File: ./fig/caso-teste/dominio/filial.jpg Graphic file (type jpg)
 
 <use ./fig/caso-teste/dominio/filial.jpg>
@@ -1207,8 +1212,8 @@ Package pdftex.def Info: ./fig/caso-teste/dominio/filial.jpg used on input line
 (pdftex.def)             Requested size: 426.79134pt x 314.18672pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 62.
- [41 <./fig/caso-teste/dominio/empresa.jpg>] <./fig/caso-teste/dominio/conta.jp
-g, id=753, 610.53094pt x 420.06938pt>
+ [42 <./fig/caso-teste/dominio/empresa.jpg>] <./fig/caso-teste/dominio/conta.jp
+g, id=756, 610.53094pt x 420.06938pt>
 File: ./fig/caso-teste/dominio/conta.jpg Graphic file (type jpg)
 
 <use ./fig/caso-teste/dominio/conta.jpg>
@@ -1216,7 +1221,7 @@ Package pdftex.def Info: ./fig/caso-teste/dominio/conta.jpg used on input line
 66.
 (pdftex.def)             Requested size: 426.79134pt x 293.66197pt.
 
-<./fig/caso-teste/dominio/plano.jpg, id=754, 611.28375pt x 305.64188pt>
+<./fig/caso-teste/dominio/plano.jpg, id=757, 611.28375pt x 305.64188pt>
 File: ./fig/caso-teste/dominio/plano.jpg Graphic file (type jpg)
 
 <use ./fig/caso-teste/dominio/plano.jpg>
@@ -1225,9 +1230,9 @@ Package pdftex.def Info: ./fig/caso-teste/dominio/plano.jpg used on input line
 (pdftex.def)             Requested size: 426.79134pt x 213.39285pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 78.
- [42 <./fig/caso-teste/dominio/filial.jpg> <./fig/caso-teste/dominio/conta.jpg>
+ [43 <./fig/caso-teste/dominio/filial.jpg> <./fig/caso-teste/dominio/conta.jpg>
 ]
-<./fig/caso-teste/dominio/conta-plano.jpg, id=759, 610.53094pt x 335.75438pt>
+<./fig/caso-teste/dominio/conta-plano.jpg, id=762, 610.53094pt x 335.75438pt>
 File: ./fig/caso-teste/dominio/conta-plano.jpg Graphic file (type jpg)
 
 <use ./fig/caso-teste/dominio/conta-plano.jpg>
@@ -1240,7 +1245,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--83
  []
 
 
-<./fig/caso-teste/dominio/preco-modulo.jpg, id=760, 612.03656pt x 450.18187pt>
+<./fig/caso-teste/dominio/preco-modulo.jpg, id=763, 612.03656pt x 450.18187pt>
 File: ./fig/caso-teste/dominio/preco-modulo.jpg Graphic file (type jpg)
 
 <use ./fig/caso-teste/dominio/preco-modulo.jpg>
@@ -1254,9 +1259,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--91
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 94.
-[43 <./fig/caso-teste/dominio/plano.jpg> <./fig/caso-teste/dominio/conta-plano.
+[44 <./fig/caso-teste/dominio/plano.jpg> <./fig/caso-teste/dominio/conta-plano.
 jpg>]
-<./fig/caso-teste/dominio/matriz-empresa-modulo.jpg, id=765, 611.28375pt x 305.
+<./fig/caso-teste/dominio/matriz-empresa-modulo.jpg, id=768, 611.28375pt x 305.
 64188pt>
 File: ./fig/caso-teste/dominio/matriz-empresa-modulo.jpg Graphic file (type jpg
 )
@@ -1269,7 +1274,7 @@ Underfull \hbox (badness 6961) in paragraph at lines 99--99
 [][]|\T1/ptm/m/it/10.95 Res-tri-ção de Do-mí-nio de Atri-buto da ta-bela
  []
 
-<./fig/caso-teste/dominio/usuario.jpg, id=766, 611.28375pt x 492.33937pt>
+<./fig/caso-teste/dominio/usuario.jpg, id=769, 611.28375pt x 492.33937pt>
 File: ./fig/caso-teste/dominio/usuario.jpg Graphic file (type jpg)
 
 <use ./fig/caso-teste/dominio/usuario.jpg>
@@ -1278,9 +1283,9 @@ e 106.
 (pdftex.def)             Requested size: 426.79134pt x 343.74121pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 110.
- [44 <./fig/caso-teste/dominio/preco-modulo.jpg> <./fig/caso-teste/dominio/matr
+ [45 <./fig/caso-teste/dominio/preco-modulo.jpg> <./fig/caso-teste/dominio/matr
 iz-empresa-modulo.jpg>]
-<./fig/caso-teste/dominio/grupo.jpg, id=771, 611.28375pt x 218.31563pt>
+<./fig/caso-teste/dominio/grupo.jpg, id=774, 611.28375pt x 218.31563pt>
 File: ./fig/caso-teste/dominio/grupo.jpg Graphic file (type jpg)
 
 <use ./fig/caso-teste/dominio/grupo.jpg>
@@ -1288,7 +1293,7 @@ Package pdftex.def Info: ./fig/caso-teste/dominio/grupo.jpg used on input line
 114.
 (pdftex.def)             Requested size: 426.79134pt x 152.42346pt.
 
-<./fig/caso-teste/dominio/grupo-permissao.jpg, id=772, 611.28375pt x 218.31563p
+<./fig/caso-teste/dominio/grupo-permissao.jpg, id=775, 611.28375pt x 218.31563p
 t>
 File: ./fig/caso-teste/dominio/grupo-permissao.jpg Graphic file (type jpg)
  <use ./fig/caso-teste/dominio/grupo-permissao.jpg>
@@ -1302,13 +1307,13 @@ Underfull \hbox (badness 6961) in paragraph at lines 123--123
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 126.
-[45 <./fig/caso-teste/dominio/usuario.jpg> <./fig/caso-teste/dominio/grupo.jpg>
+[46 <./fig/caso-teste/dominio/usuario.jpg> <./fig/caso-teste/dominio/grupo.jpg>
 ]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 128.
 
 <./fig/caso-teste/integridade-referencial/empresa-filial-matrizEmpresaModulo.jp
-g, id=780, 609.02531pt x 261.97874pt>
+g, id=783, 609.02531pt x 261.97874pt>
 File: ./fig/caso-teste/integridade-referencial/empresa-filial-matrizEmpresaModu
 lo.jpg Graphic file (type jpg)
 
@@ -1318,7 +1323,7 @@ Package pdftex.def Info: ./fig/caso-teste/integridade-referencial/empresa-filia
 l-matrizEmpresaModulo.jpg used on input line 136.
 (pdftex.def)             Requested size: 426.79134pt x 183.59573pt.
 
-<./fig/caso-teste/integridade-referencial/empresa-contaPlano-conta.jpg, id=781,
+<./fig/caso-teste/integridade-referencial/empresa-contaPlano-conta.jpg, id=784,
  610.53094pt x 408.77719pt>
 File: ./fig/caso-teste/integridade-referencial/empresa-contaPlano-conta.jpg Gra
 phic file (type jpg)
@@ -1330,10 +1335,10 @@ Plano-conta.jpg used on input line 143.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 147.
 
-[46 <./fig/caso-teste/dominio/grupo-permissao.jpg> <./fig/caso-teste/integridad
+[47 <./fig/caso-teste/dominio/grupo-permissao.jpg> <./fig/caso-teste/integridad
 e-referencial/empresa-filial-matrizEmpresaModulo.jpg>]
 <./fig/caso-teste/integridade-referencial/contaPlano-conta-precoModulo.jpg, id=
-786, 609.02531pt x 261.97874pt>
+790, 609.02531pt x 261.97874pt>
 File: ./fig/caso-teste/integridade-referencial/contaPlano-conta-precoModulo.jpg
  Graphic file (type jpg)
 
@@ -1343,7 +1348,7 @@ nta-precoModulo.jpg used on input line 152.
 (pdftex.def)             Requested size: 426.79134pt x 183.59573pt.
 
 <./fig/caso-teste/integridade-referencial/usuario-grupo-usuarioGrupo-grupoPermi
-ssao.jpg, id=787, 609.02531pt x 493.845pt>
+ssao.jpg, id=791, 609.02531pt x 493.845pt>
 File: ./fig/caso-teste/integridade-referencial/usuario-grupo-usuarioGrupo-grupo
 Permissao.jpg Graphic file (type jpg)
 
@@ -1354,12 +1359,12 @@ Package pdftex.def Info: ./fig/caso-teste/integridade-referencial/usuario-grupo
 (pdftex.def)             Requested size: 426.79134pt x 346.08852pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 165.
- [47 <./fig/caso-teste/integridade-referencial/empresa-contaPlano-conta.jpg> <.
+ [48 <./fig/caso-teste/integridade-referencial/empresa-contaPlano-conta.jpg> <.
 /fig/caso-teste/integridade-referencial/contaPlano-conta-precoModulo.jpg>]) (./
 tex/cap_VII.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [48 <./fig/caso-teste/integridade-referencial/usuario-grupo-usuarioGrupo-grupo
+ [49 <./fig/caso-teste/integridade-referencial/usuario-grupo-usuarioGrupo-grupo
 Permissao.jpg>]
 Cap\'{\i }tulo 7.
 Package babel Info: Redefining portuges shorthand "|
@@ -1367,7 +1372,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 7.
 
-<./fig/resultados/intra-tabelas/unicidade/1.jpg, id=802, 614.295pt x 742.27313p
+<./fig/resultados/intra-tabelas/unicidade/1.jpg, id=805, 614.295pt x 742.27313p
 t>
 File: ./fig/resultados/intra-tabelas/unicidade/1.jpg Graphic file (type jpg)
  <use ./fig/resultados/intra-tabelas/unicidade/1.jpg>
@@ -1376,10 +1381,10 @@ Package pdftex.def Info: ./fig/resultados/intra-tabelas/unicidade/1.jpg used on
 (pdftex.def)             Requested size: 426.79134pt x 515.71411pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 30.
- [49
+ [50
 
 ]
-<./fig/resultados/intra-tabelas/unicidade/2.jpg, id=807, 614.295pt x 733.23938p
+<./fig/resultados/intra-tabelas/unicidade/2.jpg, id=810, 614.295pt x 733.23938p
 t>
 File: ./fig/resultados/intra-tabelas/unicidade/2.jpg Graphic file (type jpg)
  <use ./fig/resultados/intra-tabelas/unicidade/2.jpg>
@@ -1388,8 +1393,8 @@ Package pdftex.def Info: ./fig/resultados/intra-tabelas/unicidade/2.jpg used on
 (pdftex.def)             Requested size: 426.79134pt x 509.43767pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 37.
- [50 <./fig/resultados/intra-tabelas/unicidade/1.jpg>]
-<./fig/resultados/intra-tabelas/unicidade/3.jpg, id=812, 616.55344pt x 654.9468
+ [51 <./fig/resultados/intra-tabelas/unicidade/1.jpg>]
+<./fig/resultados/intra-tabelas/unicidade/3.jpg, id=815, 616.55344pt x 654.9468
 7pt>
 File: ./fig/resultados/intra-tabelas/unicidade/3.jpg Graphic file (type jpg)
  <use ./fig/resultados/intra-tabelas/unicidade/3.jpg>
@@ -1398,8 +1403,8 @@ Package pdftex.def Info: ./fig/resultados/intra-tabelas/unicidade/3.jpg used on
 (pdftex.def)             Requested size: 426.79134pt x 453.3829pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
- [51 <./fig/resultados/intra-tabelas/unicidade/2.jpg>]
-<./fig/resultados/intra-tabelas/dominio/empresa.jpg, id=817, 825.0825pt x 985.6
+ [52 <./fig/resultados/intra-tabelas/unicidade/2.jpg>]
+<./fig/resultados/intra-tabelas/dominio/empresa.jpg, id=820, 825.0825pt x 985.6
 825pt>
 File: ./fig/resultados/intra-tabelas/dominio/empresa.jpg Graphic file (type jpg
 )
@@ -1409,8 +1414,8 @@ d on input line 48.
 (pdftex.def)             Requested size: 426.79134pt x 509.86563pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 52.
- [52 <./fig/resultados/intra-tabelas/unicidade/3.jpg>]
-<./fig/resultados/intra-tabelas/dominio/empresa-2.jpg, id=822, 825.0825pt x 717
+ [53 <./fig/resultados/intra-tabelas/unicidade/3.jpg>]
+<./fig/resultados/intra-tabelas/dominio/empresa-2.jpg, id=826, 825.0825pt x 717
 .68124pt>
 File: ./fig/resultados/intra-tabelas/dominio/empresa-2.jpg Graphic file (type j
 pg)
@@ -1420,8 +1425,8 @@ sed on input line 55.
 (pdftex.def)             Requested size: 426.79134pt x 371.23618pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 59.
- [53 <./fig/resultados/intra-tabelas/dominio/empresa.jpg>]
-<./fig/resultados/intra-tabelas/dominio/filial.jpg, id=828, 819.06pt x 1296.845
+ [54 <./fig/resultados/intra-tabelas/dominio/empresa.jpg>]
+<./fig/resultados/intra-tabelas/dominio/filial.jpg, id=831, 819.06pt x 1296.845
 pt>
 File: ./fig/resultados/intra-tabelas/dominio/filial.jpg Graphic file (type jpg)
 
@@ -1431,14 +1436,14 @@ Package pdftex.def Info: ./fig/resultados/intra-tabelas/dominio/filial.jpg used
 (pdftex.def)             Requested size: 426.79134pt x 675.76825pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 66.
- [54 <./fig/resultados/intra-tabelas/dominio/empresa-2.jpg>]
+ [55 <./fig/resultados/intra-tabelas/dominio/empresa-2.jpg>]
 Overfull \vbox (19.41154pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 66.
 
-[55 <./fig/resultados/intra-tabelas/dominio/filial.jpg>]
-<./fig/resultados/intra-tabelas/dominio/filial-2.jpg, id=838, 819.06pt x 426.59
+[56 <./fig/resultados/intra-tabelas/dominio/filial.jpg>]
+<./fig/resultados/intra-tabelas/dominio/filial-2.jpg, id=841, 819.06pt x 426.59
 375pt>
 File: ./fig/resultados/intra-tabelas/dominio/filial-2.jpg Graphic file (type jp
 g)
@@ -1447,7 +1452,7 @@ Package pdftex.def Info: ./fig/resultados/intra-tabelas/dominio/filial-2.jpg us
 ed on input line 69.
 (pdftex.def)             Requested size: 426.79134pt x 222.29218pt.
 
-<./fig/resultados/intra-tabelas/dominio/conta.jpg, id=839, 819.06pt x 1100.11pt
+<./fig/resultados/intra-tabelas/dominio/conta.jpg, id=842, 819.06pt x 1100.11pt
 >
 File: ./fig/resultados/intra-tabelas/dominio/conta.jpg Graphic file (type jpg)
  <use ./fig/resultados/intra-tabelas/dominio/conta.jpg>
@@ -1456,8 +1461,8 @@ on input line 76.
 (pdftex.def)             Requested size: 426.79134pt x 573.25233pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 80.
- [56 <./fig/resultados/intra-tabelas/dominio/filial-2.jpg>]
-<./fig/resultados/intra-tabelas/dominio/conta-2.jpg, id=844, 819.06pt x 367.372
+ [57 <./fig/resultados/intra-tabelas/dominio/filial-2.jpg>]
+<./fig/resultados/intra-tabelas/dominio/conta-2.jpg, id=847, 819.06pt x 367.372
 5pt>
 File: ./fig/resultados/intra-tabelas/dominio/conta-2.jpg Graphic file (type jpg
 )
@@ -1467,8 +1472,8 @@ d on input line 83.
 (pdftex.def)             Requested size: 426.79134pt x 191.43279pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 87.
- [57 <./fig/resultados/intra-tabelas/dominio/conta.jpg>]
-<./fig/resultados/intra-tabelas/dominio/plano.jpg, id=849, 618.81187pt x 698.61
+ [58 <./fig/resultados/intra-tabelas/dominio/conta.jpg>]
+<./fig/resultados/intra-tabelas/dominio/plano.jpg, id=852, 618.81187pt x 698.61
 pt>
 File: ./fig/resultados/intra-tabelas/dominio/plano.jpg Graphic file (type jpg)
  <use ./fig/resultados/intra-tabelas/dominio/plano.jpg>
@@ -1477,8 +1482,8 @@ on input line 90.
 (pdftex.def)             Requested size: 426.79134pt x 481.84953pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 94.
- [58 <./fig/resultados/intra-tabelas/dominio/conta-2.jpg>]
-<./fig/resultados/intra-tabelas/dominio/conta-plano.jpg, id=854, 623.32875pt x 
+ [59 <./fig/resultados/intra-tabelas/dominio/conta-2.jpg>]
+<./fig/resultados/intra-tabelas/dominio/conta-plano.jpg, id=858, 623.32875pt x 
 680.5425pt>
 File: ./fig/resultados/intra-tabelas/dominio/conta-plano.jpg Graphic file (type
  jpg)
@@ -1489,8 +1494,8 @@ Package pdftex.def Info: ./fig/resultados/intra-tabelas/dominio/conta-plano.jpg
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 101.
 
-[59 <./fig/resultados/intra-tabelas/dominio/plano.jpg>]
-<./fig/resultados/intra-tabelas/dominio/preco-modulo.jpg, id=860, 624.83438pt x
+[60 <./fig/resultados/intra-tabelas/dominio/plano.jpg>]
+<./fig/resultados/intra-tabelas/dominio/preco-modulo.jpg, id=863, 624.83438pt x
  927.465pt>
 File: ./fig/resultados/intra-tabelas/dominio/preco-modulo.jpg Graphic file (typ
 e jpg)
@@ -1501,8 +1506,8 @@ g used on input line 104.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 108.
 
-[60 <./fig/resultados/intra-tabelas/dominio/conta-plano.jpg>]
-<./fig/resultados/intra-tabelas/dominio/matriz-empresa-modulo.jpg, id=865, 622.
+[61 <./fig/resultados/intra-tabelas/dominio/conta-plano.jpg>]
+<./fig/resultados/intra-tabelas/dominio/matriz-empresa-modulo.jpg, id=868, 622.
 57594pt x 680.5425pt>
 File: ./fig/resultados/intra-tabelas/dominio/matriz-empresa-modulo.jpg Graphic 
 file (type jpg)
@@ -1513,8 +1518,8 @@ modulo.jpg used on input line 111.
 (pdftex.def)             Requested size: 426.79134pt x 466.53224pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 115.
- [61 <./fig/resultados/intra-tabelas/dominio/preco-modulo.jpg>]
-<./fig/resultados/intra-tabelas/dominio/usuario.jpg, id=870, 624.83438pt x 756.
+ [62 <./fig/resultados/intra-tabelas/dominio/preco-modulo.jpg>]
+<./fig/resultados/intra-tabelas/dominio/usuario.jpg, id=873, 624.83438pt x 756.
 57657pt>
 File: ./fig/resultados/intra-tabelas/dominio/usuario.jpg Graphic file (type jpg
 )
@@ -1524,8 +1529,8 @@ d on input line 118.
 (pdftex.def)             Requested size: 426.79134pt x 516.78569pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 122.
- [62 <./fig/resultados/intra-tabelas/dominio/matriz-empresa-modulo.jpg>]
-<./fig/resultados/intra-tabelas/dominio/usuario-2.jpg, id=875, 624.83438pt x 53
+ [63 <./fig/resultados/intra-tabelas/dominio/matriz-empresa-modulo.jpg>]
+<./fig/resultados/intra-tabelas/dominio/usuario-2.jpg, id=878, 624.83438pt x 53
 8.26094pt>
 File: ./fig/resultados/intra-tabelas/dominio/usuario-2.jpg Graphic file (type j
 pg)
@@ -1535,8 +1540,8 @@ sed on input line 125.
 (pdftex.def)             Requested size: 426.79134pt x 367.66345pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 129.
- [63 <./fig/resultados/intra-tabelas/dominio/usuario.jpg>]
-<./fig/resultados/intra-tabelas/dominio/grupo.jpg, id=880, 626.34pt x 494.59781
+ [64 <./fig/resultados/intra-tabelas/dominio/usuario.jpg>]
+<./fig/resultados/intra-tabelas/dominio/grupo.jpg, id=883, 626.34pt x 494.59781
 pt>
 File: ./fig/resultados/intra-tabelas/dominio/grupo.jpg Graphic file (type jpg)
  <use ./fig/resultados/intra-tabelas/dominio/grupo.jpg>
@@ -1545,8 +1550,8 @@ on input line 132.
 (pdftex.def)             Requested size: 426.79134pt x 337.03146pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 136.
- [64 <./fig/resultados/intra-tabelas/dominio/usuario-2.jpg>]
-<./fig/resultados/intra-tabelas/dominio/grupo-permissao.jpg, id=885, 625.58719p
+ [65 <./fig/resultados/intra-tabelas/dominio/usuario-2.jpg>]
+<./fig/resultados/intra-tabelas/dominio/grupo-permissao.jpg, id=889, 625.58719p
 t x 523.9575pt>
 File: ./fig/resultados/intra-tabelas/dominio/grupo-permissao.jpg Graphic file (
 type jpg)
@@ -1557,11 +1562,11 @@ Package pdftex.def Info: ./fig/resultados/intra-tabelas/dominio/grupo-permissao
 (pdftex.def)             Requested size: 426.79134pt x 357.46964pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 143.
- [65 <./fig/resultados/intra-tabelas/dominio/grupo.jpg>]
+ [66 <./fig/resultados/intra-tabelas/dominio/grupo.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 145.
 
-<./fig/resultados/inter-tabelas/1.jpg, id=893, 621.07031pt x 559.33969pt>
+<./fig/resultados/inter-tabelas/1.jpg, id=896, 621.07031pt x 559.33969pt>
 File: ./fig/resultados/inter-tabelas/1.jpg Graphic file (type jpg)
 
 <use ./fig/resultados/inter-tabelas/1.jpg>
@@ -1570,8 +1575,8 @@ e 152.
 (pdftex.def)             Requested size: 426.79134pt x 384.37439pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 156.
- [66 <./fig/resultados/intra-tabelas/dominio/grupo-permissao.jpg>]
-<./fig/resultados/inter-tabelas/2.jpg, id=898, 624.08156pt x 848.4197pt>
+ [67 <./fig/resultados/intra-tabelas/dominio/grupo-permissao.jpg>]
+<./fig/resultados/inter-tabelas/2.jpg, id=901, 624.08156pt x 848.4197pt>
 File: ./fig/resultados/inter-tabelas/2.jpg Graphic file (type jpg)
 
 <use ./fig/resultados/inter-tabelas/2.jpg>
@@ -1580,7 +1585,7 @@ e 159.
 (pdftex.def)             Requested size: 426.79134pt x 580.21895pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 163.
- [67 <./fig/resultados/inter-tabelas/1.jpg>]
+ [68 <./fig/resultados/inter-tabelas/1.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []\T1/ptm/b/n/17.28 Análise dos Re-sul-ta-dos Ob-ti-dos na Téc-nica
  []
@@ -1589,32 +1594,32 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 165.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 169.
-[68 <./fig/resultados/inter-tabelas/2.jpg>]
+[69 <./fig/resultados/inter-tabelas/2.jpg>]
 Overfull \hbox (36.72882pt too wide) in paragraph at lines 179--187
  [][] 
  []
 
-<./fig/unicidade.png, id=914, 286.06876pt x 250.9375pt>
+<./fig/unicidade.png, id=917, 286.06876pt x 250.9375pt>
 File: ./fig/unicidade.png Graphic file (type png)
 
 <use ./fig/unicidade.png>
 Package pdftex.def Info: ./fig/unicidade.png used on input line 199.
 (pdftex.def)             Requested size: 192.0548pt x 168.47185pt.
- <./fig/dominio.png, id=915, 289.08pt x 255.95625pt>
+ <./fig/dominio.png, id=918, 289.08pt x 255.95625pt>
 File: ./fig/dominio.png Graphic file (type png)
 
 <use ./fig/dominio.png>
 Package pdftex.def Info: ./fig/dominio.png used on input line 204.
 (pdftex.def)             Requested size: 192.0548pt x 170.04863pt.
 
-<./fig/referencial.png, id=916, 295.1025pt x 254.9525pt>
+<./fig/referencial.png, id=919, 295.1025pt x 254.9525pt>
 File: ./fig/referencial.png Graphic file (type png)
 
 <use ./fig/referencial.png>
 Package pdftex.def Info: ./fig/referencial.png used on input line 209.
 (pdftex.def)             Requested size: 192.0548pt x 165.92722pt.
 
-<./fig/total.png, id=917, 299.1175pt x 259.97125pt>
+<./fig/total.png, id=920, 299.1175pt x 259.97125pt>
 File: ./fig/total.png Graphic file (type png)
  <use ./fig/total.png>
 Package pdftex.def Info: ./fig/total.png used on input line 214.
@@ -1625,14 +1630,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 220.
-[69]
+[70]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 220.
- [70 <./fig/unicidade.png> <./fig/dominio.png> <./fig/referencial.png> <./fig/t
+ [71 <./fig/unicidade.png> <./fig/dominio.png> <./fig/referencial.png> <./fig/t
 otal.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 222.
- <./fig/operadores.png, id=941, 572.1375pt x 320.19624pt>
+ <./fig/operadores.png, id=945, 572.1375pt x 320.19624pt>
 File: ./fig/operadores.png Graphic file (type png)
 
 <use ./fig/operadores.png>
@@ -1640,7 +1645,7 @@ Package pdftex.def Info: ./fig/operadores.png used on input line 230.
 (pdftex.def)             Requested size: 384.10959pt x 214.97008pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 236.
- [71
+ [72
 
  <./fig/operadores.png>]
 Package babel Info: Redefining portuges shorthand "|
@@ -1661,18 +1666,18 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <12> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 260.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 291.
-[72]
+[73]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 330.
- [73]
+ [74]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 332.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 384.
- [74]
+ [75]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 411.
- [75]
+ [76]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 412.
 
@@ -1683,12 +1688,12 @@ aracteres.[]
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 463.
-[76]
+[77]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 484.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 508.
- [77] <./fig/mutantes.png, id=1016, 325.215pt x 245.91875pt>
+ [78] <./fig/mutantes.png, id=1019, 325.215pt x 245.91875pt>
 File: ./fig/mutantes.png Graphic file (type png)
 
 <use ./fig/mutantes.png>
@@ -1697,7 +1702,7 @@ Package pdftex.def Info: ./fig/mutantes.png used on input line 514.
 ) (./tex/cap_VIII.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [78 <./fig/mutantes.png>]
+ [79 <./fig/mutantes.png>]
 Cap\'{\i }tulo 8.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -1715,13 +1720,13 @@ co de Da-dos,
 
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 77.
- [79
+(babel)             in language  on input line 78.
+ [80
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 79.
- [80] (./modelo-tese.bbl
+(babel)             in language  on input line 80.
+ [81] (./modelo-tese.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
@@ -1740,13 +1745,13 @@ Underfull \hbox (badness 1558) in paragraph at lines 70--75
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 76.
-[81
+[82
 
 
 ])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 87.
- [82] (./pos/apend_I.tex
+(babel)             in language  on input line 88.
+ [83] (./pos/apend_I.tex
 Ap\^endice A.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -2031,16 +2036,16 @@ Underfull \hbox (badness 4416) in paragraph at lines 5--250
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 250.
-[83
+[84
 
 
 ]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 250.
- [84]
+ [85]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 250.
- [85]) (./pos/apend_II.tex
+ [86]) (./pos/apend_II.tex
 Overfull \hbox (20.09007pt too wide) in paragraph at lines 251--1
 []\T1/ptm/m/n/12 ALTER TA-BLE ONLY conta_-plano ADD CONS-TRAINT id_-plano_-cont
 a_-plano_-fk
@@ -2066,18 +2071,18 @@ o_-grupo_-fk
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-[86]
+[87]
 Ap\^endice B.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
-[87
+[88
 
 ]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 105.
- [88]
+ [89]
 Underfull \hbox (badness 1629) in paragraph at lines 115--116
 []\T1/ptm/m/n/12 insert into preco_-mo-dulo (id, mo-dulo, va-lor_-men-sal_-fixo
 , va-lor_-por_-cnpj,
@@ -2139,10 +2144,10 @@ Underfull \hbox (badness 1629) in paragraph at lines 133--134
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 152.
-[89]) (./pos/apend_III.tex
+[90]) (./pos/apend_III.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [90]
+ [91]
 Ap\^endice C.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -2178,7 +2183,7 @@ n-sal_-fixo,
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 36.
-[91
+[92
 
 ]
 Underfull \hbox (badness 4403) in paragraph at lines 55--56
@@ -2194,13 +2199,13 @@ n-sal_-fixo,
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 82.
-[92]
+[93]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 118.
- [93]
+ [94]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 154.
- [94]
+ [95]
 Underfull \hbox (badness 1226) in paragraph at lines 182--183
 []\T1/ptm/m/n/12 CT - 78 : in-sert into plano (nome, qtd_-ma-xima_-fi-li-ais) v
 a-lues ('CT-78',
@@ -2214,7 +2219,7 @@ a-lues ('CT-79',
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 192.
-[95]
+[96]
 Underfull \hbox (badness 2310) in paragraph at lines 198--199
 []\T1/ptm/m/n/12 CT - 85 : in-sert into conta_-plano (id, id_-plano, id_-conta)
  va-lues (11,
@@ -2258,7 +2263,7 @@ al_-fixo,
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 234.
-[96]
+[97]
 Underfull \hbox (badness 10000) in paragraph at lines 234--235
 []\T1/ptm/m/n/12 CT - 102 : in-sert into preco_-mo-dulo (mo-dulo, va-lor_-men-s
 al_-fixo,
@@ -2266,10 +2271,10 @@ al_-fixo,
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 270.
-[97]
+[98]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 301.
- [98]
+ [99]
 Underfull \hbox (badness 3930) in paragraph at lines 308--309
 []\T1/ptm/m/n/12 CT - 135 : in-sert into grupo_-per-mis-sao (id_-grupo, per-mis
 -sao) va-lues
@@ -2283,53 +2288,60 @@ Underfull \hbox (badness 3930) in paragraph at lines 310--311
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 353.
-[99]) (./pos/apend_IV.tex
+[100]) (./pos/apend_IV.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [100]
+ [101]
 Ap\^endice D.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 51.
-[101
+[102
 
 ]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 104.
- [102]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 153.
  [103]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 153.
  [104]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 206.
  [105]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 303.
+(babel)             in language  on input line 254.
  [106]
 Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 303.
+ [107]
+Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 350.
- [107]) 
+ [108]) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 95.
-[108]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
+(babel)             in language  on input line 96.
+[109]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
  (./modelo-tese.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
-Package rerunfilecheck Info: File `modelo-tese.out' has not changed.
-(rerunfilecheck)             Checksum: 86E59138B152025EEEE6E48D33AC8521;4207.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
+
+
+Package rerunfilecheck Warning: File `modelo-tese.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `modelo-tese.out':
+(rerunfilecheck)             Before: A16B397C694744981D935487F58AEEDB;4200
+(rerunfilecheck)             After:  506D9535C6524E3687CB96ED75114381;4201.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 11701 strings out of 493105
- 178175 string characters out of 6137072
- 314539 words of memory out of 5000000
+ 11705 strings out of 493105
+ 178263 string characters out of 6137072
+ 315495 words of memory out of 5000000
  14540 multiletter control sequences out of 15000+600000
  104038 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2343,10 +2355,10 @@ vetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
 share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on modelo-tese.pdf (110 pages, 9387494 bytes).
+Output written on modelo-tese.pdf (111 pages, 9387536 bytes).
 PDF statistics:
- 1277 PDF objects out of 1440 (max. 8388607)
- 1081 compressed objects within 11 object streams
- 289 named destinations out of 1000 (max. 500000)
+ 1280 PDF objects out of 1440 (max. 8388607)
+ 1083 compressed objects within 11 object streams
+ 290 named destinations out of 1000 (max. 500000)
  679 words of extra memory for PDF output out of 10000 (max. 10000000)
 
