@@ -5,17 +5,17 @@
 \label{sec:testeFuncionalBd}
 Alguns critérios propostos acima nas seções \ref{sec:testeFuncionalBd} aborda a prática do testes funcionais. Esses testes faz a abordagem especificamente de sistema, e não com características de Banco de Dados, que também podem ser especificadas.
 
-Neste contexto os critérios propostos complementam os critérios tradicionais, pois, além de exercitar o domínio de uma Aplicação de Banco de Dados Relacional eles também exercitam outras características do BD, possibilitando tratar das dependências funcionais de uma ou mais classes, ou seja, possibilita avaliar interações numa mesma classe (intra-classe) ou entre classes distintas (inter-classe) Souza(2008) .
+Neste contexto os critérios propostos complementam os critérios tradicionais, pois, além de exercitar o domínio de uma Aplicação de Banco de Dados Relacional eles também exercitam outras características do BD, possibilitando tratar das dependências funcionais de uma ou mais classes, ou seja, possibilita avaliar interações numa mesma classe (intra-classe) ou entre classes distintas (inter-classe). \cite{Souza}
 
-Segundo Harrold e Rothermel (1994)\cite{HarroldRothermel}, no Teste Funcional intra-classe são testadas as interações entre os métodos públicos fazendo chamada a esses métodos em diferentes sequências. É a integração entre os métodos da mesma classe. 
+Segundo Harrold e Rothermel \cite{HarroldRothermel}, no Teste Funcional intra-classe são testadas as interações entre os métodos públicos fazendo chamada a esses métodos em diferentes sequências. É a integração entre os métodos da mesma classe. 
 
 No Teste Funcional inter-classe utiliza-se o mesmo conceito de métodos públicos, porém os métodos não necessitam estar na mesma classe. É a integração entre métodos de classes distintas.
 
-Juliana Souza (2008)\cite{Souza} Realizou um estudo com bases nesses critérios, foram apresentados critérios que fazem parte do fluxo funcional intra-classe e fluxo funcional inter-classe . São eles:
+Souza \cite{Souza} realizou um estudo com bases nesses critérios, foram apresentados critérios que fazem parte do fluxo funcional intra-classe e fluxo funcional inter-classe . São eles:
 
 \begin{itemize}
 	\item Critérios baseados nas estruturas de Relacionamento: 
-	\item Critérios baseados no Domínio de ATributos
+	\item Critérios baseados no Domínio de Atributos
 	\item Critérios baseados nas Chaves Primárias
 	\item Critérios baseados na Integridade Referencial
 	\item Critérios baseados na Integridade Semântica
@@ -28,17 +28,17 @@ Alguns critérios foram agrupados e tem como objetivo testar as dependências func
 \subsection{Critérios  Para Testes Intra - Tabelas }
 \label{sec:criteriosIntraTabela}
 
-\textbf{Baseados no Domínio de Atributos} - Para satisfazer a restrição de domínio de atributo, todos os valores do domínio dos atributos têm que respeitar o seu tipo de dado, ou seja, cada coluna de uma tupla tem que possuir o mesmo tipo de dado. O valor de cada atributo deve ser atômico, indivisível (ELMASRI e NAVATHE, 2005).\cite{ElmasriNavathe}
+\textbf{Baseados no Domínio de Atributos} - Para satisfazer a restrição de domínio de atributo, todos os valores do domínio dos atributos têm que respeitar o seu tipo de dado, ou seja, cada coluna de uma tupla tem que possuir o mesmo tipo de dado. O valor de cada atributo deve ser atômico, indivisível. \cite{ElmasriNavathe}
 
 
 \subsection{Critérios  Para Testes Inter-Tabelas }
 \label{sec:criteriosInterTabelas}
 
-\textbf{Critérios Baseados na Integridade Referencial} - Para satisfazer a Restrição de Integridade Referencial, uma chave primária (\nameref{sigla:PK}) de uma tupla na tabela B é chave estrangeira (FK) na tabela A, então essas chaves devem ter o mesmo valor e domínio (ELMASRI e NAVATHE, 2005\cite{ElmasriNavathe}; ABREU e MACHADO, 2000).
+\textbf{Critérios Baseados na Integridade Referencial} - Para satisfazer a Restrição de Integridade Referencial, uma chave primária (\nameref{sigla:PK}) de uma tupla na tabela B é chave estrangeira (FK) na tabela A, então essas chaves devem ter o mesmo valor e domínio. \cite{ElmasriNavathe} \cite{AbreuMachado}
 
-Segundo Souza (2008)\cite{Souza} a comparação entre os critérios é importante para o entendimento de quais características de BD os critérios devem exercitar, além de uma melhor compreensão entre eles. Entretanto, cada critério proposto exercita diferentes perspectivas do BD.  
+Segundo Souza \cite{Souza} a comparação entre os critérios é importante para o entendimento de quais características de BD os critérios devem exercitar, além de uma melhor compreensão entre eles. Entretanto, cada critério proposto exercita diferentes perspectivas do BD.  
 
-Souza(2008)\cite{Souza} ainda  ilustrou um quadro (Figura \ref{fig:figura4}) com algumas comparação, dividindo-se em quatro colunas. A primeira apresenta os dois grupos classificados em fluxos funcionais intra-classe e inter-classe. A segunda coluna destina-se aos critérios em cada perspectiva das características de BD. A terceira coluna destina-se aos sub-critérios. E por fim, a quarta coluna destina-se aos elementos que serão exercitados pelos ERs identificados de acordo com o critério adotado.
+Souza \cite{Souza} ainda  ilustrou um quadro (Figura \ref{fig:figura4}) com algumas comparação, dividindo-se em quatro colunas. A primeira apresenta os dois grupos classificados em fluxos funcionais intra-classe e inter-classe. A segunda coluna destina-se aos critérios em cada perspectiva das características de BD. A terceira coluna destina-se aos sub-critérios. E por fim, a quarta coluna destina-se aos elementos que serão exercitados pelos ERs identificados de acordo com o critério adotado.
 
 A leitura desta tabela pode ser feita da seguinte maneira: Na linha 1, a perspectiva referente ao Critério Funcional Baseado nas Estruturas de Relacionamento é dita exercitada quando T satisfaz os critérios c1 e c3 no fluxo intra-classe, e c2 e c4 no fluxo inter-classe. E os Elementos Requeridos identificados a partir destes critérios exercitam as cardinalidades máximas e mínimas de relacionamentos das tabelas. 
 
@@ -55,7 +55,7 @@ A leitura desta tabela pode ser feita da seguinte maneira: Na linha 1, a perspec
 \section{Técnica de Teste Mutante em Banco de Dados}
 \label{sec:testeMutanteBd}
 
-De acordo com (Tuya et al, 2006\cite{Tuya2006}), técnicas de teste de mutação, ajudam o testador a criar dados de teste e avaliar a sua adequação através da inserção sistemática de falhas artificiais em um determinado programa e, em seguida, avaliar a porcentagem de falhas que são detectadas por um determinado conjunto de testes. 
+Técnicas de teste de mutação ajudam o testador a criar dados de teste e avaliar a sua adequação através da inserção sistemática de falhas artificiais em um determinado programa e, em seguida, avaliar a porcentagem de falhas que são detectadas por um determinado conjunto de testes. \cite{Tuya2006}
 
 Teste de Mutação é uma técnica de teste baseada em defeito, a análise de mutação consiste em gerar um grande número de programas alternativos chamados mutantes, cada um com um defeito simples que consiste em uma única mudança sintática no programa original. Os mutantes são criados transformando o código fonte usando um conjunto de operadores de mutação, que são desenvolvidos para induzir alterações de sintaxe simples com base em erros que os programadores geralmente fazem para forçar metas de teste. 
 
@@ -70,9 +70,9 @@ Os operadores de mutação são organizados nas seguintes categorias ou grupos :
 
 Cada categoria define vários operadores de mutação ou tipos de mutantes identificados por Letras maiúsculas. Como a maioria dos operadores podem ser aplicadas em diferentes cláusulas SQL, cada tipo ainda é decomposto em subtipos , cada subtipo refere-se  a um diferente operador de  mutante quando é aplicado a uma dada Cláusula .
 
-O Grupo (\textbf{SC}) como exemplo, tem o subtipo (\textbf{SUB} - Subdividir predicados). As subconsultas são normalmente usadas em predicados na forma geral de Expressão Relacionamento Predicativo, onde e é o construtor do valor da linha (geralmente um atributo ou expressão), R é um operador relacional {=, <>, <, <,> } p é uma palavra-chave que representa o predicado e Q é a subconsulta. Três tipos de predicados podem ser formados dependendo do tipo da palavra-chave p. Como exemplo:  Tipo II (substituição de  {IN,NOT IN}).
+O Grupo (\textbf{SC}) como exemplo, tem o subtipo (\textbf{SUB} - Subdividir predicados). As subconsultas são normalmente usadas em predicados na forma geral de Expressão Relacionamento Predicativo, onde e é o construtor do valor da linha (geralmente um atributo ou expressão), R é um operador relacional {=, <>, <, <,> } p é uma palavra-chave que representa o predicado e Q é a subconsulta. Três tipos de predicados podem ser formados dependendo do tipo da palavra-chave p. Como exemplo:  Tipo II (substituição de  {\textit{IN,NOT IN}}).
 
-Outro exemplo é o subtipo pertencente ao grupo (\textbf{OR}). Os operadores \textbf{OR} adaptam e estendem os operadores de modificação de expressão. O objectivo destes mutantes é detectar erros lógicos nas cláusulas WHERE e HAVING. Como subtipos temos :
+Outro exemplo é o subtipo pertencente ao grupo (\textbf{OR}). Os operadores \textbf{OR} adaptam e estendem os operadores de modificação de expressão. O objectivo destes mutantes é detectar erros lógicos nas cláusulas \textit{WHERE} e \textit{HAVING}. Como subtipos temos:
 
 \begin{itemize}
 \item \textbf{ROR} - Substituição do operador relacional. Cada ocorrência de um dos 	operadores relacionais é substituída por cada um dos outros operadores;
@@ -80,4 +80,4 @@ Outro exemplo é o subtipo pertencente ao grupo (\textbf{OR}). Os operadores \tex
 \item \textbf{LKE} - As possíveis combinações de condições de string na forma de \textit{LIKEs} são infinitas, uma vez que s é um padrão de busca. Portanto, as mutações serão restringidas ao exercício do comportamento dos operadores curingas  {\%, \_} (o símbolo de porcentagem significa para qualquer string de caracteres e os meios de sublinhado para um caractere individual). 
 \end{itemize}
 	
-Existem outros subtipos listados em (Tuya, et al, 2006)\cite{Tuya2006} que não serão apresentados neste trabalho como exemplo. Para execução dos testes usaremos estes que foram listados acima.
+Existem outros subtipos listados por Tuya, et al \cite{Tuya2006} que não serão apresentados neste trabalho como exemplo. Para execução dos testes usaremos estes que foram listados acima.
