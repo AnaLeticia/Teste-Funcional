@@ -7,21 +7,21 @@
 
 Com o passar do tempo, o desenvolvimento de software requer \textbf{níveis} de qualidade cada vez maiores, a estabilidade do produto em um momento crítico - por exemplo- ganha a confiança do cliente e do produto. Uma das garantias da qualidade esperada é o teste do software. 
 
-Embora durante o processo de desenvolvimento de software possam ser utilizadas técnicas, critérios e ferramentas a fim de evitar que erros sejam introduzidos no produto de software, a atividade de teste continua sendo de fundamental importância para eliminação de erros que persistem (Maldonado, 1991)\cite{Maldonado1991}.  Por isso, o teste de software é um elemento crítico para a garantia da qualidade do produto e representa a última revisão de especificação, projeto e codificação (Pressman, 2002) \cite{Pressman2002}. 
+Embora durante o processo de desenvolvimento de software possam ser utilizadas técnicas, critérios e ferramentas a fim de evitar que erros sejam introduzidos no produto de software, a atividade de teste continua sendo de fundamental importância para eliminação de erros que persistem \cite{Maldonado1991}. Por isso, o teste de software é um elemento crítico para a garantia da qualidade do produto e representa a última revisão de especificação, projeto e codificação. \cite{Pressman2002}
 
-O teste de software consiste em uma verificação dinâmica de que o programa provê comportamentos esperados, dado um conjunto finito de casos de testes (SWEBOK V3, 2014) \cite{SwebokV3}.
+O teste de software consiste em uma verificação dinâmica de que o programa provê comportamentos esperados, dado um conjunto finito de casos de testes. \cite{SwebokV3}
 
-O processo de teste focaliza os aspectos lógicos internos do software, garantindo que todos os comandos sejam testados (teste estrutural), e os aspectos externos funcionais; isto é, conduz testes para descobrir erros e garantir que entradas definidas produzirão resultados reais, que concordam com os resultados exigidos (Pressman, 2002)\cite{Pressman2002}.
+O processo de teste focaliza os aspectos lógicos internos do software, garantindo que todos os comandos sejam testados (teste estrutural), e os aspectos externos funcionais; isto é, conduz testes para descobrir erros e garantir que entradas definidas produzirão resultados reais, que concordam com os resultados exigidos.  \cite{Pressman2002}
 
 Os testes podem ser aplicados em diferentes níveis através dos processos de construção e de manutenção. Os níveis podem ser distinguidos com base no propósito, ou no alvo do que se quer testar. O alvo do teste pode ser uma simples função (ou método), um módulo, um conjunto de módulos ou até mesmo o sistema inteiro.
 
-O nível mais elementar de alvo de teste é o chamado teste unitário, ou teste de unidade. Consiste basicamente em checar o comportamento de uma função isoladamente. Tipicamente, testes unitários ocorrem com acesso ao código-fonte e com o suporte de ferramentas de debugging. Frequentemente, mas nem sempre é verdadeiro, os próprios desenvolvedores são responsáveis pela condução do teste unitário.
+O nível mais elementar de alvo de teste é o chamado teste unitário, ou teste de unidade. Consiste basicamente em checar o comportamento de uma função isoladamente. Tipicamente, testes unitários ocorrem com acesso ao código-fonte e com o suporte de ferramentas de \textit{debugging}. Frequentemente, mas nem sempre é verdadeiro, os próprios desenvolvedores são responsáveis pela condução do teste unitário.
 
 O próximo alvo são os testes de integração, onde um sistema é colocado em uma situação onde depende de um outro sistema, ou um conjunto de sistemas. Um exemplo básico de integração é checar se a camada de persistência de um software está se comunicando adequadamente com o software gerenciador do banco de dados.
 
 E por último, o teste de sistema é o mais abrangente de todos e foca no comportamento do sistema como um todo, de forma que as integrações estejam coesas e que os resultados esperados sejam alcançados. Testes de sistema também são comumente utilizados para avaliar aspectos não-funcionais do sistema, tais como segurança, performance e tolerância à falhas. Interfaces externas, equipamentos de hardware e ambientes operacionais são geralmente exercitados durante esse tipo de teste.
 
-Para a realização de testes é preciso criar casos de testes especificando as entradas de dados que devem ser implantadas no sistema, cada entrada gera uma determinada saída com declarações do que está sendo testado no sistema e os dados de testes são as entradas geradas automaticamente. A saída é analisada e comparada com o resultado esperado ou previsto por quem entende o que o sistema executa. Se apontar a presença de defeitos é depurado e feito correção do mesmo (Sommerville, 2008)\cite{Sommerville}.
+Para a realização de testes é preciso criar casos de testes especificando as entradas de dados que devem ser implantadas no sistema, cada entrada gera uma determinada saída com declarações do que está sendo testado no sistema e os dados de testes são as entradas geradas automaticamente. A saída é analisada e comparada com o resultado esperado ou previsto por quem entende o que o sistema executa. Se apontar a presença de defeitos é depurado e feito correção do mesmo. \cite{Sommerville}
 
 
 
@@ -29,11 +29,10 @@ Para a realização de testes é preciso criar casos de testes especificando as ent
 \section{Técnicas e Critérios de Teste de Software}
 \label{sec:tecnicasCriteriosTesteSoftware}
 
-É importante ressaltar que as técnicas de teste devem ser vistas como complementares e a questão está em como utilizá-las de forma que as vantagens de cada uma sejam melhor exploradas, possibilitando uma estratégia que leve a uma atividade de teste de boa qualidade, ou seja, eficaz e de baixo custo (Howden, 1987)\cite{Howden}.
-Segundo Modesto (2006)\cite{Modesto}, as técnicas e critérios de teste fornecem ao desenvolvedor uma abordagem sistemática e teoricamente fundamentada para se conduzir e avaliar a qualidade do teste de software. Dentre as várias técnicas existentes, pode-se destacar as técnicas de teste estrutural, funcional e baseada em erro. 
+É importante ressaltar que as técnicas de teste devem ser vistas como complementares e a questão está em como utilizá-las de forma que as vantagens de cada uma sejam melhor exploradas, possibilitando uma estratégia que leve a uma atividade de teste de boa qualidade, ou seja, eficaz e de baixo custo. \cite{Howden}
+As técnicas e critérios de teste fornecem ao desenvolvedor uma abordagem sistemática e teoricamente fundamentada para se conduzir e avaliar a qualidade do teste de software. Dentre as várias técnicas existentes, pode-se destacar as técnicas de teste estrutural, funcional e baseada em erro. \cite{Modesto} 
 
-Apresenta-se, a seguir, uma definição para cada uma das técnicas citadas acima 
-(Pressman, 2002)\cite{Pressman2002}: 
+Apresenta-se, a seguir, uma definição para cada uma das técnicas citadas acima \cite{Pressman2002}: 
 
 \begin{itemize}
 \item Teste Funcional: Também chamado de caixa-preta ou comportamental, focaliza os requisitos funcionais do software. O teste caixa-preta permite ao engenheiro de software derivar conjuntos de condições de entrada que vão exercitar plenamente todos os requisitos funcionais de um programa.
@@ -45,14 +44,14 @@ Apresenta-se, a seguir, uma definição para cada uma das técnicas citadas acima
 
 Neste trabalho  será abordada apenas a técnica de Teste Funcional, sendo que a mesma servirá como base para a proposta: Teste Funcional em Banco de Dados. 
 
-Formalmente, critérios de teste definem qual é o conjunto de elementos requeridos do software que devem ser exercitados (Rocha et al, 2001)\cite{RochaEtAl}. 
+Formalmente, critérios de teste definem qual é o conjunto de elementos requeridos do software que devem ser exercitados. \cite{RochaEtAl}
 
 De um modo bem específico, serve para direcionar a atividade de teste e tomar decisões relativas ao teste. Os critérios de teste podem ser usados de duas maneiras: 
 
 \begin{itemize}
 	\item Critério de seleção (também chamado de critério de geração): quando o critério é utilizado para selecionar um conjunto de dados de teste; 
 	
-	\item Critério de adequação (também chamado de critério de cobertura): quando o critério é utilizado  para avaliar  a  qualidade  de  um  conjunto de dados de teste. (Modesto -2006)\cite{Modesto}
+	\item Critério de adequação (também chamado de critério de cobertura): quando o critério é utilizado  para avaliar  a  qualidade  de  um  conjunto de dados de teste. \cite{Modesto}
 \end{itemize}
 
 
@@ -60,17 +59,17 @@ De um modo bem específico, serve para direcionar a atividade de teste e tomar de
 \section{Teste Funcional}
 \label{sec:testeFuncional}
 
-O teste funcional avalia o sistema do ponto de vista do usuário, isto é, não considera a estrutura interna ou a forma de implementação do sistema, olhando-se o Software apenas através de suas interfaces. Sendo este o único tipo de teste possível quando não se dispõem do código-fonte do sistema. Os erros encontrados através do teste funcional são: erros de interfaces, funções incorretas, erros na estrutura de dados ou no acesso a dados externos, erros de desempenho e erros de iniciação ou finalização (Crespo, et al., 2000)\cite{Crespo}. 
+O teste funcional avalia o sistema do ponto de vista do usuário, isto é, não considera a estrutura interna ou a forma de implementação do sistema, olhando-se o Software apenas através de suas interfaces. Sendo este o único tipo de teste possível quando não se dispõem do código-fonte do sistema. Os erros encontrados através do teste funcional são: erros de interfaces, funções incorretas, erros na estrutura de dados ou no acesso a dados externos, erros de desempenho e erros de iniciação ou finalização.  \cite{Crespo}
 
-Dadas às entradas, as saídas são examinadas, se as saídas não são aquelas previstas, pode-se dizer que o teste detectou com sucesso um problema no Software. O problema enfrentado pelos responsáveis dos testes é selecionar as entradas que tenham grande possibilidade de provocarem comportamento anômalo. Além de demonstrar a operacionalidade das funcionalidades do sistema, e adequação da saída em relação à entrada o teste caixa preta serve também para demonstrar que a integridade da informação externa, por ex.: uma base de dados é mantida (Pressman, 2006)\cite{Pressman2006}. 
+Dadas às entradas, as saídas são examinadas, se as saídas não são aquelas previstas, pode-se dizer que o teste detectou com sucesso um problema no Software. O problema enfrentado pelos responsáveis dos testes é selecionar as entradas que tenham grande possibilidade de provocarem comportamento anômalo. Além de demonstrar a operacionalidade das funcionalidades do sistema, e adequação da saída em relação à entrada o teste caixa preta serve também para demonstrar que a integridade da informação externa, por ex.: uma base de dados é mantida. \cite{Pressman2006}
 
 Na Técnica de teste funcional ss critérios mais conhecidos são Particionamento  de Equivalência, análise do Valor Limite e Grafo Causa-Efeito. Esses critérios de testes podem ser aplicados em todas as fases de testes , e não levam em consideração a implementação.
 
-Segundo Pressman (2006)\cite{Pressman2006}, o critério Particionamento em Classes de Equivalência, é um método de teste caixa-preta, que divide o domínio de entrada por meio das condições de especificações de um determinado programa em classes de dados (classes de equivalência), das quais casos de testes são derivados. Este critério divide-se, portanto, em duas funções: identificar classes de equivalência; definir os casos de teste a partir das classes de equivalência. 
+O critério Particionamento em Classes de Equivalência é um método de teste caixa-preta, que divide o domínio de entrada por meio das condições de especificações de um determinado programa em classes de dados (classes de equivalência), das quais casos de testes são derivados. Este critério divide-se, portanto, em duas funções: identificar classes de equivalência; definir os casos de teste a partir das classes de equivalência. \cite{Pressman2006}
 
-De acordo com Rocha et al. (2004)\cite{RochaEtAl}, a identificação das classes de equivalência é feita derivando-se cada condição de entrada, obtida na especificação, para a criação de dois tipos de classes: válidas (entradas válidas esperadas do programa); e inválidas (outros possíveis valores associados à condição, ou seja, entradas não esperadas) (Myers, 1976)\cite{Myers1976}. 
+A identificação das classes de equivalência é feita derivando-se cada condição de entrada, obtida na especificação, para a criação de dois tipos de classes: válidas (entradas válidas esperadas do programa); e inválidas (outros possíveis valores associados à condição, ou seja, entradas não esperadas). \cite{RochaEtAl} \cite{Myers1976}
 
-Pressman (2006)\cite{Pressman2006} apresenta algumas definições para as classes de equivalência. Se uma variável de entrada exigir o: 
+Seguem algumas definições para as classes de equivalência. Se uma variável de entrada exigir o: \cite{Pressman2006} 
 
 \begin{itemize}
 	\item Uso de intervalos: uma classe válida e duas inválidas são definidas, ou seja, um valor inválido seria bem abaixo do limite inferior e bem acima do limite superior; 
@@ -80,15 +79,15 @@ Pressman (2006)\cite{Pressman2006} apresenta algumas definições para as classes 
 	\item Uso de um elemento de um conjunto: uma classe válida (dentro do conjunto) e uma inválida (fora do conjunto) são definidas; Uso de booleano: uma classe válida (V ou F) e uma inválida (diferente de V ou F) são definidas. 
 \end{itemize}
 
-Após a identificação das classes válidas e inválidas, cada uma delas é enumerada para serem elaborados os casos de testes. Para Pressman (2006)\cite{Pressman2006} e Rocha et al. (2004), o Particionamento em Classes de Equivalência busca produzir casos de teste que descubram diversas classes de erros, podendo-se desta forma, reduzir o número total de casos.
+Após a identificação das classes válidas e inválidas, cada uma delas é enumerada para serem elaborados os casos de testes.O Particionamento em Classes de Equivalência busca produzir casos de teste que descubram diversas classes de erros, podendo-se desta forma, reduzir o número total de casos. \cite{Pressman2006} \cite{RochaEtAl}
 
-Já a Análise do Valor Limite  é um outro critério de teste caixa-preta que utiliza as abordagens do Particionamento em Classes de Equivalência como complemento, assim, tornando-o mais sistemático Pressman (2006)\cite{Pressman2006}.
+Já a Análise do Valor Limite  é um outro critério de teste caixa-preta que utiliza as abordagens do Particionamento em Classes de Equivalência como complemento, assim, tornando-o mais sistemático. \cite{Pressman2006}
 
-De acordo com Meyers (2004)\cite{Myers2004}, a experiência mostra que casos de teste que exploram condições limites têm uma maior probabilidade de encontrar defeitos. Tais condições correspondem  a valores que estão exatamente sobre ou imediatamente acima ou abaixo dos limitantes das classes de equivalência.
+A experiência mostra que casos de teste que exploram condições limites têm uma maior probabilidade de encontrar defeitos. Tais condições correspondem  a valores que estão exatamente sobre ou imediatamente acima ou abaixo dos limitantes das classes de equivalência. \cite{Myers2004}
 
-O critério Análise do Valor Limite também exercita as condições de entrada, deriva-se também, casos de teste para o domínio de saída (Myers, 1976)\cite{Myers1976}. 
+O critério Análise do Valor Limite também exercita as condições de entrada, deriva-se também, casos de teste para o domínio de saída. \cite{Myers1976}
 
-De acordo com Pressman (2006)\cite{Pressman2006}, as diretrizes para a Análise do Valor Limite são semelhantes ao critério de Particionamento em Classes de Equivalência, a seguir: 
+As diretrizes para a Análise do Valor Limite são semelhantes ao critério de Particionamento em Classes de Equivalência, a seguir: \cite{Pressman2006}
 
 \begin{itemize}
 	\item Se uma condição de entrada especificar um intervalo limitado pelos valores a e b, casos de teste devem ser projetados com valores a e b, logo acima e logo abaixo de a e b; 
@@ -105,11 +104,11 @@ Com essas condições, o testador que aplica essas diretrizes, o teste será mais s
 \section{Teste de Mutação}
 \label{sec:testeMutacao}
 
-O Teste de Mutação ou  análise de Mutantes, como também é conhecido, é um critério de testes da técnica baseada em defeitos. Nessa técnica são utilizados defeitos típicos do processo de implementação de software para que sejam derivados os requisitos de testes.No caso de testes de mutação, o programa ou o script que está sendo testado é alterado diversas vezes incluindo um pequeno defeito, gerando um mutante. Desta forma cria-se um conjunto de programas alternativos ou mutantes, como se defeitos fossem inseridos no programa original. 
-O trabalho do testador é escolher casos de testes que mostrem a diferença de comportamento entre o programa original e o programa mutante, quando existir uma entrada de dados. Assim como nas demais técnicas, cada mutante determina um subdomínio do domínio de entrada, formado por aqueles dados capazes de distinguir o comportamento do programa original e do mutante. A diferença, nesse caso, é que cada subdomínio está claramente relacionado com a capacidade de revelar um defeito específico. (Delamaro et al. 2007)\cite{DelamaroMaldonadoJino}
+O Teste de Mutação ou  análise de Mutantes, como também é conhecido, é um critério de testes da técnica baseada em defeitos. Nessa técnica são utilizados defeitos típicos do processo de implementação de software para que sejam derivados os requisitos de testes.No caso de testes de mutação, o programa ou o \textit{script} que está sendo testado é alterado diversas vezes incluindo um pequeno defeito, gerando um mutante. Desta forma cria-se um conjunto de programas alternativos ou mutantes, como se defeitos fossem inseridos no programa original. 
+O trabalho do testador é escolher casos de testes que mostrem a diferença de comportamento entre o programa original e o programa mutante, quando existir uma entrada de dados. Assim como nas demais técnicas, cada mutante determina um subdomínio do domínio de entrada, formado por aqueles dados capazes de distinguir o comportamento do programa original e do mutante. A diferença, nesse caso, é que cada subdomínio está claramente relacionado com a capacidade de revelar um defeito específico. \cite{DelamaroMaldonadoJino}
 
-Segundo Javier (Tuya et al 2006)\cite{Tuya2006} a análise de mutação consiste em gerar um grande número de programas alternativos chamados mutantes, cada um com um defeito simples que consiste em uma única mudança sintática no programa original.
+A análise de mutação consiste em gerar um grande número de programas alternativos chamados mutantes, cada um com um defeito simples que consiste em uma única mudança sintática no programa original.\cite{Tuya2006}
 
-Em (Cabeça, et al, 2008)\cite{Cabeca} foram gerados operadores de mutação com base em 5 itens importantes que sempre estão presentes nas aplicações de Banco de Dados sendo: Operador Matemáticos (\verb|+|, \verb|-|, \verb|*|, \verb|/|, \verb|\%|), Operadores de Comparação (\verb|<|, \verb|>|, \verb|=|, \verb|<>|), Operador Conjuntivos, Operadores Lógicos (\verb|and|, \verb|or| ) e Operador de Negação (\verb|not|).
+Foram gerados operadores de mutação com base em 5 itens importantes que sempre estão presentes nas aplicações de Banco de Dados sendo: Operador Matemáticos (\verb|+|, \verb|-|, \verb|*|, \verb|/|, \verb|\%|), Operadores de Comparação (\verb|<|, \verb|>|, \verb|=|, \verb|<>|), Operador Conjuntivos, Operadores Lógicos (\verb|and|, \verb|or| ) e Operador de Negação (\verb|not|).\cite{Cabeca}
 
 Os mutantes são criados transformando o código fonte usando um conjunto de regras definidas (operadores de mutação) que são desenvolvidos para induzir alterações de sintaxe simples com base em erros que os programadores geralmente fazem ou para forçar metas de teste comuns. Cada mutante é executado com os dados de teste e quando produz uma saída incorreta (a saída é diferente da do programa original), o mutante é dito ser morto. Um caso de teste é dito ser eficaz se ele mata alguns mutantes que ainda não foram mortos por qualquer um dos casos de teste executados anteriormente. Alguns mutantes sempre produzem a mesma saída que o programa original, portanto nenhum caso de teste pode matá-los. Diz-se que estas mutações são mutantes equivalentes
