@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.6.20)  13 JUL 2017 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.6.20)  13 JUL 2017 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1598,7 +1598,7 @@ Package babel Info: Redefining portuges shorthand "|
 otal.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 222.
- <./fig/operadores.png, id=950, 572.1375pt x 320.19624pt>
+ <./fig/operadores.png, id=951, 572.1375pt x 320.19624pt>
 File: ./fig/operadores.png Graphic file (type png)
 
 <use ./fig/operadores.png>
@@ -1654,7 +1654,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 484.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 508.
- [78] <./fig/mutantes.png, id=1024, 325.215pt x 245.91875pt>
+ [78] <./fig/mutantes.png, id=1025, 325.215pt x 245.91875pt>
 File: ./fig/mutantes.png Graphic file (type png)
 
 <use ./fig/mutantes.png>
@@ -2309,10 +2309,10 @@ vetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
 share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on modelo-tese.pdf (111 pages, 9387925 bytes).
+Output written on modelo-tese.pdf (111 pages, 9388019 bytes).
 PDF statistics:
- 1285 PDF objects out of 1440 (max. 8388607)
- 1088 compressed objects within 11 object streams
+ 1286 PDF objects out of 1440 (max. 8388607)
+ 1089 compressed objects within 11 object streams
  290 named destinations out of 1000 (max. 500000)
  679 words of extra memory for PDF output out of 10000 (max. 10000000)
 
