@@ -509,10 +509,10 @@
   \ifthenelse{\equal{\@coorientador}{}}
    {\ifthenelse{\equal{\@coorientadora}{}}
     {}
-    {\textoD{\rule{.75\textwidth}{0.5pt}\\ \small \@coorientadora\ -- Co-Orientadora}
+    {\textoD{\rule{.75\textwidth}{0.5pt}\\ \small \@coorientadora\ -- Coorientadora}
     }%
   }
-  {\textoD{\rule{.75\textwidth}{0.5pt}\\ \small \@coorientador\ -- Co-Orientador}
+  {\textoD{\rule{.75\textwidth}{0.5pt}\\ \small \@coorientador\ -- Coorientador}
   }%
  \end{titlepage}%
  \onehalfspacing%
@@ -562,11 +562,11 @@
    {}
    {\vspace*{\stretch{.2}}%
     \par%
-    \margemD{\textbf{Co-Orientadora:} Profa. \@coorientadora}}%
+    \margemD{\textbf{Coorientadora:} Profa. \@coorientadora}}%
   }
   {\vspace*{\stretch{.2}}%
    \par%
-   \margemD{\textbf{Co-Orientador:} Prof. \@coorientador}}%
+   \margemD{\textbf{Coorientador:} Prof. \@coorientador}}%
  \vspace*{\stretch{6}}%
  \par%
  \textoC{1}{\@cidade \\ \@ano}%
