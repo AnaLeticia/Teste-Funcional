@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.6.20)  12 JUL 2017 18:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.6.20)  13 JUL 2017 13:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,7 +880,7 @@ s-tente para pos-te-rior
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 14.
 [16
 
 
@@ -2327,22 +2327,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
  (./modelo-tese.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
-
-
-Package rerunfilecheck Warning: File `modelo-tese.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `modelo-tese.out':
-(rerunfilecheck)             Before: A16B397C694744981D935487F58AEEDB;4200
-(rerunfilecheck)             After:  506D9535C6524E3687CB96ED75114381;4201.
+Package rerunfilecheck Info: File `modelo-tese.out' has not changed.
+(rerunfilecheck)             Checksum: 506D9535C6524E3687CB96ED75114381;4201.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 11705 strings out of 493105
- 178263 string characters out of 6137072
- 315495 words of memory out of 5000000
- 14540 multiletter control sequences out of 15000+600000
+ 11706 strings out of 493105
+ 178278 string characters out of 6137072
+ 314495 words of memory out of 5000000
+ 14541 multiletter control sequences out of 15000+600000
  104038 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,12n,50p,1129b,477s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2355,7 +2348,7 @@ vetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
 share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on modelo-tese.pdf (111 pages, 9387536 bytes).
+Output written on modelo-tese.pdf (111 pages, 9387514 bytes).
 PDF statistics:
  1280 PDF objects out of 1440 (max. 8388607)
  1083 compressed objects within 11 object streams
